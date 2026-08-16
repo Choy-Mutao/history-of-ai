@@ -1,46 +1,46 @@
 {
   "date": "2026-08-16",
-  "collectedAt": "2026-08-16T11:23:23.369Z",
+  "collectedAt": "2026-08-16T11:36:28.311Z",
   "stats": [
     {
       "sourceId": "qbitai",
-      "fetched": 70
+      "fetched": 80
     },
     {
       "sourceId": "leiphone",
-      "fetched": 140
+      "fetched": 160
     },
     {
       "sourceId": "infoq-cn",
-      "fetched": 140
+      "fetched": 160
     },
     {
       "sourceId": "sspai",
-      "fetched": 70,
+      "fetched": 80,
       "filtered": 9
     },
     {
       "sourceId": "ithome",
-      "fetched": 240,
+      "fetched": 300,
       "filtered": 50
     },
     {
       "sourceId": "geekpark",
-      "fetched": 90,
+      "fetched": 120,
       "filtered": 12
     },
     {
       "sourceId": "oschina",
-      "fetched": 150,
+      "fetched": 200,
       "filtered": 21
     },
     {
       "sourceId": "tmtpost",
-      "fetched": 76
+      "fetched": 95
     },
     {
       "sourceId": "caict",
-      "fetched": 54
+      "fetched": 72
     }
   ],
   "items": [

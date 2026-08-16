@@ -69,7 +69,7 @@ function stripHtml(html: string): string {
     .trim();
 }
 
-function toText(value: unknown): string {
+export function toText(value: unknown): string {
   if (value == null) return '';
   if (typeof value === 'object') {
     // 换行/空白包裹 CDATA 时解析为数组，取首个元素递归

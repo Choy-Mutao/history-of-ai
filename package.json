@@ -7,7 +7,8 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs --port 10001",
     "collect": "tsx src/scripts/collect.ts",
-    "collect:report": "tsx src/scripts/report.ts"
+    "collect:report": "tsx src/scripts/report.ts",
+    "test": "tsx --test \"src/tests/*.test.ts\""
   },
   "keywords": [
     "ai",

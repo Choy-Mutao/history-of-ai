@@ -59,8 +59,9 @@ docs/
 
 src/                           # 信源采集子系统（与站点构建解耦，详见 src/README.md）
 ├── config/sources.ts          # 国内信源注册表（新增信源须先实测可用性）
-├── lib/                       # 采集共享库：types / fetch / dedupe / verify
+├── lib/                       # 采集共享库：types / fetch(RSS) / fetch-html(列表页) / filter(AI 过滤) / dedupe / verify / score / timeline-check
 ├── scripts/                   # collect（采集）、report（候选更新报告）
+├── tests/                     # 单元测试（node:test，npm test）
 ├── data/                      # 去重状态与原始采集结果（state.json 提交仓库）
 ├── reports/                   # 候选更新报告（人工审核入口；docs 更新一律人工进行）
 └── log/                       # 开发记录（立项计划见 src/log/2026-08-16-plan.md）

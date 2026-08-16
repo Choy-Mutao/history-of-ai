@@ -27,8 +27,9 @@ src/
 ## 命令
 
 ```bash
-npm run collect          # 采集所有 enabled 信源 → data/raw/（Phase 1 实现）
-npm run collect:report   # 汇总 + 交叉验证 → reports/YYYY-MM-DD.md（Phase 2 实现）
+npm run collect          # 采集所有 enabled 信源 → data/raw/
+npm run collect:report   # 汇总 + 交叉验证 + 评分排序 → reports/YYYY-MM-DD.md
+npm test                 # 单元测试（src/tests/，node:test）
 ```
 
 定时执行由 `.github/workflows/collect.yml`（Phase 3）负责：每日 cron 运行，
