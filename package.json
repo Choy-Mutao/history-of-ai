@@ -5,13 +5,22 @@
   "scripts": {
     "docs:dev": "vitepress dev docs --port 10001",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs --port 10001"
+    "docs:preview": "vitepress preview docs --port 10001",
+    "collect": "tsx src/scripts/collect.ts",
+    "collect:report": "tsx src/scripts/report.ts"
   },
-  "keywords": ["ai", "history", "book", "open-source"],
+  "keywords": [
+    "ai",
+    "history",
+    "book",
+    "open-source"
+  ],
   "author": "",
   "license": "CC-BY-SA-4.0",
   "type": "module",
   "devDependencies": {
+    "fast-xml-parser": "^5.11.0",
+    "tsx": "^4.23.12",
     "vitepress": "^1.6.4"
   }
 }

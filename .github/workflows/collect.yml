@@ -1,0 +1,56 @@
+name: Collect Sources
+
+# 信源定时采集：每日抓取国内信源 → 交叉验证 → 候选更新报告，
+# 结果以自动 PR 回流（仅 src/data 与 src/reports，绝不触碰 docs/）。
+# docs 的内容更新一律由人工审核报告后手动进行。
+
+on:
+  schedule:
+    # 北京时间约 9:17（UTC 01:17），避开整点
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 采集信源
+        run: npm run collect
+
+      - name: 生成候选更新报告
+        run: npm run collect:report
+
+      - name: 取当前日期
+        id: date
+        run: echo "today=$(date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: 提交采集结果（自动 PR）
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/collect
+          delete-branch: true
+          title: 'chore: 信源采集与候选更新报告（${{ steps.date.outputs.today }}）'
+          commit-message: 'chore: 每日信源采集与候选更新报告'
+          body: |
+            自动生成的信源采集结果与候选更新报告。
+
+            - 报告见 `src/reports/`（人工审核入口）
+            - 原始数据见 `src/data/raw/`，去重状态见 `src/data/state.json`
+            - **本 PR 不包含任何 docs 变更**；确认事实后请手动更新 docs 与 timeline.ts
+          add-paths: |
+            src/data
+            src/reports
+          labels: collection
