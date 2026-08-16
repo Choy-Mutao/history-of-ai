@@ -4,41 +4,46 @@
 
 ## 项目概述
 
-**AI 史记（History of AI）** 是一本开源的人工智能历史书籍，仿司马迁《史记》五体结构，记录 AI 从 1943 年到 2026 年的关键事件、人物与机构。
+**AI 史记（History of AI）** 是一本开源的人工智能历史书籍，仿司马迁《史记》五体结构（本纪 / 世家 / 列传 / 书 / 表），记录 AI 从 1943 年到 2026 年的关键事件、人物与机构。
 
-- 这是一个**纯内容型静态站点项目**：没有后端、没有测试框架、没有 lint 配置。代码量很少，主要工作是撰写和维护 Markdown 内容，以及少量 VitePress 主题代码。
+- 这是一个**纯内容型静态站点项目**：没有后端。代码量很少，主要工作是撰写和维护 Markdown 内容，以及少量 VitePress 主题代码。
 - 仓库：https://github.com/zsjunai/history-of-ai
 - 在线地址：https://ai.puliot.com/
 - 许可证：CC-BY-SA 4.0（内容），见 `LICENSE`
 - 中英双语：中文为主站点（`docs/` 根），英文版在 `docs/en/`（已完整镜像中文版全部章节）
+- 内容规模：本纪 10 篇 / 世家 31 篇 / 列传 23 篇 / 书 25 篇 / 表 1 篇（134 条事件），合计 90 篇
 
 ## 技术栈与架构
 
-- **VitePress ^1.6.4**（唯一的依赖，`devDependencies`）+ Vue 3 + TypeScript
-- Node 20（GitHub Pages 工作流）/ Node 22（ECS 工作流）
-- 站点源码全部在 `docs/` 目录下，构建产物输出到 `docs/.vitepress/dist/`
+- **VitePress ^1.6.4** + Vue 3 + TypeScript；`package.json` 为 `"type": "module"`
+- 全部依赖均为 `devDependencies`：`vitepress`（站点）、`tsx`（运行 TS 脚本与测试）、`fast-xml-parser`（解析 RSS）、`cheerio`（HTML 列表页提取）
+- Node 20（GitHub Pages 工作流）/ Node 22（ECS 与采集工作流）
+- 站点源码全部在 `docs/` 目录下，构建产物输出到 `docs/.vitepress/dist/`（勿提交）
 - `base` 路径通过环境变量控制（`docs/.vitepress/config.ts:6`）：
   - 本地开发 / ECS 部署（ai.puliot.com）：默认 `base = '/'`
   - GitHub Pages：工作流注入 `VITEPRESS_BASE=/history-of-ai/`
-  - sitemap hostname 通过 `VITEPRESS_HOSTNAME` 注入
+  - sitemap hostname 通过 `VITEPRESS_HOSTNAME` 注入（默认 `https://ai.puliot.com/`）
 
 ## 常用命令
 
 ```bash
 npm install           # 安装依赖（CI 用 npm ci）
 npm run docs:dev      # 本地开发预览，端口 10001，支持热更新
-npm run docs:build    # 构建到 docs/.vitepress/dist（唯一的验证手段）
+npm run docs:build    # 构建到 docs/.vitepress/dist（站点改动的唯一验证手段）
 npm run docs:preview  # 预览构建结果，端口 10001
+npm test              # src/ 采集子系统单元测试（tsx --test "src/tests/*.test.ts"，node:test）
+npm run collect       # 采集所有 enabled 信源 → src/data/raw/
+npm run collect:report # 汇总 + 交叉验证 + 评分排序 → src/reports/YYYY-MM-DD.md
 ```
 
-**没有测试、没有 lint、没有 typecheck 脚本。** 任何改动（尤其是配置和组件）的验证方式就是运行 `npm run docs:build` 确认构建通过，必要时 `docs:dev` 肉眼检查页面。
+**站点本身没有测试、没有 lint、没有 typecheck 脚本。** 任何站点改动（尤其是配置和组件）的验证方式就是运行 `npm run docs:build` 确认构建通过，必要时 `docs:dev` 肉眼检查页面。`npm test` 只覆盖 `src/` 采集子系统，不覆盖站点。
 
 ## 目录结构
 
 ```
 docs/
 ├── .vitepress/
-│   ├── config.ts              # 站点配置：导航、侧边栏（中英文两套）、SEO/head、base 路径
+│   ├── config.ts              # 站点配置：导航、侧边栏（中英文两套）、SEO/head、base 路径、srcExclude
 │   ├── data/
 │   │   ├── timeline.ts        # 时间线共享数据源（首页动画 + 大事年表页面共用）
 │   │   └── people.ts          # 人物字典（<Person> 组件的数据源）
@@ -57,10 +62,10 @@ docs/
 ├── public/                    # 静态资源：favicon、robots.txt、images/
 └── index.md                   # 首页（frontmatter + 自定义组件注入）
 
-src/                           # 信源采集子系统（与站点构建解耦，详见 src/README.md）
-├── config/sources.ts          # 国内信源注册表（新增信源须先实测可用性）
+src/                           # 国内信源采集子系统（与站点构建解耦，详见 src/README.md）
+├── config/sources.ts          # 信源注册表（新增信源须先实测可用性）
 ├── lib/                       # 采集共享库：types / fetch(RSS) / fetch-html(列表页) / filter(AI 过滤) / dedupe / verify / score / timeline-check
-├── scripts/                   # collect（采集）、report（候选更新报告）
+├── scripts/                   # collect.ts（采集）、report.ts（候选更新报告）
 ├── tests/                     # 单元测试（node:test，npm test）
 ├── data/                      # 去重状态与原始采集结果（state.json 提交仓库）
 ├── reports/                   # 候选更新报告（人工审核入口；docs 更新一律人工进行）
@@ -129,14 +134,23 @@ src/                           # 信源采集子系统（与站点构建解耦�
    - `docs/.vitepress/theme/components/StatsBar.vue` 统计数字
 3. 运行 `npm run docs:build` 验证。
 
+## 信源采集子系统（`src/`）
+
+为内容真实性校验提供国内信源的定时采集与交叉验证，产出候选更新报告供人工审核。核心原则：
+
+- **只读外部、不写 docs** —— 脚本只产出报告，`docs/` 与 `timeline.ts` 的更新一律人工审核后手动进行。
+- **交叉验证** —— 同一事件被 ≥2 个相互独立的信源报道才标记为已验证；单信源事件标注「待核实」。
+- 新增信源前须先实测可用性（详见 `src/README.md` 与 `src/config/sources.ts` 头部注释）。
+
 ## 部署
 
-两个 GitHub Actions 工作流，推送 `main` 分支即触发：
+三个 GitHub Actions 工作流：
 
-- `.github/workflows/deploy.yml` — 部署到 GitHub Pages（Node 20，`VITEPRESS_BASE=/history-of-ai/`）
-- `.github/workflows/deploy-ecs.yml` — 部署到阿里云 ECS（ai.puliot.com，Node 22，`VITEPRESS_BASE=/`，rsync 上传 `dist/`）
+- `.github/workflows/deploy.yml` — 推送 `main` 触发，部署到 GitHub Pages（Node 20，`VITEPRESS_BASE=/history-of-ai/`）
+- `.github/workflows/deploy-ecs.yml` — 推送 `main` 触发，部署到阿里云 ECS（ai.puliot.com，Node 22，`VITEPRESS_BASE=/`，rsync 上传 `dist/`）
+- `.github/workflows/collect.yml` — 每日 cron（UTC 01:17）运行信源采集，结果以自动 PR 形式回流（仅 `src/data` 与 `src/reports`，不触碰 `docs/`）
 
-注意：站内绝对链接需考虑 `base` 前缀差异（GitHub Pages 带 `/history-of-ai/` 子路径，ECS 不带）。`config.ts` 的 `srcExclude` 已排除 `**/README.md`、`**/CREDITS.md`、`**/_*.md`，这些文件不会被渲染为页面。
+注意：站内绝对链接需考虑 `base` 前缀差异（GitHub Pages 带 `/history-of-ai/` 子路径，ECS 不带）。`config.ts` 的 `srcExclude` 已排除 `**/README.md`、`**/CREDITS.md`、`**/_*.md`，这些文件不会被渲染为页面也不进 sitemap。
 
 ## Git 与提交规范
 
@@ -147,7 +161,7 @@ src/                           # 信源采集子系统（与站点构建解耦�
 ## 安全与版权注意事项
 
 - **图片版权**：仅接受 Public Domain、CC0/CC-BY/CC-BY-SA 或官方媒体素材，提交时注明来源和许可证。
-- 工作流中使用了 GitHub Secrets（`ECS_SSH_KEY`、`ECS_HOST` 等），不要在代码或日志中泄露。
+- 工作流中使用了 GitHub Secrets（`ECS_SSH_KEY`、`ECS_HOST`、`ECS_KNOWN_HOSTS` 等），不要在代码或日志中泄露。
 - 内容为 CC-BY-SA 4.0；提交 PR 即视为同意 `CONTRIBUTING.md` 中的 CLA 条款。
 
 ## 参考文档
@@ -155,3 +169,4 @@ src/                           # 信源采集子系统（与站点构建解耦�
 - `README.md` / `README.en.md` — 项目介绍与五体结构总览
 - `CONTRIBUTING.md` / `CONTRIBUTING.en.md` — 完整贡献指南（章节模板、提交规范、CLA）
 - `CLAUDE.md` — 面向 Claude 的项目说明，内容与本文件互补
+- `src/README.md` — 信源采集子系统的设计原则与使用说明
