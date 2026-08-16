@@ -20,7 +20,7 @@ const REPORTS_DIR = join(SRC_ROOT, 'reports');
 interface CollectResult {
   date: string;
   collectedAt: string;
-  stats: { sourceId: string; fetched: number; error?: string }[];
+  stats: { sourceId: string; fetched: number; filtered?: number; error?: string }[];
   items: CollectedItem[];
 }
 
@@ -94,10 +94,11 @@ async function main(): Promise<void> {
     '',
     '## 采集概况',
     '',
-    '| 信源 | 抓取条数 | 备注 |',
-    '|---|---|---|',
+    '| 信源 | 抓取 | AI 过滤后 | 备注 |',
+    '|---|---|---|---|',
     ...raw.stats.map(
-      (s) => `| ${sourceLabel(s.sourceId)} | ${s.fetched} | ${s.error ? `❌ ${s.error}` : ''} |`,
+      (s) =>
+        `| ${sourceLabel(s.sourceId)} | ${s.fetched} | ${s.filtered != null ? s.fetched - s.filtered : '—'} | ${s.error ? `❌ ${s.error}` : ''} |`,
     ),
     '',
     `共 ${raw.items.length} 条新增条目，聚为 ${clusters.length} 个事件：`,

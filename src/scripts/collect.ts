@@ -1,6 +1,7 @@
 /**
- * 采集入口：读取信源注册表 → 抓取 enabled 的 RSS 信源 → 归一化 →
- * 增量去重（data/state.json）→ 新条目写入 data/raw/YYYY-MM-DD.json。
+ * 采集入口：读取信源注册表 → 抓取 enabled 信源（RSS + HTML 列表页）→
+ * AI 相关性过滤（泛科技信源）→ 增量去重（data/state.json）→
+ * 新条目写入 data/raw/YYYY-MM-DD.json。
  *
  * 用法：npm run collect
  */
@@ -9,8 +10,10 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { sources } from '../config/sources.ts';
 import { fetchFeed } from '../lib/fetch.ts';
+import { fetchHtmlList } from '../lib/fetch-html.ts';
+import { filterAiRelated } from '../lib/filter.ts';
 import { filterNewItems, loadState, saveState } from '../lib/dedupe.ts';
-import type { CollectedItem } from '../lib/types.ts';
+import type { CollectedItem, Source } from '../lib/types.ts';
 
 const SRC_ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 const STATE_PATH = join(SRC_ROOT, 'data', 'state.json');
@@ -20,7 +23,7 @@ const POLITE_DELAY_MS = 1000;
 interface CollectResult {
   date: string;
   collectedAt: string;
-  stats: { sourceId: string; fetched: number; error?: string }[];
+  stats: { sourceId: string; fetched: number; filtered?: number; error?: string }[];
   items: CollectedItem[];
 }
 
@@ -28,10 +31,15 @@ function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+async function fetchSource(source: Source): Promise<CollectedItem[]> {
+  const raw = source.type === 'html' ? await fetchHtmlList(source) : await fetchFeed(source);
+  return raw;
+}
+
 async function main(): Promise<void> {
   const today = new Date().toISOString().slice(0, 10);
-  const active = sources.filter((s) => s.enabled && s.type === 'rss');
-  console.log(`[collect] ${active.length} 个 RSS 信源待采集`);
+  const active = sources.filter((s) => s.enabled);
+  console.log(`[collect] ${active.length} 个信源待采集`);
 
   const state = await loadState(STATE_PATH);
   const allItems: CollectedItem[] = [];
@@ -39,10 +47,20 @@ async function main(): Promise<void> {
 
   for (const source of active) {
     try {
-      const items = await fetchFeed(source);
-      allItems.push(...items);
-      stats.push({ sourceId: source.id, fetched: items.length });
-      console.log(`[collect] ${source.name}（${source.id}）：抓取 ${items.length} 条`);
+      const fetched = await fetchSource(source);
+      let kept = fetched;
+      let filtered = 0;
+      if (source.aiFilter) {
+        const [k, dropped] = filterAiRelated(fetched);
+        kept = k;
+        filtered = dropped.length;
+      }
+      allItems.push(...kept);
+      stats.push({ sourceId: source.id, fetched: fetched.length, ...(filtered ? { filtered } : {}) });
+      console.log(
+        `[collect] ${source.name}（${source.id}）：抓取 ${fetched.length} 条` +
+          (filtered ? `，AI 过滤后保留 ${kept.length} 条` : ''),
+      );
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
       stats.push({ sourceId: source.id, fetched: 0, error: message });

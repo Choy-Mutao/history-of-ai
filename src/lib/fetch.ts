@@ -1,22 +1,39 @@
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 import { XMLParser } from 'fast-xml-parser';
 import type { CollectedItem, Source } from './types.ts';
 import { makeFingerprint } from './dedupe.ts';
 
 const USER_AGENT =
-  'history-of-ai-collector/0.1 (+https://github.com/zsjunai/history-of-ai)';
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36';
 const TIMEOUT_MS = 15_000;
 const MAX_RETRIES = 2;
 const SUMMARY_MAX_LEN = 200;
 
-/** 带超时与重试的抓取，返回响应文本 */
-async function fetchText(url: string): Promise<string> {
+const execFileAsync = promisify(execFile);
+
+/**
+ * 系统 curl 兜底：部分站点（如信通院）按 TLS 指纹拦截 Node/undici，
+ * 而系统 curl 可通过。仅在 Node fetch 失败时调用。
+ */
+async function fetchTextViaCurl(url: string): Promise<string> {
+  const { stdout } = await execFileAsync(
+    'curl',
+    ['-f', '-s', '-S', '-L', '--max-time', '20', '-A', USER_AGENT, url],
+    { maxBuffer: 16 * 1024 * 1024 },
+  );
+  return stdout;
+}
+
+/** 带超时与重试的抓取，返回响应文本；Node fetch 失败时回退系统 curl */
+export async function fetchText(url: string): Promise<string> {
   let lastError: unknown;
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': USER_AGENT, Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*' },
+        headers: { 'User-Agent': USER_AGENT, Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml, text/html, */*' },
         signal: controller.signal,
         redirect: 'follow',
       });
@@ -31,7 +48,11 @@ async function fetchText(url: string): Promise<string> {
       clearTimeout(timer);
     }
   }
-  throw lastError instanceof Error ? lastError : new Error(String(lastError));
+  try {
+    return await fetchTextViaCurl(url);
+  } catch {
+    throw lastError instanceof Error ? lastError : new Error(String(lastError));
+  }
 }
 
 /** 去除 HTML 标签并压缩空白 */
@@ -51,9 +72,11 @@ function stripHtml(html: string): string {
 function toText(value: unknown): string {
   if (value == null) return '';
   if (typeof value === 'object') {
+    // 换行/空白包裹 CDATA 时解析为数组，取首个元素递归
+    if (Array.isArray(value)) return toText(value[0]);
     // fast-xml-parser 解析 <link href="..."/> 时可能产出对象
     const obj = value as Record<string, unknown>;
-    if ('#text' in obj) return String(obj['#text']);
+    if ('#text' in obj) return toText(obj['#text']);
     if ('@_href' in obj) return String(obj['@_href']);
     return '';
   }

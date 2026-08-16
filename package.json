@@ -19,6 +19,7 @@
   "license": "CC-BY-SA-4.0",
   "type": "module",
   "devDependencies": {
+    "cheerio": "^1.2.0",
     "fast-xml-parser": "^5.11.0",
     "tsx": "^4.23.12",
     "vitepress": "^1.6.4"

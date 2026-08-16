@@ -17,6 +17,20 @@ export type SourceCategory =
 /** 信源可靠度，用于报告中的验证权重 */
 export type Reliability = 'high' | 'medium-high' | 'medium';
 
+/** HTML 列表页提取规则（type: 'html' 的信源必填） */
+export interface HtmlSelectors {
+  /** 条目链接的 CSS 选择器（选取 <a> 元素） */
+  item: string;
+  /** 标题取值：默认取链接文本；设为属性名（如 'title'）则取属性 */
+  titleAttr?: string;
+  /** 日期的 CSS 选择器，在 dateScope 祖先范围内查找；缺省则不提取日期 */
+  date?: string;
+  /** 日期查找的祖先范围选择器（如 'tr'、'li'），配合 date 使用 */
+  dateScope?: string;
+  /** 链接 href 的正则过滤（如 't\\d+_\\d+\\.htm'），不匹配则跳过 */
+  linkPattern?: string;
+}
+
 /** 信源注册项 */
 export interface Source {
   /** 唯一标识，小写英文 + 连字符（如 `qbitai`） */
@@ -25,12 +39,16 @@ export interface Source {
   name: string;
   /** RSS/Atom 地址或列表页地址 */
   url: string;
-  /** 采集方式：rss（Phase 1 支持）/ html（占位，Phase 2+ 再实现） */
+  /** 采集方式：rss（RSS/Atom feed）/ html（列表页提取） */
   type: 'rss' | 'html';
+  /** type 为 html 时的提取规则 */
+  selectors?: HtmlSelectors;
   category: SourceCategory;
   reliability: Reliability;
   /** 是否参与采集；未实测可用的一律 false */
   enabled: boolean;
+  /** 泛科技信源设为 true，采集时按 AI 相关性过滤（lib/filter.ts） */
+  aiFilter?: boolean;
   /** 备注：可用性实测记录、降级原因等 */
   notes?: string;
 }
