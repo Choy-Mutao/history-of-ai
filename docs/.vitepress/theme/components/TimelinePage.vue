@@ -1,5 +1,5 @@
 <template>
-  <div class="timeline-page">
+  <div class="timeline-page" :class="{ 'is-horizontal': viewMode === 'horizontal' }">
     <!-- 视图切换 -->
     <div class="view-toggle" role="group" :aria-label="isEn ? 'Timeline view mode' : '年表视图切换'">
       <button
@@ -158,6 +158,13 @@ function withBaseUrl(link: string): string {
   max-width: 880px;
   margin: 0 auto;
   padding: 8px 0 32px;
+}
+
+/* 横向时间轴视图：撑到浏览器宽度的 90%，两侧各留 5% */
+.timeline-page.is-horizontal {
+  max-width: none;
+  width: 90vw;
+  margin: 0 calc(50% - 45vw);
 }
 
 /* ========== 视图切换 ========== */
