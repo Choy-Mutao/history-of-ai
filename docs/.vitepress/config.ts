@@ -20,6 +20,15 @@ export default defineConfig({
     hostname: siteHostname,
   },
 
+  // public/ 下以根路径引用的图片（<img src="/images/...">）不会被 VitePress 自动加 base，
+  // GitHub Pages（base=/history-of-ai/）下会 404。构建时在最终 HTML 上统一补前缀。
+  transformHtml(code) {
+    if (base === '/') return code
+    const prefix = base.replace(/\/$/, '') // '/history-of-ai'
+    const re = new RegExp(`src="/(?!${prefix.slice(1)}/)`, 'g')
+    return code.replace(re, `src="${prefix}/`)
+  },
+
   head: [
     ['meta', { name: 'theme-color', content: '#0000f2' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],

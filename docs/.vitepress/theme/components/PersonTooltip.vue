@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 import { people } from '../../data/people'
 
 const props = defineProps<{
@@ -118,7 +118,7 @@ function onLeave() {
         <span class="person-card-arrow" :style="arrowStyle"></span>
         <span class="person-card-header">
           <span v-if="person.avatar" class="person-avatar">
-            <img :src="person.avatar" :alt="inlineName" />
+            <img :src="withBase(person.avatar)" :alt="inlineName" />
           </span>
           <span class="person-card-info">
             <span class="person-card-name">{{ cardPrimary }}</span>

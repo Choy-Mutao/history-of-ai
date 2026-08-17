@@ -31,7 +31,7 @@
           <span class="separator">│</span>
           <span class="year">{{ item.year }}</span>
           <span class="separator">│</span>
-          <a v-if="item.link" :href="item.link" class="event event-link">{{ item.event }}</a>
+          <a v-if="item.link" :href="hrefOf(item.link)" class="event event-link">{{ item.event }}</a>
           <span v-else class="event">{{ eventTextOf(item) }}</span>
         </div>
         <!-- Currently typing line -->
@@ -59,12 +59,20 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed } from 'vue'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
 const { isDark, lang } = useData()
 const isEn = computed(() => lang.value === 'en-US')
 
 import { allEvents, timeline, type TimelineEvent } from '../../data/timeline'
+
+// 内部链接需手动补 base 前缀（GitHub Pages 部署在 /history-of-ai/ 子路径），
+// 英文版首页还需把 /treatises/... 改写为 /en/treatises/...
+function hrefOf(link: string): string {
+  let l = link
+  if (isEn.value && l.startsWith('/') && !l.startsWith('/en/')) l = `/en${l}`
+  return withBase(l)
+}
 
 function eventTextOf(item: TimelineEvent): string {
   return isEn.value ? item.event_en ?? item.event : item.event
