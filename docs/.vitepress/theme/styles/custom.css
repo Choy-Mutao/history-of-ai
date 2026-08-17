@@ -7,6 +7,40 @@
   --vp-font-family-serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
 }
 
+/* ===== 背景纹理（hermes 风格，克制版） ===== */
+
+:root {
+  /* 全局颗粒噪点：feTurbulence 灰度噪声，低透明度平铺，仅在纯色区域可见 */
+  --grain-bg: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  /* hero 蓝图网格线色 */
+  --grid-line: rgba(0, 0, 242, 0.05);
+}
+
+.dark {
+  --grain-bg: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  --grid-line: rgba(107, 107, 255, 0.07);
+}
+
+body {
+  background-image: var(--grain-bg);
+  background-size: 12.8rem 12.8rem;
+}
+
+/* 首页 hero 蓝图网格：1px 细线 + 径向渐隐，藏在内容下层 */
+.VPHero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 85% 75% at 50% 42%, black 25%, transparent 72%);
+  mask-image: radial-gradient(ellipse 85% 75% at 50% 42%, black 25%, transparent 72%);
+  pointer-events: none;
+  z-index: 0;
+}
+
 .vp-doc {
   line-height: 1.85;
 }
