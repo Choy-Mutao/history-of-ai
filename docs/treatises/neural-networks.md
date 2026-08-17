@@ -105,7 +105,7 @@ Transformer 的统治力远超 NLP。视觉 Transformer（ViT）证明了图像�
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过神经网络研究，或了解相关第一手资料，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过神经网络研究，或了解相关第一手资料，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

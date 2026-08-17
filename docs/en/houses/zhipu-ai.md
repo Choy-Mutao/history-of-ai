@@ -112,7 +112,7 @@ A final note on Zhipu can be taken from a 2025 overseas report: in CSIS's assess
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have studied or worked at Zhipu AI or Tsinghua KEG, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have studied or worked at Zhipu AI or Tsinghua KEG, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

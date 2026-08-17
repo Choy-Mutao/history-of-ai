@@ -1,5 +1,24 @@
 <template>
-  <div class="timeline-page">
+  <div class="timeline-page" :class="{ 'is-horizontal': viewMode === 'horizontal' }">
+    <!-- 视图切换 -->
+    <div class="view-toggle" role="group" :aria-label="isEn ? 'Timeline view mode' : '年表视图切换'">
+      <button
+        class="view-toggle-btn"
+        :class="{ active: viewMode === 'list' }"
+        :aria-pressed="viewMode === 'list'"
+        @click="viewMode = 'list'"
+      >☰ {{ isEn ? 'List' : '列表' }}</button>
+      <button
+        class="view-toggle-btn"
+        :class="{ active: viewMode === 'horizontal' }"
+        :aria-pressed="viewMode === 'horizontal'"
+        @click="viewMode = 'horizontal'"
+      >⟷ {{ isEn ? 'Timeline' : '时间轴' }}</button>
+    </div>
+
+    <HorizontalTimeline v-if="viewMode === 'horizontal'" />
+
+    <template v-else>
     <!-- 类型图例 -->
     <div class="legend">
       <span v-for="(label, key) in TYPE_LABELS" :key="key" class="legend-item">
@@ -48,13 +67,17 @@
         </li>
       </ol>
     </div>
+    </template>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { withBase, useData } from 'vitepress'
 import { timeline, type EventType, type TimelineEvent, type TimelineEra } from '../../data/timeline'
+import HorizontalTimeline from './HorizontalTimeline.vue'
+
+const viewMode = ref<'list' | 'horizontal'>('horizontal')
 
 const { lang } = useData()
 const isEn = computed(() => lang.value === 'en-US')
@@ -137,6 +160,40 @@ function withBaseUrl(link: string): string {
   padding: 8px 0 32px;
 }
 
+/* 横向时间轴视图：撑到浏览器宽度的 90%，两侧各留 5% */
+.timeline-page.is-horizontal {
+  max-width: none;
+  width: 90vw;
+  margin: 0 calc(50% - 45vw);
+}
+
+/* ========== 视图切换 ========== */
+.view-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.view-toggle-btn {
+  padding: 6px 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.view-toggle-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+.view-toggle-btn.active {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
 /* ========== 图例 ========== */
 .legend {
   display: flex;
@@ -177,9 +234,9 @@ function withBaseUrl(link: string): string {
 }
 
 .milestone-sample {
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  background: linear-gradient(135deg, #edff45, #c8d400);
   border-color: transparent;
-  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2);
+  box-shadow: 0 0 0 3px rgba(237, 255, 69, 0.35);
 }
 
 /* ========== 时代分段 ========== */
@@ -299,7 +356,7 @@ function withBaseUrl(link: string): string {
   height: 14px;
   margin-left: -1.5px;
   margin-top: 6px;
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  background: linear-gradient(135deg, #edff45, #c8d400);
   border: none;
   box-shadow: 0 0 0 3px hsla(var(--era-hue), 60%, 50%, 0.25);
 }

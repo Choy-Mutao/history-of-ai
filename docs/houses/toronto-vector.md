@@ -78,7 +78,7 @@ Vector 成立的目的，是阻止加拿大培养的 AI 人才整批流向硅谷
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在多伦多大学 AI 组、CIFAR NCAP 项目或 Vector Institute 学习工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在多伦多大学 AI 组、CIFAR NCAP 项目或 Vector Institute 学习工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

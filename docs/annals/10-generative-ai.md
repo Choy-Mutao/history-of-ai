@@ -125,7 +125,7 @@ AI 对科学研究的加速效应在这一时期变得更加显著。AlphaFold �
 ## 亲历者说
 
 ::: info 征集中
-如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ---

@@ -4,7 +4,6 @@
 辅助内容真实性校验。本目录不参与站点构建，与 `docs/` 完全解耦。
 
 - 本仓库：<https://github.com/Choy-Mutao/history-of-ai>（采集子系统所在仓库）
-- 友链（上游原仓库）：<https://github.com/zsjunai/history-of-ai>
 
 ## 设计原则
 

@@ -94,7 +94,7 @@ ChatGPT 在 2022 年底问世后，原提案中没有专门处理"通用 AI 模�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾参与 EU AI Act、美国 AI 行政令、中国生成式 AI 管理办法、布莱切利峰会等政策制定，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾参与 EU AI Act、美国 AI 行政令、中国生成式 AI 管理办法、布莱切利峰会等政策制定，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

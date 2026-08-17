@@ -111,7 +111,7 @@ K1.5 还有另一层意义：它的训练论文公开了相当多的 RL 训练�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在月之暗面工作或长期使用 Kimi，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在月之暗面工作或长期使用 Kimi，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

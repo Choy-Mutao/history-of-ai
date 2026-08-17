@@ -69,7 +69,7 @@ AWS 是 AI 时代最不像 AI 公司的 AI 巨头。它没有写出过 Transform
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 AWS AI、SageMaker、Bedrock 或 Annapurna Labs 团队工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 AWS AI、SageMaker、Bedrock 或 Annapurna Labs 团队工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

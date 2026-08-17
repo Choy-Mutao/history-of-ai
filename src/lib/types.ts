@@ -49,6 +49,8 @@ export interface Source {
   enabled: boolean;
   /** 泛科技信源设为 true，采集时按 AI 相关性过滤（lib/filter.ts） */
   aiFilter?: boolean;
+  /** CI（GitHub Actions 境外 IP）上跳过：目标站点封锁数据中心 IP 时设置 */
+  skipInCI?: boolean;
   /** 备注：可用性实测记录、降级原因等 */
   notes?: string;
 }

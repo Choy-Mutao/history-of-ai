@@ -136,7 +136,7 @@ DeepMind 的文化中有一条不成文的准则："发表重要论文，造福�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 DeepMind 工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 DeepMind 工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ---

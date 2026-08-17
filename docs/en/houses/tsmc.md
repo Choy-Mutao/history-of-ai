@@ -95,7 +95,7 @@ The world speaks of AI's flourishing and looks to algorithms and data, not knowi
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at TSMC or participated in foundry and packaging projects for AI chips, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at TSMC or participated in foundry and packaging projects for AI chips, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

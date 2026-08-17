@@ -107,7 +107,7 @@ RL 的核心难题至今未尽解：奖励函数怎么设？人类偏好真的�
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过 DQN/AlphaGo 系列、机器人 RL、RLHF 数据标注或推理模型训练，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过 DQN/AlphaGo 系列、机器人 RL、RLHF 数据标注或推理模型训练，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

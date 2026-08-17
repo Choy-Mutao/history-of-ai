@@ -88,7 +88,7 @@ Hugging Face 是开源 AI 时代最大的赢家，但赢的方式与所有人想
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Hugging Face 工作、为 transformers 等开源库贡献代码、或在 Hub 上传过模型，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Hugging Face 工作、为 transformers 等开源库贡献代码、或在 Hub 上传过模型，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -72,7 +72,7 @@ LeCun's place in the history of AI is best seen in a contrast: Hinton is a preac
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you worked with LeCun at Bell Labs, AT&T Labs, the NYU Courant Institute, or FAIR, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you worked with LeCun at Bell Labs, AT&T Labs, the NYU Courant Institute, or FAIR, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

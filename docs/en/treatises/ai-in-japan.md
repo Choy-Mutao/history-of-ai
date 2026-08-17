@@ -91,7 +91,7 @@ I have observed fifty years of Japanese AI, and the most striking feature is not
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on AI research or robotics in Japan, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on AI research or robotics in Japan, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

@@ -122,7 +122,7 @@ The cruelty of winter is not the drying up of money but the freezing of a genera
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ---

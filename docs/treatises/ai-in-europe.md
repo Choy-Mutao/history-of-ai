@@ -83,7 +83,7 @@ ELLIS Society（欧洲学习与智能系统实验室）2018 年成立于伦敦�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在欧洲参与 AI 研究、创业或政策制定，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在欧洲参与 AI 研究、创业或政策制定，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

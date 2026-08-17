@@ -23,8 +23,8 @@ interface Particle {
   color: string
 }
 
-const darkColors = ['#0ea5e9', '#38bdf8', '#7c3aed', '#a78bfa', '#06b6d4']
-const lightColors = ['#0284c7', '#0369a1', '#6d28d9', '#7c3aed', '#0891b2']
+const darkColors = ['#6b6bff', '#8f8fff', '#edff45', '#4d4df8', '#b9b9ff']
+const lightColors = ['#0000f2', '#2e2ef5', '#5c5cf8', '#0000a8', '#3f3fd0']
 
 function getColors() {
   return document.documentElement.classList.contains('dark') ? darkColors : lightColors
@@ -116,18 +116,13 @@ function init() {
   const el = canvas.value
   if (!el) return
 
-  // Find and attach to VPHero
-  const hero = document.querySelector('.VPHero') as HTMLElement
-  if (!hero) return
-
-  // Move canvas into the hero element so absolute positioning works
-  if (el.parentElement !== hero) {
-    hero.appendChild(el)
-  }
+  // canvas 直接位于 .home-hero 内，随父元素尺寸铺满
+  const host = el.parentElement
+  if (!host) return
 
   const dpr = window.devicePixelRatio || 1
-  W = hero.offsetWidth
-  H = hero.offsetHeight
+  W = host.offsetWidth
+  H = host.offsetHeight
 
   if (W === 0 || H === 0) return
 
@@ -153,7 +148,7 @@ function handleResize() {
 
 onMounted(async () => {
   await nextTick()
-  // Delay to ensure VPHero is rendered and has dimensions
+  // Delay to ensure the hero has been laid out and has dimensions
   setTimeout(init, 200)
   window.addEventListener('resize', handleResize)
   document.addEventListener('mousemove', handleMouse)

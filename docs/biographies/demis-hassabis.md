@@ -96,7 +96,7 @@
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Bullfrog、Lionhead、Elixir、UCL Gatsby 或 DeepMind 与哈萨比斯共事，或亲历 AlphaGo、AlphaFold 项目，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Bullfrog、Lionhead、Elixir、UCL Gatsby 或 DeepMind 与哈萨比斯共事，或亲历 AlphaGo、AlphaFold 项目，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

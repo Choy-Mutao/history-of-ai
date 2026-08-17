@@ -95,7 +95,7 @@ A chronological table of AI milestones from 1943 to 2026, with each entry linkin
 
 ```bash
 # Clone the repository
-git clone https://github.com/zsjunai/history-of-ai.git
+git clone https://github.com/Choy-Mutao/history-of-ai.git
 cd history-of-ai
 
 # Install dependencies
@@ -117,8 +117,8 @@ We welcome all forms of contribution:
 
 | How to Contribute | Description |
 |-------------------|-------------|
-| 🐛 **Corrections** | Found a factual error? Submit an [Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=correction.md) |
-| 💡 **Suggestions** | Want to add new content? Submit an [Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=suggestion.md) |
+| 🐛 **Corrections** | Found a factual error? Submit an [Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=correction.md) |
+| 💡 **Suggestions** | Want to add new content? Submit an [Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=suggestion.md) |
 | ✍️ **Writing** | Claim a placeholder chapter and write the full content |
 | 🖼️ **Images** | Add portraits and historical event images (must comply with copyright requirements) |
 | 🎙️ **Oral History** | If you are a firsthand participant in the AI field, share your story in the "Firsthand Accounts" section |
@@ -136,9 +136,8 @@ You are free to share and adapt, as long as you give appropriate credit and shar
 
 For any questions, suggestions, or collaboration inquiries, feel free to reach out:
 
-- Email: 987835330@qq.com
-- GitHub: [@zsjunai](https://github.com/zsjunai)
+- GitHub: [@Choy-Mutao](https://github.com/Choy-Mutao)
 
 ---
 
-**History of AI Open Source Community** · [Read Online](https://ai.puliot.com/) · [Contribute](CONTRIBUTING.md) · [Submit an Issue](https://github.com/zsjunai/history-of-ai/issues)
+**History of AI Open Source Community** · [Read Online](https://ai.puliot.com/) · [Contribute](CONTRIBUTING.md) · [Submit an Issue](https://github.com/Choy-Mutao/history-of-ai/issues)

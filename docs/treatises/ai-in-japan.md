@@ -91,7 +91,7 @@ PFN 几乎是日本 AI 产业一个独特的参考样本：技术上对标硅谷
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在日本参与 AI 研究或机器人开发，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在日本参与 AI 研究或机器人开发，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

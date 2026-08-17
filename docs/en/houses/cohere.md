@@ -84,7 +84,7 @@ Large-model entrepreneurship was never a single road. While OpenAI took the spot
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Cohere, Cohere For AI, or in the Toronto AI ecosystem, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Cohere, Cohere For AI, or in the Toronto AI ecosystem, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

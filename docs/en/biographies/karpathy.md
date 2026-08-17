@@ -88,7 +88,7 @@ Karpathy is one of those rare figures of this age who can move seamlessly betwee
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have firsthand recollections of Karpathy or related sources, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have firsthand recollections of Karpathy or related sources, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

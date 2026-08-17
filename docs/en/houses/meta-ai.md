@@ -108,7 +108,7 @@ Meta's AI road carries the most tension of any major lab: the company is firmly 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at FAIR, Meta GenAI, or Superintelligence Labs, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at FAIR, Meta GenAI, or Superintelligence Labs, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

@@ -111,7 +111,7 @@ QuestMobile / Sensor Tower 数据显示，2024 年 9 月豆包 App 中国 MAU �
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在字节跳动 AI Lab、Seed 或火山引擎团队工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在字节跳动 AI Lab、Seed 或火山引擎团队工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

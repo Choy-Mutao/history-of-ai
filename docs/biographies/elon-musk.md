@@ -87,7 +87,7 @@ xAI 在加速跑，诉讼也在加速跑。
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Zip2、PayPal、SpaceX、Tesla、X、xAI 与马斯克共事，或在 Memphis Colossus 项目中担任过工程师，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Zip2、PayPal、SpaceX、Tesla、X、xAI 与马斯克共事，或在 Memphis Colossus 项目中担任过工程师，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

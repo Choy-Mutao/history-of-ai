@@ -83,7 +83,7 @@ I have observed eighty years of European AI with mingled joy and sorrow. The joy
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have participated in AI research, founded companies, or shaped policy in Europe, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have participated in AI research, founded companies, or shaped policy in Europe, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

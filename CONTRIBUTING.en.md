@@ -10,14 +10,14 @@ Thank you for your interest in the History of AI project! Below is the complete 
 
 If you find factual errors, timeline discrepancies, or other issues:
 
-1. Submit a [Correction Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=correction.md)
+1. Submit a [Correction Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=correction.md)
 2. Or submit a Pull Request directly with the fix
 
 ### Content Suggestions
 
 To suggest new people, events, institutions, or topics:
 
-1. Submit a [Suggestion Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=suggestion.md)
+1. Submit a [Suggestion Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=suggestion.md)
 2. After discussion and approval, claim the writing task
 
 ### Claim a Chapter
@@ -40,7 +40,7 @@ If you are a firsthand witness in the AI field (attended important conferences, 
 
 ```bash
 # Clone the repository
-git clone https://github.com/zsjunai/history-of-ai.git
+git clone https://github.com/Choy-Mutao/history-of-ai.git
 cd history-of-ai
 
 # Install dependencies
@@ -157,7 +157,7 @@ The author's subjective commentary and reflections.
 ## Firsthand Accounts
 
 ::: info Seeking Contributions
-If you have access to relevant firsthand information, please [submit a contribution](https://github.com/zsjunai/history-of-ai).
+If you have access to relevant firsthand information, please [submit a contribution](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References
@@ -327,6 +327,5 @@ If you do not agree to the above terms, please do not submit a Pull Request. You
 
 ## Contact
 
-- Email: 987835330@qq.com
-- GitHub: [@zsjunai](https://github.com/zsjunai)
-- Issues: [Submit an Issue](https://github.com/zsjunai/history-of-ai/issues)
+- GitHub: [@Choy-Mutao](https://github.com/Choy-Mutao)
+- Issues: [Submit an Issue](https://github.com/Choy-Mutao/history-of-ai/issues)

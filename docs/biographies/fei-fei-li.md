@@ -84,7 +84,7 @@ ILSVRC 一直办到 2017 年，错误率降至 2.3%，已超过人类水平。�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾参与 ImageNet 标注、ILSVRC 比赛，或在斯坦福 Vision Lab、HAI、World Labs 与李飞飞共事，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾参与 ImageNet 标注、ILSVRC 比赛，或在斯坦福 Vision Lab、HAI、World Labs 与李飞飞共事，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

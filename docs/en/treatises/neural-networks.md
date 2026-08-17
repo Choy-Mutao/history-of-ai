@@ -105,7 +105,7 @@ Surveying eighty years of neural networks, one feels the weight of recurrence. R
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on neural networks or witnessed key events in their history, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on neural networks or witnessed key events in their history, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

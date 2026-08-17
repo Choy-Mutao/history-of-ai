@@ -84,7 +84,7 @@ Pearl began with a single probability graph and ended with a single algebra of c
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew Judea Pearl personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew Judea Pearl personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

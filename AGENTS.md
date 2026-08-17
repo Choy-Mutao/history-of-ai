@@ -7,7 +7,7 @@
 **AI 史记（History of AI）** 是一本开源的人工智能历史书籍，仿司马迁《史记》五体结构（本纪 / 世家 / 列传 / 书 / 表），记录 AI 从 1943 年到 2026 年的关键事件、人物与机构。
 
 - 这是一个**纯内容型静态站点项目**：没有后端。代码量很少，主要工作是撰写和维护 Markdown 内容，以及少量 VitePress 主题代码。
-- 仓库：https://github.com/zsjunai/history-of-ai
+- 仓库：https://github.com/Choy-Mutao/history-of-ai
 - 在线地址：https://ai.puliot.com/
 - 许可证：CC-BY-SA 4.0（内容），见 `LICENSE`
 - 中英双语：中文为主站点（`docs/` 根），英文版在 `docs/en/`（已完整镜像中文版全部章节）
@@ -57,6 +57,7 @@ docs/
 ├── biographies/               # 列传（23 篇人物传记）
 ├── treatises/                 # 书（25 篇技术专题 + 国别史）
 ├── timeline/                  # 表（大事年表，数据来自 timeline.ts）
+├── updates/                   # 每日动态（机器采集展示页，构建时由 updates.data.ts 读取 src/data/raw 生成）
 ├── guide/                     # 前言、如何贡献
 ├── en/                        # 英文版（完整镜像上述结构）
 ├── public/                    # 静态资源：favicon、robots.txt、images/
@@ -77,12 +78,13 @@ src/                           # 国内信源采集子系统（与站点构建�
 | 组件 | 用途 |
 |------|------|
 | `CustomLayout.vue` | 自定义布局，向首页注入各区域组件 |
+| `HomeHero.vue` | 首页 hero（仿 ai-timeline.org：年份区间 + 衬线大标题 + 简介段落，中英双语） |
 | `ParticleNetwork.vue` | 首页 hero 粒子神经网络背景动画 |
-| `AiRobot.vue` | 首页 hero AI 机器人动画 |
 | `StatsBar.vue` | 首页统计数字栏（含篇数统计，篇数变化时需改） |
 | `HistoryLoader.vue` | 终端风格打字机加载动画 |
 | `HomeFooter.vue` | 首页底部 |
-| `TimelinePage.vue` | 大事年表页面（读取 `data/timeline.ts`） |
+| `TimelinePage.vue` | 大事年表页面（读取 `data/timeline.ts`，含列表/时间轴双视图切换） |
+| `HorizontalTimeline.vue` | 横向可缩放时间轴视图（泳道防重叠，默认定位 2022 年） |
 | `PersonTooltip.vue` | 人物悬浮卡片，Markdown 中以 `<Person id="turing" />` 调用 |
 
 ## 写作规范（修改内容时必须遵守）
@@ -130,7 +132,6 @@ src/                           # 国内信源采集子系统（与站点构建�
    - `CLAUDE.md` 五体结构表格
    - `README.md`（及 `README.en.md`）五体结构表格及合计数
    - `docs/guide/introduction.md` 前言中的篇数描述
-   - `docs/index.md` 首页 features 中的篇数描述
    - `docs/.vitepress/theme/components/StatsBar.vue` 统计数字
 3. 运行 `npm run docs:build` 验证。
 

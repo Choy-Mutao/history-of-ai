@@ -122,7 +122,7 @@ The historian's task is not to judge it as good or evil, but to record its contr
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at OpenAI, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at OpenAI, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ---

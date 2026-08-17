@@ -97,7 +97,7 @@ The fusion of artificial intelligence and life science took half a century to co
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on AlphaFold, medical-imaging AI, AI drug discovery, or biological large language models — in research or industry — please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on AlphaFold, medical-imaging AI, AI drug discovery, or biological large language models — in research or industry — please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

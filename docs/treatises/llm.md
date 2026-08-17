@@ -81,7 +81,7 @@ GPT-1（2018 年 6 月）只有 1.17 亿参数，论文标题朴素得近乎随�
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过大模型的研发、产品化或落地实践，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过大模型的研发、产品化或落地实践，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -95,7 +95,7 @@
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过 ImageNet 标注、AlexNet/ResNet 系列工作、自动驾驶视觉栈或多模态大模型开发，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过 ImageNet 标注、AlexNet/ResNet 系列工作、自动驾驶视觉栈或多模态大模型开发，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

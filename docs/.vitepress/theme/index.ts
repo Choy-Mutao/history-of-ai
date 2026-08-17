@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import CustomLayout from './components/CustomLayout.vue'
 import TimelinePage from './components/TimelinePage.vue'
+import UpdatesPage from './components/UpdatesPage.vue'
 import PersonTooltip from './components/PersonTooltip.vue'
 import './styles/vars.css'
 import './styles/custom.css'
@@ -11,6 +12,7 @@ const navTooltips: Record<string, string> = {
   '列传': '关键人物的传记，记录他们的命运与抉择',
   '书': '按主题深入的技术专题与社会议题论述',
   '大事年表': '从 1943 到 2026，AI 关键事件一览',
+  '动态': '国内信源每日自动采集的 AI 领域动态（机器采集，未人工核实）',
   '前言': '为什么写这本书，如何阅读',
 }
 
@@ -19,6 +21,7 @@ export default {
   Layout: CustomLayout,
   enhanceApp({ app, router }) {
     app.component('TimelinePage', TimelinePage)
+    app.component('UpdatesPage', UpdatesPage)
     app.component('Person', PersonTooltip)
 
     if (typeof window !== 'undefined') {

@@ -95,7 +95,7 @@ Surveying seventy years of natural language processing, one observes three chang
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on statistical MT, word vectors, Transformer-era NLP, or LLM engineering practice, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on statistical MT, word vectors, Transformer-era NLP, or LLM engineering practice, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

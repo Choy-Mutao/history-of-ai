@@ -80,7 +80,7 @@ ChatGPT 的成功并不全是技术问题——它的底座 GPT-3.5 早在几个
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Loopt、Y Combinator、OpenAI 与奥特曼共事，或在 2023 年 11 月那五天里经历过那场危机，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Loopt、Y Combinator、OpenAI 与奥特曼共事，或在 2023 年 11 月那五天里经历过那场危机，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -81,7 +81,7 @@ Seq2Seq 框架后来还被推广到对话、摘要、代码生成、语音合成
 ## 亲历者说
 
 ::: info 征集中
-如果你了解苏茨克维的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解苏茨克维的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -67,7 +67,7 @@ Carnegie Mellon is to artificial intelligence what Qu and Song were to Chu, or w
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked or studied at CMU's School of Computer Science, the Robotics Institute, the Language Technologies Institute, or the Machine Learning Department, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked or studied at CMU's School of Computer Science, the Robotics Institute, the Language Technologies Institute, or the Machine Learning Department, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

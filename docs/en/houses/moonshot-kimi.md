@@ -111,7 +111,7 @@ On a longer time scale, Yang and the wave of "young PhDs returning home to start
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Moonshot AI or have used Kimi extensively, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Moonshot AI or have used Kimi extensively, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

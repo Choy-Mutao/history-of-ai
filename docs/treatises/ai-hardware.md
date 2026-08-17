@@ -117,7 +117,7 @@ xAI 在 2023 年 7 月成立。一年后，孟菲斯郊外的 Colossus 集群上
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过 AI 芯片设计、数据中心建设或算力调度，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过 AI 芯片设计、数据中心建设或算力调度，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

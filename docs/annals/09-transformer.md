@@ -122,7 +122,7 @@ Transformer 纪元的五年，是人工智能从"有用的工具"变成"不可�
 ## 亲历者说
 
 ::: info 征集中
-如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ---

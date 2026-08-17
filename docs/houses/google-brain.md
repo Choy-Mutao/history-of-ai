@@ -95,7 +95,7 @@ Google Brain 是 AI 时代最辉煌、也最令人扼腕的内部实验室。它
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Google Brain 工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Google Brain 工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -76,7 +76,7 @@ Minsky was both founding father of AI and the magistrate of connectionism's wint
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew Marvin Minsky personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew Marvin Minsky personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

@@ -79,7 +79,7 @@ Bell Labs is to artificial intelligence what the Jixia Academy was to Qi or the 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at or visited Bell Labs, AT&T Labs, Lucent, or Nokia Bell Labs, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at or visited Bell Labs, AT&T Labs, Lucent, or Nokia Bell Labs, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

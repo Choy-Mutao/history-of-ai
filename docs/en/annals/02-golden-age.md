@@ -145,7 +145,7 @@ The tragedy of the Golden Age was not that researchers got things wrong, but tha
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ---

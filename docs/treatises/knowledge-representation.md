@@ -103,7 +103,7 @@ GPT-3、PaLM、LLaMA 这些模型把人类文本压缩进数百亿乃至万亿�
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过专家系统、知识图谱或神经-符号研究，或亲历过 RAG 在产业界的落地，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过专家系统、知识图谱或神经-符号研究，或亲历过 RAG 在产业界的落地，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

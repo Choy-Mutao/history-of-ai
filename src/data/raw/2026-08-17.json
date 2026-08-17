@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "collectedAt": "2026-08-17T02:45:49.617Z",
+  "collectedAt": "2026-08-17T03:25:28.501Z",
   "stats": [
     {
       "sourceId": "qbitai",
@@ -22,7 +22,7 @@
     {
       "sourceId": "ithome",
       "fetched": 60,
-      "filtered": 50
+      "filtered": 51
     },
     {
       "sourceId": "geekpark",
@@ -32,7 +32,7 @@
     {
       "sourceId": "oschina",
       "fetched": 50,
-      "filtered": 22
+      "filtered": 23
     },
     {
       "sourceId": "tmtpost",
@@ -60,6 +60,22 @@
       "publishedAt": "2026-08-16T10:45:47.000Z",
       "summary": "AI不是替代者，而是个人能力的放大镜",
       "fingerprint": "2164e27615d3169a"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "甲骨文企业AI战略曝光：Agent进数据库、GPU跑满、多云砍掉流量费",
+      "link": "https://www.infoq.cn/article/7wuQJXJqFVR3rZb8Usyg?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-08-17T10:57:26.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "3e7487c085b4d8e0"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "Dropbox 集成 MCP 与 Dash，将安全设计与代码审查连接起来",
+      "link": "https://www.infoq.cn/article/JEaC9PfmAENVHbijfm05?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-08-17T10:48:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "1b21ad7e87096048"
     },
     {
       "sourceId": "infoq-cn",
@@ -174,14 +190,6 @@
       "fingerprint": "027bbec6bafe8dcf"
     },
     {
-      "sourceId": "ithome",
-      "title": "DeepSeek API 峰谷定价方案今日生效，高峰时段价格翻倍",
-      "link": "https://www.ithome.com/0/990/413.htm",
-      "publishedAt": "2026-08-16T23:03:35.000Z",
-      "summary": "IT之家 8 月 17 日消息，8 月 13 日，深度求索官方宣布将对 DeepSeek API 价格进行更新调整，采用峰谷定价，空闲时段价格为高峰时段价格的一半。今日起，该定价方案正式生效。 高峰时段为北京时间 9:00 - 12:00、14:00 - 18:00 （IT之家注：其余为空闲时段）。新价格于北京时间 2026 年 8 月 17 日 00:00 开始生效，具体如下： 模型 百万 to",
-      "fingerprint": "efd523d66614ee5e"
-    },
-    {
       "sourceId": "geekpark",
       "title": "问界「童车」上市，华为联合设计；DeepSeek 涨价策略今日实行；大学生用 AI 人脸视频盗刷 5 万元被判刑",
       "link": "http://www.geekpark.net/news/368859",
@@ -196,6 +204,14 @@
       "publishedAt": "2026-08-15T11:12:31.000Z",
       "summary": ":book: 项目简介 SmartCall 是一套基于 AI 大模型 + Asterisk 通信引擎构建的新一代智能客服呼叫中心系统。系统深度融合了 AI 语音机器人、智能 IVR 流程编排、实时语音识别（ASR）、语音合成（TTS）、大模型意图识别 等核心能力，为企业提供从呼入智能应答到智能外呼的全链路 AI 客服解决方案。 无论是电商售后、金融催...",
       "fingerprint": "59a3a6d4014d9e62"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "棋盘上的G7，一场悬而未决的转身",
+      "link": "https://www.tmtpost.com/8105262.html",
+      "publishedAt": "2026-08-17T03:10:22.000Z",
+      "summary": "“讲故事”的时代已经过去，“交成绩”的时代正在到来。",
+      "fingerprint": "8490234bc5e15af6"
     },
     {
       "sourceId": "tmtpost",
@@ -308,6 +324,14 @@
       "publishedAt": "2026-08-16T12:08:41.000Z",
       "summary": "（8月10日~8月15日）面壁智能启动IPO；英伟达研发万亿参数开源模型Nemotron 4；SpaceXAI推出“全天候数字同事”Grok Bot；宇树科技：网上投资者放弃认购8734股",
       "fingerprint": "956f17d1e4dd695b"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "纽蒙特矿业股在大涨66%后光芒不减，我们继续看多",
+      "link": "https://www.tmtpost.com/8104950.html",
+      "publishedAt": "2026-08-16T02:56:04.000Z",
+      "summary": "该股在约10倍市盈率水平下仍然值得买入。",
+      "fingerprint": "8d09ba20ad8fb62f"
     }
   ]
 }

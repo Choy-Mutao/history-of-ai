@@ -91,7 +91,7 @@ Surveying the AGI debate from Dartmouth to the present day, seventy years have p
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have participated in AGI roadmap debates, safety research, or timeline forecasting, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have participated in AGI roadmap debates, safety research, or timeline forecasting, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

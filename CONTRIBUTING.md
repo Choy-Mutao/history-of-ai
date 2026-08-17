@@ -10,14 +10,14 @@
 
 发现事实错误、时间线偏差或其他问题：
 
-1. 提交 [纠错 Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=correction.md)
+1. 提交 [纠错 Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=correction.md)
 2. 或直接提交 Pull Request 修正
 
 ### 内容建议
 
 想建议新的人物、事件、机构或专题：
 
-1. 提交 [建议 Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=suggestion.md)
+1. 提交 [建议 Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=suggestion.md)
 2. 讨论通过后认领撰写
 
 ### 认领章节
@@ -43,7 +43,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/zsjunai/history-of-ai.git
+git clone https://github.com/Choy-Mutao/history-of-ai.git
 cd history-of-ai
 
 # 安装依赖
@@ -160,7 +160,7 @@ npm run docs:build
 ## 亲历者说
 
 ::: info 征集中
-如果你了解相关第一手资料，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解相关第一手资料，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料
@@ -336,6 +336,5 @@ docs/public/images/
 
 ## 联系方式
 
-- 邮箱：987835330@qq.com
-- GitHub：[@zsjunai](https://github.com/zsjunai)
-- Issue：[提交问题](https://github.com/zsjunai/history-of-ai/issues)
+- GitHub：[@Choy-Mutao](https://github.com/Choy-Mutao)
+- Issue：[提交问题](https://github.com/Choy-Mutao/history-of-ai/issues)

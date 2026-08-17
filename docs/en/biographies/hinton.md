@@ -75,7 +75,7 @@ Common opinion ascribes the rise of deep learning to the bounty of the GPU, the 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you worked alongside Hinton at CMU, in the Toronto group, in the CIFAR NCAP programme, or at Google Brain, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you worked alongside Hinton at CMU, in the Toronto group, in the CIFAR NCAP programme, or at Google Brain, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

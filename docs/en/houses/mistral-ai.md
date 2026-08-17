@@ -112,7 +112,7 @@ Mistral is to European AI what Shang Yang was to Qin—on a small territory, in 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Mistral AI or in its open-source community, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Mistral AI or in its open-source community, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

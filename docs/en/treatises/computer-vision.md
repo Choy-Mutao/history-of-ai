@@ -95,7 +95,7 @@ Surveying half a century of computer vision, one once thought "seeing" easier th
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have participated in ImageNet annotation, the AlexNet/ResNet line of work, autonomous-driving vision stacks, or multimodal large model development, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have participated in ImageNet annotation, the AlexNet/ResNet line of work, autonomous-driving vision stacks, or multimodal large model development, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

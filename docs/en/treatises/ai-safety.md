@@ -79,7 +79,7 @@ I have looked upon AI safety as one looks upon the ancient rite of praying for r
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on alignment or safety research at OpenAI, Anthropic, DeepMind, MIRI, or similar institutions, or participated in public actions such as *Pause AI* or the Bletchley Summit, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on alignment or safety research at OpenAI, Anthropic, DeepMind, MIRI, or similar institutions, or participated in public actions such as *Pause AI* or the Bletchley Summit, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

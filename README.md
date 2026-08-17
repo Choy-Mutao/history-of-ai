@@ -6,8 +6,7 @@
 >
 > An open-source book on the history of Artificial Intelligence, structured in the style of *Records of the Grand Historian* (Shiji), chronicling 83 years of key events, figures, and institutions.
 
-> 🔗 友链（上游原仓库）：[zsjunai/history-of-ai](https://github.com/zsjunai/history-of-ai)
-> 本仓库为其下游开发仓库，新增国内信源定时采集子系统（`src/`）。
+> 📜 致谢：本项目内容最初基于 [zsjunai/history-of-ai](https://github.com/zsjunai/history-of-ai)（CC-BY-SA 4.0），现为独立维护项目，新增国内信源定时采集子系统（`src/`）、每日动态页、横向时间轴等特性。
 
 ## 在线阅读 Read Online
 
@@ -119,7 +118,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/zsjunai/history-of-ai.git
+git clone https://github.com/Choy-Mutao/history-of-ai.git
 cd history-of-ai
 
 # 安装依赖
@@ -141,8 +140,8 @@ npm run docs:preview
 
 | 贡献方式 | 说明 |
 |----------|------|
-| 🐛 **纠错** | 发现事实错误？提交 [Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=correction.md) |
-| 💡 **建议** | 想添加新内容？提交 [Issue](https://github.com/zsjunai/history-of-ai/issues/new?template=suggestion.md) |
+| 🐛 **纠错** | 发现事实错误？提交 [Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=correction.md) |
+| 💡 **建议** | 想添加新内容？提交 [Issue](https://github.com/Choy-Mutao/history-of-ai/issues/new?template=suggestion.md) |
 | ✍️ **撰写** | 认领占位章节，撰写完整内容 |
 | 🖼️ **图片** | 补充人物照片和历史事件图片（需符合版权要求） |
 | 🎙️ **口述史** | 如果你是 AI 领域的亲历者，欢迎在"亲历者说"板块分享 |
@@ -160,9 +159,8 @@ npm run docs:preview
 
 如有任何问题、建议或合作意向，欢迎联系：
 
-- 邮箱：987835330@qq.com
-- GitHub：[@zsjunai](https://github.com/zsjunai)
+- GitHub：[@Choy-Mutao](https://github.com/Choy-Mutao)
 
 ---
 
-**AI 史记开源社区** · [在线阅读](https://ai.puliot.com/) · [参与贡献](CONTRIBUTING.md) · [提交 Issue](https://github.com/zsjunai/history-of-ai/issues)
+**AI 史记开源社区** · [在线阅读](https://ai.puliot.com/) · [参与贡献](CONTRIBUTING.md) · [提交 Issue](https://github.com/Choy-Mutao/history-of-ai/issues)

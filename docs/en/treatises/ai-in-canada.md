@@ -81,7 +81,7 @@ I have observed half a century of Canadian AI and admire its art of leveraging t
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked in AI research or built companies in Canada, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked in AI research or built companies in Canada, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

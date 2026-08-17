@@ -104,7 +104,7 @@ I have observed the confluence of AI and Web3, and find in it the air of the wan
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have built decentralized compute networks, AI-agent frameworks, on-chain data protocols, or related projects, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have built decentralized compute networks, AI-agent frameworks, on-chain data protocols, or related projects, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

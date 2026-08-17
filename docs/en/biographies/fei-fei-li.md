@@ -84,7 +84,7 @@ Fei-Fei Li is not the most prolific paper-writer, nor the inventor of an algorit
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you contributed to ImageNet labelling, took part in ILSVRC, or worked with Fei-Fei Li at Stanford Vision Lab, HAI, or World Labs, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you contributed to ImageNet labelling, took part in ILSVRC, or worked with Fei-Fei Li at Stanford Vision Lab, HAI, or World Labs, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

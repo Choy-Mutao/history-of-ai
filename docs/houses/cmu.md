@@ -67,7 +67,7 @@ CMU 是 AI 领域规模最大的人才输送系统之一。从博士校友里随
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 CMU 计算机学院、机器人研究院、语言技术研究院或机器学习系学习或工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 CMU 计算机学院、机器人研究院、语言技术研究院或机器学习系学习或工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

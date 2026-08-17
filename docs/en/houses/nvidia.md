@@ -136,7 +136,7 @@ But at every height there is a shadow. The DeepSeek episode erased $589 billion 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at NVIDIA, used CUDA in your research, or trained your first neural network on a GeForce, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at NVIDIA, used CUDA in your research, or trained your first neural network on a GeForce, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

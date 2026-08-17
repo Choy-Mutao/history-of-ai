@@ -65,7 +65,7 @@ MILA is, for AI, a model of "small country, deep furrow." Montreal is not a glob
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked or studied at LISA, MILA, Element AI, or any AI-related group at the Université de Montréal, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked or studied at LISA, MILA, Element AI, or any AI-related group at the Université de Montréal, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

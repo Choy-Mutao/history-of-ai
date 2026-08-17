@@ -81,7 +81,7 @@ Schmidhuber is the most restless figure in the history of deep learning. From a 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have firsthand knowledge of Schmidhuber's work or recollections from those who do, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have firsthand knowledge of Schmidhuber's work or recollections from those who do, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

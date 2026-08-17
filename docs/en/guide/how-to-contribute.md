@@ -104,7 +104,7 @@ A short historical commentary in the spirit of *Records of the Grand Historian*:
 ## Eyewitness Accounts
 
 ::: info Open Call
-If you took part in or witnessed XXX, please [contribute](https://github.com/zsjunai/history-of-ai).
+If you took part in or witnessed XXX, please [contribute](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

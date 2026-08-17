@@ -38,8 +38,10 @@ async function fetchSource(source: Source): Promise<CollectedItem[]> {
 
 async function main(): Promise<void> {
   const today = new Date().toISOString().slice(0, 10);
-  const active = sources.filter((s) => s.enabled);
-  console.log(`[collect] ${active.length} 个信源待采集`);
+  // CI 环境（GitHub Actions 境外 IP）跳过被封站点（如信通院 WAF 拦截数据中心 IP）
+  const isCI = !!process.env.CI;
+  const active = sources.filter((s) => s.enabled && !(isCI && s.skipInCI));
+  console.log(`[collect] ${active.length} 个信源待采集${isCI ? '（CI 环境）' : ''}`);
 
   const state = await loadState(STATE_PATH);
   const allItems: CollectedItem[] = [];

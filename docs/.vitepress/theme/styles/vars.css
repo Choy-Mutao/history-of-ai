@@ -1,64 +1,71 @@
 :root {
-  /* Brand colors - cyan/blue tech palette */
-  --vp-c-brand-1: #0ea5e9;
-  --vp-c-brand-2: #38bdf8;
-  --vp-c-brand-3: #7dd3fc;
-  --vp-c-brand-soft: rgba(14, 165, 233, 0.12);
+  /* Brand colors — hermes-agent 风格：电蓝 #0000f2 */
+  --vp-c-brand-1: #0000f2;
+  --vp-c-brand-2: #2e2ef5;
+  --vp-c-brand-3: #5c5cf8;
+  --vp-c-brand-soft: rgba(0, 0, 242, 0.1);
 
-  /* Light mode backgrounds */
-  --vp-c-bg: #f8fafc;
-  --vp-c-bg-soft: #f1f5f9;
-  --vp-c-bg-mute: #e2e8f0;
-  --vp-c-bg-alt: #f1f5f9;
+  /* 点缀色（荧光黄，目标站标志性高光） */
+  --vp-c-accent: #edff45;
+
+  /* Light mode backgrounds — 米白 #f5f5f5 系 */
+  --vp-c-bg: #f5f5f5;
+  --vp-c-bg-soft: #eceaf5;
+  --vp-c-bg-mute: #e0e0e0;
+  --vp-c-bg-alt: #eceaf5;
 
   /* Light mode text */
-  --vp-c-text-1: #0f172a;
-  --vp-c-text-2: #475569;
-  --vp-c-text-3: #94a3b8;
+  --vp-c-text-1: #111118;
+  --vp-c-text-2: #44444f;
+  --vp-c-text-3: #8e8e9a;
 
   /* Divider */
-  --vp-c-divider: #e2e8f0;
+  --vp-c-divider: #e0e0e0;
 
   /* Tip container (太史公曰) */
-  --vp-c-tip-1: #0ea5e9;
-  --vp-c-tip-2: rgba(14, 165, 233, 0.12);
-  --vp-c-tip-3: rgba(14, 165, 233, 0.08);
-  --vp-c-tip-soft: rgba(14, 165, 233, 0.06);
+  --vp-c-tip-1: #0000f2;
+  --vp-c-tip-2: rgba(0, 0, 242, 0.12);
+  --vp-c-tip-3: rgba(0, 0, 242, 0.08);
+  --vp-c-tip-soft: rgba(0, 0, 242, 0.06);
 
-  /* Home hero gradient */
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #0ea5e9, #7c3aed);
+  /* Home hero — 纯色电蓝（去紫渐变） */
+  --vp-home-hero-name-color: #0000f2;
+  --vp-home-hero-name-background: none;
   --vp-home-hero-image-background-image: none;
   --vp-home-hero-image-filter: none;
 }
 
 .dark {
-  /* Dark mode brand */
-  --vp-c-brand-1: #38bdf8;
-  --vp-c-brand-2: #0ea5e9;
-  --vp-c-brand-3: #0284c7;
-  --vp-c-brand-soft: rgba(56, 189, 248, 0.12);
+  /* Dark mode brand — 暗底用亮蓝保证对比 */
+  --vp-c-brand-1: #6b6bff;
+  --vp-c-brand-2: #4d4df8;
+  --vp-c-brand-3: #2e2ef5;
+  --vp-c-brand-soft: rgba(107, 107, 255, 0.12);
 
-  /* Dark mode backgrounds */
-  --vp-c-bg: #0b0f1a;
-  --vp-c-bg-soft: #111827;
-  --vp-c-bg-mute: #1e293b;
-  --vp-c-bg-alt: #111827;
+  /* 点缀色（荧光黄） */
+  --vp-c-accent: #edff45;
+
+  /* Dark mode backgrounds — 蓝黑 #06060f 系 */
+  --vp-c-bg: #06060f;
+  --vp-c-bg-soft: #0d0d1c;
+  --vp-c-bg-mute: #1a1a2e;
+  --vp-c-bg-alt: #0d0d1c;
 
   /* Dark mode text */
-  --vp-c-text-1: #e2e8f0;
-  --vp-c-text-2: #94a3b8;
-  --vp-c-text-3: #64748b;
+  --vp-c-text-1: #e8e8f2;
+  --vp-c-text-2: #9a9ab0;
+  --vp-c-text-3: #5c5c74;
 
   /* Divider */
-  --vp-c-divider: #1e293b;
+  --vp-c-divider: #1a1a2e;
 
   /* Tip container */
-  --vp-c-tip-1: #38bdf8;
-  --vp-c-tip-2: rgba(56, 189, 248, 0.12);
-  --vp-c-tip-3: rgba(56, 189, 248, 0.08);
-  --vp-c-tip-soft: rgba(56, 189, 248, 0.06);
+  --vp-c-tip-1: #6b6bff;
+  --vp-c-tip-2: rgba(107, 107, 255, 0.12);
+  --vp-c-tip-3: rgba(107, 107, 255, 0.08);
+  --vp-c-tip-soft: rgba(107, 107, 255, 0.06);
 
   /* Home hero */
-  --vp-home-hero-name-background: linear-gradient(135deg, #38bdf8, #a78bfa);
+  --vp-home-hero-name-color: #8f8fff;
+  --vp-home-hero-name-background: none;
 }

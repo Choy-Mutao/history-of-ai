@@ -115,7 +115,7 @@ The second winter hurt more than the first, because what was lost this time was 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ---

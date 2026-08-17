@@ -81,7 +81,7 @@ The MIT AI Lab is to artificial intelligence what Mount Qi was to the Zhou or Fe
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at or studied in the MIT AI Lab or CSAIL, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at or studied in the MIT AI Lab or CSAIL, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

@@ -111,7 +111,7 @@ ByteDance arose from recommendation, flourished through the distribution of Douy
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at ByteDance AI Lab, Seed, or Volcano Engine, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at ByteDance AI Lab, Seed, or Volcano Engine, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

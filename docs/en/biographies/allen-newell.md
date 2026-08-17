@@ -88,7 +88,7 @@ Newell is to AI what Zhang Liang was to the Han dynasty — never on the front l
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew Allen Newell personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew Allen Newell personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

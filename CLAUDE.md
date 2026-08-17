@@ -4,7 +4,7 @@
 
 AI 史记——一本开源的人工智能历史书籍，以司马迁《史记》五体结构记录 AI 从 1943 年到 2026 年的历史。
 
-- 仓库：https://github.com/zsjunai/history-of-ai
+- 仓库：https://github.com/Choy-Mutao/history-of-ai
 - 在线地址：https://ai.puliot.com/
 - 技术栈：VitePress 1.6.4 + Vue 3 + TypeScript
 - 许可证：CC-BY-SA 4.0
@@ -34,7 +34,6 @@ AI 史记——一本开源的人工智能历史书籍，以司马迁《史记�
 |------|------|
 | `CustomLayout.vue` | 自定义布局，注入首页各区域组件 |
 | `ParticleNetwork.vue` | 首页 hero 粒子神经网络背景动画 |
-| `AiRobot.vue` | 首页 hero 右侧 AI 机器人动画（走路/跑步/跳跃/翻跟斗/挥手/待机） |
 | `StatsBar.vue` | 首页统计数字栏（数字滚入动画，可点击跳转） |
 | `HistoryLoader.vue` | 首页终端风格历史加载动画（打字机效果） |
 | `HomeFooter.vue` | 首页底部引言和链接 |
@@ -93,6 +92,7 @@ npm run docs:preview  # 预览构建结果
 
 - 修改导航或侧边栏后运行 `npm run docs:build` 验证
 - 新增章节需同时更新 `config.ts` 侧边栏配置
+- `docs/updates/` 为每日动态页（机器采集展示）：构建时由 `docs/.vitepress/data/updates.data.ts` 读取 `src/data/raw/` 生成，不占用五体篇数，也无需登记侧边栏
 - 新增时间线事件需更新 `timeline.ts`，首页动画和年表自动同步。每条事件除 `year/event/link` 外，必填 `type`（`paper`/`product`/`company`/`policy`/`person`/`event`/`milestone`）与 `importance`（`milestone`/`major`/`minor`），可选 `month`（1–12）。每个时代里 `milestone` 控制在 1–2 条
 - 项目内部文档（`README.md`、`CREDITS.md`、以 `_` 开头的文件）已在 `config.ts` 的 `srcExclude` 排除，不会被渲染为页面也不进 sitemap
 - 图片需符合版权要求（Public Domain 或 CC 许可），放在 `docs/public/images/`

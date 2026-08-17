@@ -136,7 +136,7 @@ Netflix Prize 的影响远超一个具体问题的解决。它证明了两件事
 ## 亲历者说
 
 ::: info 征集中
-如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ---

@@ -77,7 +77,7 @@ At twenty-one, with a single master's thesis, Shannon made the electrical circui
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew Claude Shannon personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew Claude Shannon personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

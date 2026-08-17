@@ -65,7 +65,7 @@ MILA 之于 AI，是一种"小国寡民、深耕一艺"的范本。蒙特利尔�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 LISA、MILA、Element AI 或蒙特利尔大学 AI 相关组学习、工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 LISA、MILA、Element AI 或蒙特利尔大学 AI 相关组学习、工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

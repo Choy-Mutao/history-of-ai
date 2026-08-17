@@ -104,7 +104,7 @@ I have observed forty years of Chinese AI and feel its weight. When the four eld
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have lived through this history in Chinese AI academia or industry, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have lived through this history in Chinese AI academia or industry, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

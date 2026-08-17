@@ -81,7 +81,7 @@ LSTM 在投稿时一度被审稿人冷落。它太工程化、太"看起来像�
 ## 亲历者说
 
 ::: info 征集中
-如果你了解施密德胡贝的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解施密德胡贝的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

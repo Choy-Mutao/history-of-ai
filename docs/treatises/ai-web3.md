@@ -102,7 +102,7 @@ ChatGPT 让任何人都能生成图片、文字、视频，"作者"这个概念�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾参与去中心化算力网络、AI Agent 框架、链上数据协议或相关项目，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾参与去中心化算力网络、AI Agent 框架、链上数据协议或相关项目，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

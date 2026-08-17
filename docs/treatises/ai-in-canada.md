@@ -81,7 +81,7 @@ CIFAR 1982 年由企业家 Fraser Mustard 创立，专门资助"高风险、高�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在加拿大参与 AI 研究或创业，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在加拿大参与 AI 研究或创业，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

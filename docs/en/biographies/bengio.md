@@ -85,7 +85,7 @@ What Bengio is to deep learning, the farmer is to the field. He is no orator; he
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you worked with Bengio at LISA, MILA, Element AI, Bell Labs, or Jordan's MIT group, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you worked with Bengio at LISA, MILA, Element AI, Bell Labs, or Jordan's MIT group, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

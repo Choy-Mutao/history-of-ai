@@ -77,7 +77,7 @@
 ## 亲历者说
 
 ::: info 征集中
-如果你了解维纳的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解维纳的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

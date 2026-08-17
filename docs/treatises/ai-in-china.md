@@ -104,7 +104,7 @@ BAT 三家共同的特点是：业务即数据，数据即燃料。它们没有�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在中国 AI 学术界或产业界亲历这段历史，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在中国 AI 学术界或产业界亲历这段历史，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -119,7 +119,7 @@ ERNIE 在 GLUE / 中文 GLUE 多项任务上击败原版 BERT，是中国第一�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在百度 IDL、研究院、飞桨、Apollo、文心或萝卜快跑团队工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在百度 IDL、研究院、飞桨、Apollo、文心或萝卜快跑团队工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -71,7 +71,7 @@ Berkeley is to AI what Jixia was to Qi or the White Deer Grotto Academy was to S
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked or studied at BAIR, RISELab, the Sky Computing Lab, or any of Berkeley's AI groups, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked or studied at BAIR, RISELab, the Sky Computing Lab, or any of Berkeley's AI groups, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

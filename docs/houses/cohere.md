@@ -84,7 +84,7 @@ Aya 的意义不止于技术。它向行业发出了一份明确的信号：**�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Cohere、Cohere For AI 或多伦多 AI 生态工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Cohere、Cohere For AI 或多伦多 AI 生态工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

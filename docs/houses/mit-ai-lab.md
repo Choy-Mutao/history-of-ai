@@ -81,7 +81,7 @@ MIT AI 实验室之于人工智能，犹周之岐山、汉之丰沛。它不是�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 MIT AI 实验室或 CSAIL 工作学习，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 MIT AI 实验室或 CSAIL 工作学习，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -79,7 +79,7 @@
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 OpenAI、Anthropic、DeepMind、MIRI 等机构从事对齐与安全研究，或参加过 *Pause AI*、布莱切利峰会等公开行动，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 OpenAI、Anthropic、DeepMind、MIRI 等机构从事对齐与安全研究，或参加过 *Pause AI*、布莱切利峰会等公开行动，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料
