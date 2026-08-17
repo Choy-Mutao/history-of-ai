@@ -1,5 +1,5 @@
 <template>
-  <div class="stats-bar">
+  <section class="stats-bar" :aria-label="isEn ? 'Site statistics' : '站点统计'">
     <div class="stats-container">
       <a class="stat-item" v-for="(stat, i) in stats" :key="i" :href="stat.link">
         <span class="stat-number" :ref="el => numberRefs[i] = el as HTMLElement">0</span>
@@ -7,7 +7,7 @@
         <span class="stat-label">{{ stat.label }}</span>
       </a>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

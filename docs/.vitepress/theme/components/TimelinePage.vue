@@ -1,15 +1,17 @@
 <template>
   <div class="timeline-page">
     <!-- 视图切换 -->
-    <div class="view-toggle">
+    <div class="view-toggle" role="group" :aria-label="isEn ? 'Timeline view mode' : '年表视图切换'">
       <button
         class="view-toggle-btn"
         :class="{ active: viewMode === 'list' }"
+        :aria-pressed="viewMode === 'list'"
         @click="viewMode = 'list'"
       >☰ {{ isEn ? 'List' : '列表' }}</button>
       <button
         class="view-toggle-btn"
         :class="{ active: viewMode === 'horizontal' }"
+        :aria-pressed="viewMode === 'horizontal'"
         @click="viewMode = 'horizontal'"
       >⟷ {{ isEn ? 'Timeline' : '时间轴' }}</button>
     </div>

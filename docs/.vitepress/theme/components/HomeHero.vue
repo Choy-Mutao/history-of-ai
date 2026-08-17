@@ -1,5 +1,6 @@
 <template>
   <section class="home-hero">
+    <ParticleNetwork />
     <div class="hero-inner">
       <div class="hero-text">
         <p class="hero-range">1943 — 2026</p>
@@ -50,6 +51,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { withBase, useData } from 'vitepress'
+import ParticleNetwork from './ParticleNetwork.vue'
 
 const { lang } = useData()
 const isEn = computed(() => lang.value === 'en-US')

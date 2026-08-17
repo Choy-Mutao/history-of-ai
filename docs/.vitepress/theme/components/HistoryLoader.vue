@@ -6,7 +6,7 @@
     </svg>
     <span>{{ isEn ? 'Show terminal' : '显示终端' }}</span>
   </div>
-  <div class="history-loader" ref="container" v-show="!hidden">
+  <section class="history-loader" ref="container" v-show="!hidden" :aria-label="isEn ? 'AI history loading terminal' : 'AI 历史加载终端'">
     <div class="terminal" :class="{ 'dark-mode': isDark }">
       <div class="terminal-header">
         <span class="terminal-title">&gt; ai-history --all</span>
@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

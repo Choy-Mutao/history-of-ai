@@ -116,18 +116,13 @@ function init() {
   const el = canvas.value
   if (!el) return
 
-  // Find and attach to the hero element (custom HomeHero on the homepage)
-  const hero = document.querySelector('.home-hero, .VPHero') as HTMLElement
-  if (!hero) return
-
-  // Move canvas into the hero element so absolute positioning works
-  if (el.parentElement !== hero) {
-    hero.appendChild(el)
-  }
+  // canvas 直接位于 .home-hero 内，随父元素尺寸铺满
+  const host = el.parentElement
+  if (!host) return
 
   const dpr = window.devicePixelRatio || 1
-  W = hero.offsetWidth
-  H = hero.offsetHeight
+  W = host.offsetWidth
+  H = host.offsetHeight
 
   if (W === 0 || H === 0) return
 
@@ -153,7 +148,7 @@ function handleResize() {
 
 onMounted(async () => {
   await nextTick()
-  // Delay to ensure VPHero is rendered and has dimensions
+  // Delay to ensure the hero has been laid out and has dimensions
   setTimeout(init, 200)
   window.addEventListener('resize', handleResize)
   document.addEventListener('mousemove', handleMouse)

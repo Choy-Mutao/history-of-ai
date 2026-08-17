@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <template #home-hero-before>
-      <ParticleNetwork />
       <HomeHero />
     </template>
     <template #home-hero-after>
@@ -27,7 +26,6 @@
 import { computed } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
-import ParticleNetwork from './ParticleNetwork.vue'
 import HomeHero from './HomeHero.vue'
 import StatsBar from './StatsBar.vue'
 import HistoryLoader from './HistoryLoader.vue'

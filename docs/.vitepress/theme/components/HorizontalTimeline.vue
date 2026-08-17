@@ -3,18 +3,34 @@
     <!-- 工具栏：缩放 + 操作提示 -->
     <div class="ht-toolbar">
       <div class="ht-zoom">
-        <button class="ht-zoom-btn" :disabled="zoomIdx === 0" @click="setZoom(zoomIdx - 1)">−</button>
-        <button class="ht-zoom-btn" :disabled="zoomIdx === ZOOMS.length - 1" @click="setZoom(zoomIdx + 1)">+</button>
+        <button
+          class="ht-zoom-btn"
+          :disabled="zoomIdx === 0"
+          :aria-label="isEn ? 'Zoom out' : '缩小'"
+          @click="setZoom(zoomIdx - 1)"
+        >−</button>
+        <button
+          class="ht-zoom-btn"
+          :disabled="zoomIdx === ZOOMS.length - 1"
+          :aria-label="isEn ? 'Zoom in' : '放大'"
+          @click="setZoom(zoomIdx + 1)"
+        >+</button>
         <span class="ht-zoom-label">{{ pxPerMonth }}px/{{ isEn ? 'mo' : '月' }}</span>
       </div>
       <span class="ht-hint">{{ isEn ? 'Drag or scroll to explore · click an event to open its chapter' : '拖拽或滚动探索 · 点击事件跳转对应章节' }}</span>
     </div>
 
-    <!-- 横向滚动轨道 -->
+    <!-- 横向滚动轨道（水合定位 2022 前淡入，避免年代跳变） -->
+    <noscript>
+      <component :is="'style'">.ht-track { opacity: 1 !important; }</component>
+    </noscript>
     <div
       ref="track"
       class="ht-track"
-      :class="{ dragging: isDragging }"
+      :class="{ dragging: isDragging, 'is-ready': ready }"
+      role="region"
+      tabindex="0"
+      :aria-label="isEn ? 'AI history timeline, scrollable horizontally' : 'AI 历史时间轴，可横向滚动'"
       @wheel.prevent="onWheel"
       @pointerdown="onPointerDown"
     >
@@ -34,7 +50,7 @@
           v-for="t in yearTicks"
           :key="t.year"
           class="ht-tick"
-          :style="{ left: `${t.x}px`, height: `${canvasHeight}px` }"
+          :style="{ left: `${t.x}px` }"
         >
           <span class="ht-tick-label">{{ t.year }}</span>
         </div>
@@ -53,6 +69,7 @@
             '--era-hue': ev.hue,
           }"
           :href="ev.href"
+          :title="ev.text"
           @click="onEventClick"
         >
           <span class="ht-dot"></span>
@@ -191,6 +208,7 @@ const canvasHeight = computed(() => AXIS_H + laneCount.value * ROW_H + 16)
 /* ===== 滚动与拖拽 ===== */
 const track = ref<HTMLElement>()
 const isDragging = ref(false)
+const ready = ref(false)
 let dragStartX = 0
 let dragStartScroll = 0
 let dragMoved = false
@@ -253,7 +271,10 @@ function setZoom(idx: number) {
 }
 
 onMounted(() => {
-  requestAnimationFrame(() => scrollToYear(2022))
+  requestAnimationFrame(() => {
+    scrollToYear(2022)
+    ready.value = true
+  })
 })
 
 onBeforeUnmount(() => {
@@ -318,9 +339,18 @@ onBeforeUnmount(() => {
   background: var(--vp-c-bg-soft);
   cursor: grab;
   user-select: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.ht-track.is-ready {
+  opacity: 1;
 }
 .ht-track.dragging {
   cursor: grabbing;
+}
+.ht-track:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
 }
 
 .ht-canvas {
@@ -342,6 +372,7 @@ onBeforeUnmount(() => {
 .ht-tick {
   position: absolute;
   top: 32px;
+  bottom: 0;
   width: 1px;
   background: var(--vp-c-divider);
   opacity: 0.5;
