@@ -336,6 +336,5 @@ docs/public/images/
 
 ## 联系方式
 
-- 邮箱：987835330@qq.com
-- GitHub：[@zsjunai](https://github.com/zsjunai)
+- GitHub：[@Choy-Mutao](https://github.com/Choy-Mutao)
 - Issue：[提交问题](https://github.com/Choy-Mutao/history-of-ai/issues)

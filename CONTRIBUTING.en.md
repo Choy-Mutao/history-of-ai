@@ -327,6 +327,5 @@ If you do not agree to the above terms, please do not submit a Pull Request. You
 
 ## Contact
 
-- Email: 987835330@qq.com
-- GitHub: [@zsjunai](https://github.com/zsjunai)
+- GitHub: [@Choy-Mutao](https://github.com/Choy-Mutao)
 - Issues: [Submit an Issue](https://github.com/Choy-Mutao/history-of-ai/issues)

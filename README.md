@@ -160,8 +160,7 @@ npm run docs:preview
 
 如有任何问题、建议或合作意向，欢迎联系：
 
-- 邮箱：987835330@qq.com
-- GitHub：[@zsjunai](https://github.com/zsjunai)
+- GitHub：[@Choy-Mutao](https://github.com/Choy-Mutao)
 
 ---
 

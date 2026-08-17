@@ -136,8 +136,7 @@ You are free to share and adapt, as long as you give appropriate credit and shar
 
 For any questions, suggestions, or collaboration inquiries, feel free to reach out:
 
-- Email: 987835330@qq.com
-- GitHub: [@zsjunai](https://github.com/zsjunai)
+- GitHub: [@Choy-Mutao](https://github.com/Choy-Mutao)
 
 ---
 
