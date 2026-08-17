@@ -41,7 +41,7 @@ jobs:
         run: echo "today=$(date +%F)" >> "$GITHUB_OUTPUT"
 
       - name: 提交采集结果（自动 PR）
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: auto/collect
           delete-branch: true
