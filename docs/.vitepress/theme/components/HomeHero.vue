@@ -43,10 +43,6 @@
           提出修订，或阅读<a :href="withBase('/guide/how-to-contribute')">贡献指南</a>参与书写——历史不应由一个人书写。
         </p>
       </div>
-
-      <div class="hero-visual">
-        <AiRobot />
-      </div>
     </div>
   </section>
 </template>
@@ -54,7 +50,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { withBase, useData } from 'vitepress'
-import AiRobot from './AiRobot.vue'
 
 const { lang } = useData()
 const isEn = computed(() => lang.value === 'en-US')
@@ -68,12 +63,8 @@ const isEn = computed(() => lang.value === 'en-US')
 }
 
 .hero-inner {
-  max-width: 1152px;
+  max-width: 880px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 48px;
-  align-items: center;
 }
 
 .hero-range {
@@ -128,23 +119,9 @@ const isEn = computed(() => lang.value === 'en-US')
   border-bottom-color: var(--vp-c-brand-1);
 }
 
-.hero-visual {
-  display: flex;
-  justify-content: center;
-}
-
 @media (max-width: 768px) {
   .home-hero {
     padding: calc(var(--vp-nav-height) + 24px) 20px 24px;
-  }
-  .hero-inner {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  .hero-visual {
-    order: -1;
-    transform: scale(0.75);
-    margin: -24px 0;
   }
 }
 </style>
