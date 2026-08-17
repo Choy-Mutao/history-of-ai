@@ -106,6 +106,7 @@ export default defineConfig({
           { text: '列传', link: '/biographies/turing', activeMatch: '/biographies/' },
           { text: '书', link: '/treatises/neural-networks', activeMatch: '/treatises/' },
           { text: '大事年表', link: '/timeline/' },
+          { text: '动态', link: '/updates/' },
         ],
         sidebar: {
           '/guide/': [

@@ -57,6 +57,7 @@ docs/
 ├── biographies/               # 列传（23 篇人物传记）
 ├── treatises/                 # 书（25 篇技术专题 + 国别史）
 ├── timeline/                  # 表（大事年表，数据来自 timeline.ts）
+├── updates/                   # 每日动态（机器采集展示页，构建时由 updates.data.ts 读取 src/data/raw 生成）
 ├── guide/                     # 前言、如何贡献
 ├── en/                        # 英文版（完整镜像上述结构）
 ├── public/                    # 静态资源：favicon、robots.txt、images/
