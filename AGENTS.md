@@ -80,7 +80,6 @@ src/                           # 国内信源采集子系统（与站点构建�
 | `CustomLayout.vue` | 自定义布局，向首页注入各区域组件 |
 | `HomeHero.vue` | 首页 hero（仿 ai-timeline.org：年份区间 + 衬线大标题 + 简介段落，中英双语） |
 | `ParticleNetwork.vue` | 首页 hero 粒子神经网络背景动画 |
-| `AiRobot.vue` | 首页 hero AI 机器人动画 |
 | `StatsBar.vue` | 首页统计数字栏（含篇数统计，篇数变化时需改） |
 | `HistoryLoader.vue` | 终端风格打字机加载动画 |
 | `HomeFooter.vue` | 首页底部 |
