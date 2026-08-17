@@ -6,8 +6,7 @@
 >
 > An open-source book on the history of Artificial Intelligence, structured in the style of *Records of the Grand Historian* (Shiji), chronicling 83 years of key events, figures, and institutions.
 
-> 🔗 友链（上游原仓库）：[zsjunai/history-of-ai](https://github.com/zsjunai/history-of-ai)
-> 本仓库为其下游开发仓库，新增国内信源定时采集子系统（`src/`）。
+> 📜 致谢：本项目内容最初基于 [zsjunai/history-of-ai](https://github.com/zsjunai/history-of-ai)（CC-BY-SA 4.0），现为独立维护项目，新增国内信源定时采集子系统（`src/`）、每日动态页、横向时间轴等特性。
 
 ## 在线阅读 Read Online
 
