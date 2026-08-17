@@ -21,14 +21,14 @@ export default defineConfig({
   },
 
   head: [
-    ['meta', { name: 'theme-color', content: '#0ea5e9' }],
+    ['meta', { name: 'theme-color', content: '#0000f2' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
     ['link', { rel: 'shortcut icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
     ['link', { rel: 'apple-touch-icon', href: `${base}favicon.svg` }],
-    ['link', { rel: 'mask-icon', href: `${base}favicon.svg`, color: '#0ea5e9' }],
+    ['link', { rel: 'mask-icon', href: `${base}favicon.svg`, color: '#0000f2' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+SC:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap', rel: 'stylesheet' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+SC:wght@400;700&family=Courier+Prime:wght@400;700&display=swap', rel: 'stylesheet' }],
 
     // SEO Meta
     ['meta', { name: 'keywords', content: 'AI历史,人工智能历史,AI史记,History of AI,AI Timeline,人工智能发展史,深度学习,机器学习,图灵,神经网络,大语言模型,ChatGPT,Transformer,AGI,AI人物传记,Turing,Hinton,OpenAI,DeepMind' }],

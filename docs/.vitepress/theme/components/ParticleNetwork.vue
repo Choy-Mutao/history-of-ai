@@ -23,8 +23,8 @@ interface Particle {
   color: string
 }
 
-const darkColors = ['#0ea5e9', '#38bdf8', '#7c3aed', '#a78bfa', '#06b6d4']
-const lightColors = ['#0284c7', '#0369a1', '#6d28d9', '#7c3aed', '#0891b2']
+const darkColors = ['#6b6bff', '#8f8fff', '#edff45', '#4d4df8', '#b9b9ff']
+const lightColors = ['#0000f2', '#2e2ef5', '#5c5cf8', '#0000a8', '#3f3fd0']
 
 function getColors() {
   return document.documentElement.classList.contains('dark') ? darkColors : lightColors

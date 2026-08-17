@@ -227,7 +227,7 @@ onUnmounted(() => {
   margin: 0 auto 30px;
   padding: 8px 20px;
   width: fit-content;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Courier Prime', 'Courier New', ui-monospace, monospace;
   font-size: 13px;
   color: var(--vp-c-text-3);
   border: 1px dashed var(--vp-c-divider);
@@ -243,15 +243,16 @@ onUnmounted(() => {
 }
 
 .terminal.dark-mode {
-  --t-bg: #0b1120;
-  --t-header: #111827;
-  --t-border: #1e293b;
-  --t-text: #e2e8f0;
-  --t-muted: #64748b;
-  --t-separator: #334155;
-  --t-divider: #1e293b;
+  --t-bg: #06060f;
+  --t-header: #0d0d1c;
+  --t-border: #1a1a2e;
+  --t-text: #e8e8f2;
+  --t-muted: #5c5c74;
+  --t-separator: #2a2a44;
+  --t-divider: #1a1a2e;
+  --t-accent: #8f8fff;
   --t-shadow: rgba(0, 0, 0, 0.3),
-              0 0 0 1px rgba(14, 165, 233, 0.05);
+              0 0 0 1px rgba(107, 107, 255, 0.08);
 }
 
 .history-loader {
@@ -267,13 +268,14 @@ onUnmounted(() => {
 }
 
 .terminal {
-  --t-bg: #f1f5f9;
-  --t-header: #e8ecf1;
-  --t-border: #d1d9e0;
-  --t-text: #1e293b;
-  --t-muted: #64748b;
-  --t-separator: #cbd5e1;
-  --t-divider: #d1d9e0;
+  --t-bg: #f5f5f5;
+  --t-header: #eceaf5;
+  --t-border: #e0e0e0;
+  --t-text: #111118;
+  --t-muted: #8e8e9a;
+  --t-separator: #d5d5e0;
+  --t-divider: #e0e0e0;
+  --t-accent: #0000f2;
   --t-shadow: rgba(0, 0, 0, 0.06);
 
   position: relative;
@@ -294,7 +296,7 @@ onUnmounted(() => {
 }
 
 .terminal-title {
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Courier Prime', 'Courier New', ui-monospace, monospace;
   font-size: 12px;
   color: var(--t-muted);
 }
@@ -316,7 +318,7 @@ onUnmounted(() => {
 
 .header-btn:hover {
   color: var(--vp-c-brand-1);
-  background: rgba(14, 165, 233, 0.1);
+  background: rgba(0, 0, 242, 0.1);
 }
 
 .header-actions {
@@ -327,7 +329,7 @@ onUnmounted(() => {
 
 .terminal-body {
   padding: 16px 18px;
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Courier Prime', 'Courier New', ui-monospace, monospace;
   font-size: 13px;
   line-height: 1.9;
   height: 420px;
@@ -360,7 +362,7 @@ onUnmounted(() => {
 }
 
 .year {
-  color: #0ea5e9;
+  color: var(--t-accent);
   font-weight: 700;
   flex-shrink: 0;
 }
@@ -382,7 +384,7 @@ onUnmounted(() => {
 }
 
 .event-link:hover {
-  color: #0ea5e9;
+  color: var(--t-accent);
 }
 
 .cursor-line {
@@ -390,7 +392,7 @@ onUnmounted(() => {
 }
 
 .cursor {
-  color: #0ea5e9;
+  color: var(--t-accent);
   animation: blink 0.8s step-end infinite;
 }
 

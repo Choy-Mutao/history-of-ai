@@ -163,18 +163,18 @@ onUnmounted(() => {
   position: absolute; top: 0; left: 0;
   cursor: pointer; will-change: transform; z-index: 10;
 }
-.robot-wrapper:hover { filter: drop-shadow(0 0 12px rgba(14, 165, 233, 0.5)); }
+.robot-wrapper:hover { filter: drop-shadow(0 0 12px rgba(0, 0, 242, 0.5)); }
 
 .robot {
-  --r-accent: #0ea5e9; --r-glow: #38bdf8;
-  --r-body: #f0f7ff; --r-bg: #ffffff;
+  --r-accent: #0000f2; --r-glow: #5c5cf8;
+  --r-body: #f0f0ff; --r-bg: #ffffff;
   width: 180px; height: 180px;
 }
 .robot.facing-left { transform: scaleX(-1); }
 
 :global(.dark) .robot {
-  --r-accent: #38bdf8; --r-glow: #7dd3fc;
-  --r-body: #1a2236; --r-bg: #0b1120;
+  --r-accent: #6b6bff; --r-glow: #8f8fff;
+  --r-body: #1a1a2e; --r-bg: #06060f;
 }
 
 /* Always-on */

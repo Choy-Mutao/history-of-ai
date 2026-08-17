@@ -114,10 +114,10 @@ onUnmounted(() => {
 }
 
 .stat-number {
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Courier Prime', 'Courier New', ui-monospace, monospace;
   font-size: 2em;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), #7c3aed);
+  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-3));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

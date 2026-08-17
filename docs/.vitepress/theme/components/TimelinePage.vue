@@ -177,9 +177,9 @@ function withBaseUrl(link: string): string {
 }
 
 .milestone-sample {
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  background: linear-gradient(135deg, #edff45, #c8d400);
   border-color: transparent;
-  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2);
+  box-shadow: 0 0 0 3px rgba(237, 255, 69, 0.35);
 }
 
 /* ========== 时代分段 ========== */
@@ -299,7 +299,7 @@ function withBaseUrl(link: string): string {
   height: 14px;
   margin-left: -1.5px;
   margin-top: 6px;
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  background: linear-gradient(135deg, #edff45, #c8d400);
   border: none;
   box-shadow: 0 0 0 3px hsla(var(--era-hue), 60%, 50%, 0.25);
 }

@@ -2,33 +2,39 @@
 
 :root {
   --vp-font-family-base: 'Inter', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+  --vp-font-family-mono: 'Courier Prime', 'Courier New', ui-monospace, monospace;
+  /* 标题衬线（hermes 风格：Sigurd → 中文宋体系，系统字体栈不引 webfont） */
+  --vp-font-family-serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
 }
 
 .vp-doc {
   line-height: 1.85;
 }
 
-/* Chapter titles */
+/* 标题衬线化 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.VPHero .name,
+.VPHero .text {
+  font-family: var(--vp-font-family-serif);
+}
+
+/* Chapter titles — 纯色电蓝（去渐变） */
 .vp-doc h1 {
-  background: linear-gradient(135deg, var(--vp-c-brand-1), #7c3aed);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--vp-c-brand-1);
   font-weight: 800;
   letter-spacing: -0.02em;
 }
 
 .dark .vp-doc h1 {
-  background: linear-gradient(135deg, #38bdf8, #a78bfa);
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: var(--vp-c-brand-1);
 }
 
-/* Section titles - left accent bar */
+/* Section titles - left accent bar（硬朗直角） */
 .vp-doc h2 {
   padding-left: 0.75em;
-  border-left: 3px solid var(--vp-c-brand-1);
+  border-left: 4px solid var(--vp-c-brand-1);
   margin-top: 2.5em;
 }
 
@@ -94,29 +100,30 @@
 
 .VPFeature {
   border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 4px !important;
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
   transform: translateY(0);
 }
 
 .VPFeature:hover {
   border-color: var(--vp-c-brand-1) !important;
-  box-shadow: 0 8px 30px rgba(14, 165, 233, 0.12) !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 242, 0.12) !important;
   transform: translateY(-4px) !important;
 }
 
 .dark .VPFeature:hover {
-  box-shadow: 0 8px 30px rgba(56, 189, 248, 0.1),
-              0 0 0 1px rgba(56, 189, 248, 0.15) !important;
+  box-shadow: 0 8px 30px rgba(107, 107, 255, 0.1),
+              0 0 0 1px rgba(107, 107, 255, 0.15) !important;
 }
 
 /* Icon glow on hover */
 .VPFeature:hover .VPImage {
-  filter: drop-shadow(0 0 8px rgba(14, 165, 233, 0.4));
+  filter: drop-shadow(0 0 8px rgba(0, 0, 242, 0.4));
   transition: filter 0.35s ease;
 }
 
 .dark .VPFeature:hover .VPImage {
-  filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.5));
+  filter: drop-shadow(0 0 10px rgba(107, 107, 255, 0.5));
 }
 
 /* ===== 太史公曰 Callout ===== */
@@ -124,7 +131,7 @@
 .vp-doc .custom-block.tip {
   border-left: 3px solid var(--vp-c-brand-1);
   background: linear-gradient(135deg, var(--vp-c-tip-soft), transparent);
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 1.2em 1.5em;
 }
 
@@ -149,13 +156,13 @@
 .vp-doc .custom-block.info {
   border: 1px dashed var(--vp-c-text-3);
   background: var(--vp-c-bg-soft);
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 /* ===== 待完善 Warning ===== */
 
 .vp-doc .custom-block.warning {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 /* ===== Blockquote (chapter epigraphs) ===== */
@@ -166,7 +173,7 @@
   font-style: normal;
   padding: 0.5em 1.2em;
   background: var(--vp-c-bg-soft);
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 4px 4px 0;
 }
 
 /* ===== Tables ===== */
@@ -214,7 +221,7 @@
 /* ===== Code blocks ===== */
 
 .vp-doc div[class*='language-'] {
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 /* ===== Footer ===== */
@@ -226,7 +233,7 @@
 /* ===== Images ===== */
 
 .vp-doc img {
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 /* ===== Mobile ===== */
@@ -251,7 +258,7 @@
   color: var(--vp-c-text-1);
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
+  border-radius: 4px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   opacity: 0;
   pointer-events: none;
@@ -283,7 +290,7 @@
   position: relative;
   z-index: 2;
   background-color: var(--vp-c-bg);
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
