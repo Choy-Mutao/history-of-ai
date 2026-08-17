@@ -116,8 +116,8 @@ function init() {
   const el = canvas.value
   if (!el) return
 
-  // Find and attach to VPHero
-  const hero = document.querySelector('.VPHero') as HTMLElement
+  // Find and attach to the hero element (custom HomeHero on the homepage)
+  const hero = document.querySelector('.home-hero, .VPHero') as HTMLElement
   if (!hero) return
 
   // Move canvas into the hero element so absolute positioning works

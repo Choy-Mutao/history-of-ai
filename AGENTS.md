@@ -78,6 +78,7 @@ src/                           # 国内信源采集子系统（与站点构建�
 | 组件 | 用途 |
 |------|------|
 | `CustomLayout.vue` | 自定义布局，向首页注入各区域组件 |
+| `HomeHero.vue` | 首页 hero（仿 ai-timeline.org：年份区间 + 衬线大标题 + 简介段落，中英双语） |
 | `ParticleNetwork.vue` | 首页 hero 粒子神经网络背景动画 |
 | `AiRobot.vue` | 首页 hero AI 机器人动画 |
 | `StatsBar.vue` | 首页统计数字栏（含篇数统计，篇数变化时需改） |
@@ -131,7 +132,6 @@ src/                           # 国内信源采集子系统（与站点构建�
    - `CLAUDE.md` 五体结构表格
    - `README.md`（及 `README.en.md`）五体结构表格及合计数
    - `docs/guide/introduction.md` 前言中的篇数描述
-   - `docs/index.md` 首页 features 中的篇数描述
    - `docs/.vitepress/theme/components/StatsBar.vue` 统计数字
 3. 运行 `npm run docs:build` 验证。
 
