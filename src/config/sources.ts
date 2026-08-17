@@ -147,7 +147,8 @@ export const sources: Source[] = [
     category: 'official',
     reliability: 'high',
     enabled: true,
-    notes: '白皮书发布页；2026-08-16 实测：默认 UA 返回 412，浏览器 UA 200（SSR 表格列表），已通过 selectors 启用',
+    skipInCI: true,
+    notes: '白皮书发布页；2026-08-16 实测：默认 UA 返回 412，浏览器 UA 200（SSR 表格列表），已通过 selectors 启用；2026-08-17 实测 CI（GitHub 境外 IP）被 WAF 拦截 412，设 skipInCI 仅本地采集',
   },
   {
     id: 'baai',
