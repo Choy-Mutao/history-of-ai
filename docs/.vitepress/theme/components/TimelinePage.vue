@@ -75,7 +75,7 @@ import { withBase, useData } from 'vitepress'
 import { timeline, type EventType, type TimelineEvent, type TimelineEra } from '../../data/timeline'
 import HorizontalTimeline from './HorizontalTimeline.vue'
 
-const viewMode = ref<'list' | 'horizontal'>('list')
+const viewMode = ref<'list' | 'horizontal'>('horizontal')
 
 const { lang } = useData()
 const isEn = computed(() => lang.value === 'en-US')
