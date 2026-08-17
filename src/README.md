@@ -3,6 +3,9 @@
 为「AI 史记」提供国内信源的定时采集与交叉验证，产出**候选更新报告**供人工审核，
 辅助内容真实性校验。本目录不参与站点构建，与 `docs/` 完全解耦。
 
+- 本仓库：<https://github.com/Choy-Mutao/history-of-ai>（采集子系统所在仓库）
+- 友链（上游原仓库）：<https://github.com/zsjunai/history-of-ai>
+
 ## 设计原则
 
 1. **只读外部、不写 docs** —— 脚本只产出报告，`docs/` 与 `timeline.ts` 的更新一律人工审核后手动进行（符合 AGENTS.md「真实性最高优先级」原则）。
