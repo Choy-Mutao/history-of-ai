@@ -1,5 +1,22 @@
 <template>
   <div class="timeline-page">
+    <!-- 视图切换 -->
+    <div class="view-toggle">
+      <button
+        class="view-toggle-btn"
+        :class="{ active: viewMode === 'list' }"
+        @click="viewMode = 'list'"
+      >☰ {{ isEn ? 'List' : '列表' }}</button>
+      <button
+        class="view-toggle-btn"
+        :class="{ active: viewMode === 'horizontal' }"
+        @click="viewMode = 'horizontal'"
+      >⟷ {{ isEn ? 'Timeline' : '时间轴' }}</button>
+    </div>
+
+    <HorizontalTimeline v-if="viewMode === 'horizontal'" />
+
+    <template v-else>
     <!-- 类型图例 -->
     <div class="legend">
       <span v-for="(label, key) in TYPE_LABELS" :key="key" class="legend-item">
@@ -48,13 +65,17 @@
         </li>
       </ol>
     </div>
+    </template>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { withBase, useData } from 'vitepress'
 import { timeline, type EventType, type TimelineEvent, type TimelineEra } from '../../data/timeline'
+import HorizontalTimeline from './HorizontalTimeline.vue'
+
+const viewMode = ref<'list' | 'horizontal'>('list')
 
 const { lang } = useData()
 const isEn = computed(() => lang.value === 'en-US')
@@ -135,6 +156,33 @@ function withBaseUrl(link: string): string {
   max-width: 880px;
   margin: 0 auto;
   padding: 8px 0 32px;
+}
+
+/* ========== 视图切换 ========== */
+.view-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.view-toggle-btn {
+  padding: 6px 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.view-toggle-btn:hover {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+.view-toggle-btn.active {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
 }
 
 /* ========== 图例 ========== */
