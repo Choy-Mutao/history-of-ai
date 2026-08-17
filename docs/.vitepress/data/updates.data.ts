@@ -2,7 +2,7 @@
  * 每日采集动态数据加载器（构建时执行）。
  *
  * 读取 src/data/raw/YYYY-MM-DD.json，复用采集子系统的聚类/评分/已收录检测，
- * 输出按日期倒序的分组数据，供 UpdatesPage 组件渲染。
+ * 按事件**发布时间**（而非采集时间）分组倒序输出，供 UpdatesPage 组件渲染。
  *
  * 数据流：collect PR 合并 → main 更新 → deploy 构建时本加载器产出静态页面。
  */
@@ -42,8 +42,10 @@ export interface UpdateCluster {
 }
 
 export interface UpdateDay {
+  /** 事件发布日期（分组键） */
   date: string
-  stats: { name: string; fetched: number; kept: number | null; error?: string }[]
+  /** 贡献本日事件的采集运行日期 */
+  collectedDates: string[]
   clusters: UpdateCluster[]
 }
 
@@ -65,7 +67,9 @@ export default {
     files = files.sort().reverse().slice(0, MAX_DAYS)
 
     const known = loadKnownEvents()
-    const days: UpdateDay[] = []
+    const scoreMap = new Map(sources.map((s) => [s.id, s]))
+    /** 按发布日期聚合：published -> { collectedDates, clusters } */
+    const byPublished = new Map<string, { collectedDates: Set<string>; clusters: UpdateCluster[] }>()
 
     for (const file of files) {
       let raw: RawFile
@@ -76,34 +80,39 @@ export default {
       }
       if (!raw.items?.length) continue
 
-      const clusters: UpdateCluster[] = clusterEvents(raw.items)
-        .map((c) => ({
-          title: c.representativeTitle,
-          summary: c.items.find((i) => i.summary)?.summary,
-          date: c.earliestAt.slice(0, 10),
-          corroborated: c.corroborated,
-          sourceCount: c.sourceIds.length,
-          score: scoreCluster(c, new Map(sources.map((s) => [s.id, s]))),
-          recorded: isRecorded(c, known),
-          sources: c.items.slice(0, MAX_SOURCES_PER_CLUSTER).map((i) => ({
-            name: sourceNameById.get(i.sourceId) ?? i.sourceId,
-            link: i.link,
-          })),
-        }))
-        .sort((a, b) => Number(a.recorded) - Number(b.recorded) || b.score - a.score)
-
-      days.push({
-        date: raw.date,
-        stats: raw.stats.map((s) => ({
-          name: sourceNameById.get(s.sourceId) ?? s.sourceId,
-          fetched: s.fetched,
-          kept: s.filtered != null ? s.fetched - s.filtered : null,
-          error: s.error,
+      const clusters: UpdateCluster[] = clusterEvents(raw.items).map((c) => ({
+        title: c.representativeTitle,
+        summary: c.items.find((i) => i.summary)?.summary,
+        date: c.earliestAt.slice(0, 10),
+        corroborated: c.corroborated,
+        sourceCount: c.sourceIds.length,
+        score: scoreCluster(c, scoreMap),
+        recorded: isRecorded(c, known),
+        sources: c.items.slice(0, MAX_SOURCES_PER_CLUSTER).map((i) => ({
+          name: sourceNameById.get(i.sourceId) ?? i.sourceId,
+          link: i.link,
         })),
-        clusters,
-      })
+      }))
+
+      for (const c of clusters) {
+        let day = byPublished.get(c.date)
+        if (!day) {
+          day = { collectedDates: new Set(), clusters: [] }
+          byPublished.set(c.date, day)
+        }
+        day.collectedDates.add(raw.date)
+        day.clusters.push(c)
+      }
     }
 
-    return days
+    return [...byPublished.entries()]
+      .sort(([a], [b]) => (a < b ? 1 : -1))
+      .map(([date, day]) => ({
+        date,
+        collectedDates: [...day.collectedDates].sort().reverse(),
+        clusters: day.clusters.sort(
+          (a, b) => Number(a.recorded) - Number(b.recorded) || b.score - a.score,
+        ),
+      }))
   },
 }

@@ -53,14 +53,9 @@
         <header class="day-header">
           <h2 class="day-title">{{ formatDate(selectedDay.date) }}</h2>
           <div class="day-stats">
-            <span
-              v-for="s in selectedDay.stats"
-              :key="s.name"
-              class="stat-badge"
-              :class="{ 'stat-error': s.error }"
-              :title="s.error || undefined"
-            >
-              {{ s.name }} {{ s.error ? '失败' : s.kept != null ? `${s.fetched}/${s.kept}` : s.fetched }}
+            <span class="stat-badge">{{ selectedDay.clusters.length }} 条事件</span>
+            <span class="stat-badge" title="贡献本日事件的采集运行日期">
+              采集于 {{ selectedDay.collectedDates.join(' / ') }}
             </span>
           </div>
         </header>
@@ -78,7 +73,6 @@
             <a :href="c.sources[0]?.link" target="_blank" rel="noopener" class="event-title">
               {{ c.title }}
             </a>
-            <span class="event-date">{{ c.date }}</span>
           </div>
           <p v-if="c.summary" class="event-summary">{{ c.summary }}</p>
           <div class="event-sources">
@@ -348,10 +342,6 @@ function formatDate(iso: string): string {
   background: var(--vp-c-bg-soft);
   border-radius: 4px;
 }
-.stat-error {
-  color: #d4351c;
-  background: rgba(212, 53, 28, 0.08);
-}
 
 /* ===== 事件卡片 ===== */
 .event-card {
@@ -387,12 +377,6 @@ function formatDate(iso: string): string {
 }
 .event-title:hover {
   color: var(--vp-c-brand-1);
-}
-.event-date {
-  margin-left: auto;
-  font-size: 12px;
-  font-family: var(--vp-font-family-mono);
-  color: var(--vp-c-text-3);
 }
 
 .badge {
@@ -463,10 +447,6 @@ function formatDate(iso: string): string {
     border: 1px solid var(--vp-c-divider);
     border-radius: 4px;
     padding: 8px;
-  }
-  .event-date {
-    margin-left: 0;
-    width: 100%;
   }
 }
 </style>
