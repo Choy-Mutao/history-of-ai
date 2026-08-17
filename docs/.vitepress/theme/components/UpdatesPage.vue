@@ -3,7 +3,14 @@
     <!-- 机器采集声明 -->
     <div class="disclaimer">
       <span class="disclaimer-icon">⚠</span>
-      <div>
+      <div v-if="isEn">
+        <strong>This page is generated daily by automated collection; events are not manually verified.</strong>
+        <p>
+          Manually verified content is incorporated into the chronicles (Annals / Houses / Biographies / Treatises / Timeline).
+          Green "Verified" means the event was reported by ≥2 independent sources; yellow "Unverified" is single-source — judge with care.
+        </p>
+      </div>
+      <div v-else>
         <strong>本页由机器每日自动采集生成，事件未经人工核实。</strong>
         <p>
           经人工核实的内容会收录进正史各卷（本纪 / 世家 / 列传 / 书 / 大事年表）。
@@ -12,7 +19,7 @@
       </div>
     </div>
 
-    <div v-if="days.length === 0" class="empty">暂无采集数据。</div>
+    <div v-if="days.length === 0" class="empty">{{ isEn ? 'No collected data yet.' : '暂无采集数据。' }}</div>
 
     <div v-else class="updates-layout">
       <!-- 左侧采集时间线：年 > 月 > 日 -->
@@ -20,14 +27,14 @@
         <div v-for="y in tree" :key="y.year" class="tl-year">
           <button class="tl-node tl-year-node" @click="toggle(y.year)">
             <span class="tl-chevron" :class="{ open: openKeys.has(y.year) }">▸</span>
-            <span class="tl-label">{{ y.year }} 年</span>
+            <span class="tl-label">{{ isEn ? y.year : `${y.year} 年` }}</span>
             <span class="tl-count">{{ y.count }}</span>
           </button>
           <div v-show="openKeys.has(y.year)" class="tl-children">
             <div v-for="m in y.months" :key="m.key" class="tl-month">
               <button class="tl-node tl-month-node" @click="toggle(m.key)">
                 <span class="tl-chevron" :class="{ open: openKeys.has(m.key) }">▸</span>
-                <span class="tl-label">{{ m.month }} 月</span>
+                <span class="tl-label">{{ isEn ? MONTHS_EN[m.month] : `${m.month} 月` }}</span>
                 <span class="tl-count">{{ m.count }}</span>
               </button>
               <div v-show="openKeys.has(m.key)" class="tl-children tl-days">
@@ -39,7 +46,7 @@
                   @click="selectedDate = d.date"
                 >
                   <span class="tl-dot"></span>
-                  <span class="tl-label">{{ d.day }} 日</span>
+                  <span class="tl-label">{{ isEn ? d.day : `${d.day} 日` }}</span>
                   <span class="tl-count">{{ d.count }}</span>
                 </button>
               </div>
@@ -53,9 +60,9 @@
         <header class="day-header">
           <h2 class="day-title">{{ formatDate(selectedDay.date) }}</h2>
           <div class="day-stats">
-            <span class="stat-badge">{{ selectedDay.clusters.length }} 条事件</span>
-            <span class="stat-badge" title="贡献本日事件的采集运行日期">
-              采集于 {{ selectedDay.collectedDates.join(' / ') }}
+            <span class="stat-badge">{{ isEn ? `${selectedDay.clusters.length} events` : `${selectedDay.clusters.length} 条事件` }}</span>
+            <span class="stat-badge" :title="isEn ? 'Collection runs contributing to this day' : '贡献本日事件的采集运行日期'">
+              {{ isEn ? 'Collected on' : '采集于' }} {{ selectedDay.collectedDates.join(' / ') }}
             </span>
           </div>
         </header>
@@ -67,9 +74,9 @@
           :class="{ 'is-recorded': c.recorded }"
         >
           <div class="event-head">
-            <span v-if="c.recorded" class="badge badge-recorded">📖 年表已收录</span>
-            <span v-else-if="c.corroborated" class="badge badge-verified">✅ 已验证 · {{ c.sourceCount }} 信源</span>
-            <span v-else class="badge badge-pending">⚠️ 待核实</span>
+            <span v-if="c.recorded" class="badge badge-recorded">📖 {{ isEn ? 'In timeline' : '年表已收录' }}</span>
+            <span v-else-if="c.corroborated" class="badge badge-verified">✅ {{ isEn ? `Verified · ${c.sourceCount} sources` : `已验证 · ${c.sourceCount} 信源` }}</span>
+            <span v-else class="badge badge-pending">⚠️ {{ isEn ? 'Unverified' : '待核实' }}</span>
             <a :href="c.sources[0]?.link" target="_blank" rel="noopener" class="event-title">
               {{ c.title }}
             </a>
@@ -93,7 +100,13 @@
 
 <script setup lang="ts">
 import { computed, reactive, ref } from 'vue'
+import { useData } from 'vitepress'
 import { data as days } from '../../data/updates.data.js'
+
+const { lang } = useData()
+const isEn = computed(() => lang.value === 'en-US')
+
+const MONTHS_EN = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 interface TlDay {
   date: string
@@ -152,8 +165,12 @@ function toggle(key: string) {
 const selectedDay = computed(() => days.find((d) => d.date === selectedDate.value))
 
 function formatDate(iso: string): string {
-  const weekdays = ['日', '一', '二', '三', '四', '五', '六']
   const d = new Date(`${iso}T00:00:00`)
+  if (isEn.value) {
+    const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+    return `${iso} ${weekdays[d.getDay()]}`
+  }
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六']
   return `${iso} 星期${weekdays[d.getDay()]}`
 }
 </script>

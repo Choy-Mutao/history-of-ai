@@ -357,6 +357,7 @@ export default defineConfig({
           { text: 'Biographies', link: '/en/biographies/turing', activeMatch: '/en/biographies/' },
           { text: 'Treatises', link: '/en/treatises/neural-networks', activeMatch: '/en/treatises/' },
           { text: 'Timeline', link: '/en/timeline/' },
+          { text: 'Updates', link: '/en/updates/' },
         ],
         sidebar: {
           '/en/guide/': [

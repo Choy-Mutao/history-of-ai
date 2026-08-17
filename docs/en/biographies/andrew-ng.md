@@ -97,7 +97,7 @@ If you took Ng's *CS229* or *Deep Learning Specialization*, or worked with him a
 3. Le, Q. V., Ranzato, M., Monga, R., Devin, M., Chen, K., Corrado, G., Dean, J., & Ng, A. Y. (2012). "Building High-level Features Using Large Scale Unsupervised Learning." *Proceedings of ICML*.
 4. Hannun, A., Case, C., Casper, J., Catanzaro, B., Diamos, G., Elsen, E., et al. (2014). "Deep Speech: Scaling up End-to-end Speech Recognition." arXiv:1412.5567.
 5. Ng, A. (2017). "Opening a new chapter of my work in AI." Personal Letter, March 2017. https://medium.com/@andrewng
-6. Ng, A. (2018). *Machine Learning Yearning*. deeplearning.ai. https://www.deeplearning.ai/machine-learning-yearning/
+6. Ng, A. (2018). *Machine Learning Yearning*. deeplearning.ai. https://www.deeplearning.ai/resources/
 7. Coursera (2012). "Stanford University, Daphne Koller, Andrew Ng Launch Coursera." Press release, April 2012.
 8. Markoff, J. (2012). "How Many Computers to Identify a Cat? 16,000." *The New York Times*, June 25, 2012.
 9. Metz, C. (2017). "Andrew Ng, AI Pioneer, Leaves Baidu." *Wired*, March 22, 2017.
