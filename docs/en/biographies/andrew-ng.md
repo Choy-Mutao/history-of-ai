@@ -87,7 +87,7 @@ Andrew Ng is not the inventor of the LLM, nor the man who wrote down the line of
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you took Ng's *CS229* or *Deep Learning Specialization*, or worked with him at Google Brain, Baidu, or Landing AI, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you took Ng's *CS229* or *Deep Learning Specialization*, or worked with him at Google Brain, Baidu, or Landing AI, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

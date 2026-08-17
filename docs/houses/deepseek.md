@@ -97,7 +97,7 @@ DeepSeek 之成，其道看似偶然：一家量化基金的溢出、几个刚�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 DeepSeek 或幻方量化工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 DeepSeek 或幻方量化工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

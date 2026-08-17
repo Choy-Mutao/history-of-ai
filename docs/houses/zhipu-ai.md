@@ -112,7 +112,7 @@ AutoGLM 之所以重要，是因为它代表智谱在产品形态上的一次跳
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在智谱 AI 或清华 KEG 实验室工作学习，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在智谱 AI 或清华 KEG 实验室工作学习，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

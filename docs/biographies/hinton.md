@@ -75,7 +75,7 @@
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 CMU、多伦多大学辛顿组、CIFAR NCAP 项目或 Google Brain 与他共事，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 CMU、多伦多大学辛顿组、CIFAR NCAP 项目或 Google Brain 与他共事，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

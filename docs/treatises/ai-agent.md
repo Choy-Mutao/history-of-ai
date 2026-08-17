@@ -111,7 +111,7 @@ Agent 的兴起带来三类前所未有的风险。
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过 AutoGPT、BabyAGI、LangChain、Devin、Cursor、Claude Code、ChatGPT Operator、Manus、扣子、AutoGLM、Dify 等 AI Agent 项目，或在企业 Agent 落地、MCP 协议、多 Agent 系统上有第一手经验，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过 AutoGPT、BabyAGI、LangChain、Devin、Cursor、Claude Code、ChatGPT Operator、Manus、扣子、AutoGLM、Dify 等 AI Agent 项目，或在企业 Agent 落地、MCP 协议、多 Agent 系统上有第一手经验，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

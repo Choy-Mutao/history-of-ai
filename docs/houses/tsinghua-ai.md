@@ -112,7 +112,7 @@ KEG 的另一位关键人物是 **李涓子**（Juanzi Li），2000 年代起致
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在清华大学计算机系、交叉信息研究院、KEG 实验室、智能产业研究院或清华系大模型公司学习工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在清华大学计算机系、交叉信息研究院、KEG 实验室、智能产业研究院或清华系大模型公司学习工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

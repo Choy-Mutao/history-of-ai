@@ -97,7 +97,7 @@ Forty years of autonomous driving look like a great experiment: humanity pours i
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on Stanley, Waymo, Cruise, Tesla Autopilot/FSD, Baidu Apollo, Pony.ai, WeRide, Huawei ADS, Xpeng XNGP, Momenta, or other autonomous-driving projects, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on Stanley, Waymo, Cruise, Tesla Autopilot/FSD, Baidu Apollo, Pony.ai, WeRide, Huawei ADS, Xpeng XNGP, Momenta, or other autonomous-driving projects, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

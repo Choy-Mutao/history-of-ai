@@ -73,7 +73,7 @@ Anthropic 也是最早系统发布"模型卡"和"负责任披露报告"的公司
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Anthropic 工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Anthropic 工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

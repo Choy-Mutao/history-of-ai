@@ -136,7 +136,7 @@ AlexNet 之后，NVIDIA 的数据中心 GPU 走上了一条近乎等差加速的
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 NVIDIA 工作，或者使用 CUDA 开展过研究、用 GeForce 训练过你的第一个神经网络，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 NVIDIA 工作，或者使用 CUDA 开展过研究、用 GeForce 训练过你的第一个神经网络，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

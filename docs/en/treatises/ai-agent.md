@@ -111,7 +111,7 @@ After thirty years of watching AI agents, one sees that **conversation was only 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on AutoGPT, BabyAGI, LangChain, Devin, Cursor, Claude Code, ChatGPT Operator, Manus, Coze, AutoGLM, Dify, or other AI Agent projects — or have first-hand experience with enterprise agent deployment, the MCP protocol, or multi-agent systems — please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on AutoGPT, BabyAGI, LangChain, Devin, Cursor, Claude Code, ChatGPT Operator, Manus, Coze, AutoGLM, Dify, or other AI Agent projects — or have first-hand experience with enterprise agent deployment, the MCP protocol, or multi-agent systems — please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

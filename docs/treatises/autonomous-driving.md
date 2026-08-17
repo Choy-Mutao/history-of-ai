@@ -97,7 +97,7 @@ L4 创业军团也在 2016–2018 年集体出场。**小马智行**（Pony.ai�
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过 Stanley、Waymo、Cruise、Tesla Autopilot/FSD、百度 Apollo、小马智行、文远知行、华为 ADS、小鹏 XNGP、Momenta 等自动驾驶项目，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过 Stanley、Waymo、Cruise、Tesla Autopilot/FSD、百度 Apollo、小马智行、文远知行、华为 ADS、小鹏 XNGP、Momenta 等自动驾驶项目，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

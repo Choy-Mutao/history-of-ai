@@ -76,7 +76,7 @@ Kai-Fu Lee has lived four turns of identity: researcher, manager, investor, foun
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you worked with Kai-Fu Lee in Reddy's lab at CMU, on the Apple Casper team, at SGI, at Microsoft Research China (MSRA), at Google China, at Sinovation Ventures, or at 01.AI, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you worked with Kai-Fu Lee in Reddy's lab at CMU, on the Apple Casper team, at SGI, at Microsoft Research China (MSRA), at Google China, at Sinovation Ventures, or at 01.AI, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

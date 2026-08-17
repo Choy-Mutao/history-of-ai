@@ -73,7 +73,7 @@ Stanford is to artificial intelligence what the marshes of Yunmeng were to Chu, 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked or studied at the Stanford AI Laboratory, HAI, CRFM, or the Stanford NLP Group, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked or studied at the Stanford AI Laboratory, HAI, CRFM, or the Stanford NLP Group, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

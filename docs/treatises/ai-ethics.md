@@ -73,7 +73,7 @@ ACM 在 2018 年正式创立 *FAccT*（Fairness, Accountability, and Transparenc
 ## 亲历者说
 
 ::: info 征集中
-如果你曾参与算法公平性研究、企业 AI 伦理委员会，或经历过算法决策带来的不公，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾参与算法公平性研究、企业 AI 伦理委员会，或经历过算法决策带来的不公，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -159,7 +159,7 @@ What is most moving about the dawn is not what the pioneers got right, but that 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you witnessed or have firsthand recollections of this period, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ---

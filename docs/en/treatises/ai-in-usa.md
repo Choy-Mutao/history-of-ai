@@ -93,7 +93,7 @@ I have looked upon seventy years of American AI and admire the depth of its inst
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on AI research or in industry in the United States, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on AI research or in industry in the United States, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

@@ -114,7 +114,7 @@ ChatGPT 之后，游戏内的非玩家角色（NPC）迎来了第二次生命。
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过游戏 AI 的研究、开发或对局，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过游戏 AI 的研究、开发或对局，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -87,7 +87,7 @@ Google Brain 后来孕育了 TensorFlow、Transformer 与一系列基础设施�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾上过吴恩达的 *CS229* 或 *Deep Learning Specialization*，或在 Google Brain、百度、Landing AI 与他共事，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾上过吴恩达的 *CS229* 或 *Deep Learning Specialization*，或在 Google Brain、百度、Landing AI 与他共事，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

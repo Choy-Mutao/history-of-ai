@@ -61,7 +61,7 @@ Observing the dispute over world models, one sees the reunion of twentieth-centu
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on world models, video generation, embodied AI, or related research, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on world models, video generation, embodied AI, or related research, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

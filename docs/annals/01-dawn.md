@@ -159,7 +159,7 @@ SNARC 模拟了四十个神经元的网络，能够在一个虚拟迷宫中学�
 ## 亲历者说
 
 ::: info 征集中
-如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ---

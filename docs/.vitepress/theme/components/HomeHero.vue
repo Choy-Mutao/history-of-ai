@@ -33,14 +33,14 @@
 
         <p v-if="isEn" class="hero-note">
           Note: Curation is inherently subjective, and omissions are inevitable. Visit the
-          <a href="https://github.com/zsjunai/history-of-ai" target="_blank" rel="noopener">GitHub repository</a>
+          <a href="https://github.com/Choy-Mutao/history-of-ai" target="_blank" rel="noopener">GitHub repository</a>
           to suggest corrections, or read the
           <a :href="withBase('/en/guide/how-to-contribute')">contributing guide</a> —
           history should not be written by a single hand.
         </p>
         <p v-else class="hero-note">
           注：史料编排难免主观，疏漏在所难免。欢迎访问
-          <a href="https://github.com/zsjunai/history-of-ai" target="_blank" rel="noopener">GitHub 仓库</a>
+          <a href="https://github.com/Choy-Mutao/history-of-ai" target="_blank" rel="noopener">GitHub 仓库</a>
           提出修订，或阅读<a :href="withBase('/guide/how-to-contribute')">贡献指南</a>参与书写——历史不应由一个人书写。
         </p>
       </div>

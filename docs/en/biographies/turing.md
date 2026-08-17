@@ -82,7 +82,7 @@ With a machine that did not exist Turing defined the boundary of computation; wi
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew Alan Turing personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew Alan Turing personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

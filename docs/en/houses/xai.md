@@ -112,7 +112,7 @@ xAI is to OpenAI what Xiang Yu was to Liu Bang—the same school, parted in enmi
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at xAI or as an engineer on the Memphis Colossus project, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at xAI or as an engineer on the Memphis Colossus project, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

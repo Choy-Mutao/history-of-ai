@@ -122,7 +122,7 @@ ChatGPT 的魔力不在于某项单一的新技术。真正的突破是交互形
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 OpenAI 工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 OpenAI 工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ---

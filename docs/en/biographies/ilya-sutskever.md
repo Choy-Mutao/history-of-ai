@@ -81,7 +81,7 @@ Sutskever is the quietest central figure in the modern history of AI. He is no p
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have firsthand recollections of Sutskever or related testimony, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have firsthand recollections of Sutskever or related testimony, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

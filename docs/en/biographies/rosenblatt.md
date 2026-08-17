@@ -78,7 +78,7 @@ Rosenblatt is to artificial intelligence what Shang Yang was to the state of Qin
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew Frank Rosenblatt personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew Frank Rosenblatt personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

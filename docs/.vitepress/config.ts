@@ -63,7 +63,7 @@ export default defineConfig({
       publisher: {
         '@type': 'Organization',
         name: 'AI 史记开源社区',
-        url: 'https://github.com/zsjunai/history-of-ai',
+        url: 'https://github.com/Choy-Mutao/history-of-ai',
       },
       potentialAction: {
         '@type': 'SearchAction',
@@ -317,7 +317,7 @@ export default defineConfig({
           ],
         },
         editLink: {
-          pattern: 'https://github.com/zsjunai/history-of-ai/edit/main/docs/:path',
+          pattern: 'https://github.com/Choy-Mutao/history-of-ai/edit/main/docs/:path',
           text: '在 GitHub 上编辑此页',
         },
         footer: {
@@ -567,7 +567,7 @@ export default defineConfig({
           ],
         },
         editLink: {
-          pattern: 'https://github.com/zsjunai/history-of-ai/edit/main/docs/:path',
+          pattern: 'https://github.com/Choy-Mutao/history-of-ai/edit/main/docs/:path',
           text: 'Edit this page on GitHub',
         },
         footer: {
@@ -583,7 +583,7 @@ export default defineConfig({
 
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zsjunai/history-of-ai' },
+      { icon: 'github', link: 'https://github.com/Choy-Mutao/history-of-ai' },
     ],
     search: {
       provider: 'local',

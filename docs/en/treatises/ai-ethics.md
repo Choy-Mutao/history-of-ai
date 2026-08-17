@@ -73,7 +73,7 @@ I have observed eighty years of disputes over AI ethics, and the current runs li
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on algorithmic-fairness research, served on a corporate AI ethics board, or experienced injustice from automated decisions, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on algorithmic-fairness research, served on a corporate AI ethics board, or experienced injustice from automated decisions, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

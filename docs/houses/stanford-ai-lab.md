@@ -73,7 +73,7 @@ D.C. Power Building 时期的 SAIL 培养出 1970 年代一批塑造行业的研
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在斯坦福 AI 实验室、HAI、CRFM 或斯坦福 NLP 组工作或学习，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在斯坦福 AI 实验室、HAI、CRFM 或斯坦福 NLP 组工作或学习，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

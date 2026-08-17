@@ -113,7 +113,7 @@ ICOT 之于人工智能，犹楚汉之际之项羽——力拔山兮气盖世，
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 ICOT、ETL 或第五代计算机相关项目工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 ICOT、ETL 或第五代计算机相关项目工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

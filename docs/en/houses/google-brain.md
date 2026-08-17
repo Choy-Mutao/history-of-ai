@@ -95,7 +95,7 @@ Google Brain is the AI era's most brilliant and most heart-rending in-house lab.
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Google Brain, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Google Brain, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

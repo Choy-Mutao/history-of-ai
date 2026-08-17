@@ -145,7 +145,7 @@ Shakey 最重要的技术遗产是它催生的两个算法：A* 搜索算法（�
 ## 亲历者说
 
 ::: info 征集中
-如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解这段历史的第一手资料或亲历者回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ---

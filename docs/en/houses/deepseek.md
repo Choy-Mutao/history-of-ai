@@ -97,7 +97,7 @@ DeepSeek's success looks accidental: an overflow from a quant fund, a handful of
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at DeepSeek or High-Flyer Quant, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at DeepSeek or High-Flyer Quant, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

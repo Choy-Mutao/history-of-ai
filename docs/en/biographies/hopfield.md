@@ -79,7 +79,7 @@ Hopfield is to neural networks what Chen Sheng was to the Qin — the outsider w
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew John Hopfield personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew John Hopfield personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

@@ -76,7 +76,7 @@
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 CMU 雷迪实验室、Apple Casper 团队、SGI、微软中国研究院（MSRA）、Google 中国、创新工场或 01.AI 与李开复共事，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 CMU 雷迪实验室、Apple Casper 团队、SGI、微软中国研究院（MSRA）、Google 中国、创新工场或 01.AI 与李开复共事，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

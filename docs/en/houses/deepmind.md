@@ -136,7 +136,7 @@ DeepMind began in a corner of London; in its prime its name moved through the wi
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at DeepMind, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at DeepMind, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ---

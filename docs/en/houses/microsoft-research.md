@@ -92,7 +92,7 @@ Microsoft Research's thirty-five years are a second growth of an industrial rese
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Microsoft Research or MSRA, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Microsoft Research or MSRA, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

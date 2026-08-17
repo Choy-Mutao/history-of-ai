@@ -112,7 +112,7 @@ MiniMax 起于商汤一支偏师，闫俊杰携汤门旧部南下上海，立"�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 MiniMax 工作或参与过 Talkie / 海螺的研发与运营，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 MiniMax 工作或参与过 Talkie / 海螺的研发与运营，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -111,7 +111,7 @@ IBM 研究院之于人工智能，犹大汉之萧何——不必以勇冠三军�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 IBM Research、Watson Group 或 MIT–IBM Watson AI Lab 工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 IBM Research、Watson Group 或 MIT–IBM Watson AI Lab 工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

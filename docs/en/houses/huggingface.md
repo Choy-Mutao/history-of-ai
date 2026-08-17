@@ -88,7 +88,7 @@ Hugging Face is the biggest winner of the open-source AI era, but its way of win
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Hugging Face, contributed to libraries like Transformers, or uploaded a model to the Hub, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Hugging Face, contributed to libraries like Transformers, or uploaded a model to the Hub, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

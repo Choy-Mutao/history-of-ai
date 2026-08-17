@@ -114,7 +114,7 @@ Eighty years of entanglement between AI and games show two things at once: they 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on the research, development, or play of game AI, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on the research, development, or play of game AI, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

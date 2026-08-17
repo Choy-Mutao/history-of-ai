@@ -93,7 +93,7 @@ After sixty years, embodied AI has taught us this: **the body is intelligence's 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on Boston Dynamics, Google Robotics, Unitree, AgiBot, Figure, 1X, Physical Intelligence, or other embodied-AI projects — or have first-hand experience in simulation, reinforcement learning, or VLA models — please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on Boston Dynamics, Google Robotics, Unitree, AgiBot, Figure, 1X, Physical Intelligence, or other embodied-AI projects — or have first-hand experience in simulation, reinforcement learning, or VLA models — please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

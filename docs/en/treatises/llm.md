@@ -81,7 +81,7 @@ Surveying the rise of large language models, one finds no precedent for such spe
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on the development, productization, or deployment of large models, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on the development, productization, or deployment of large models, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

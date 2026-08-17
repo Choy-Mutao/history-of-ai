@@ -118,7 +118,7 @@ DAMO arose at Yunqi in 2017, with Jack Ma's promise of one hundred billion. Scho
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Alibaba DAMO Academy, T-Head, or the Qwen team, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Alibaba DAMO Academy, T-Head, or the Qwen team, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

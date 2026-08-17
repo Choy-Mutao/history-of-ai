@@ -130,7 +130,7 @@ LLaMA 让一个老问题浮出水面——它真的算"开源"吗？
 ## 亲历者说
 
 ::: info 征集中
-如果你贡献过 AI 开源框架、模型或社区，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你贡献过 AI 开源框架、模型或社区，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

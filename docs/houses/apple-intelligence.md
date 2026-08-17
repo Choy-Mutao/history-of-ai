@@ -111,7 +111,7 @@ Private Cloud Compute（PCC）是 Apple Intelligence 最具工程野心的部分
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在苹果机器学习、Siri 或 Apple Intelligence 团队工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在苹果机器学习、Siri 或 Apple Intelligence 团队工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

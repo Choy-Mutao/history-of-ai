@@ -80,7 +80,7 @@ The path of Altman shows the birth of a new kind of power. He writes no code, pu
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you worked with Altman at Loopt, Y Combinator, or OpenAI, or lived through the five days of November 2023, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you worked with Altman at Loopt, Y Combinator, or OpenAI, or lived through the five days of November 2023, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

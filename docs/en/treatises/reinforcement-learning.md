@@ -107,7 +107,7 @@ A century of reinforcement learning is, at root, the extension of one philosophy
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on the DQN/AlphaGo line, robotic RL, RLHF data annotation, or reasoning-model training, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on the DQN/AlphaGo line, robotic RL, RLHF data annotation, or reasoning-model training, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

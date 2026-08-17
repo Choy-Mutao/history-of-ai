@@ -112,7 +112,7 @@ xAI 之于 OpenAI，犹项羽之于刘邦——同出一门，反目相向，各
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 xAI 工作，或在 Memphis Colossus 项目中担任过工程师，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 xAI 工作，或在 Memphis Colossus 项目中担任过工程师，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

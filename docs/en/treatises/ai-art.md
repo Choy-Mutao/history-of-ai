@@ -117,7 +117,7 @@ The encounter of art and AI is older than most realize: more than half a century
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you are an artist, musician, writer, or designer affected by AI, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai) and share your experience.
+If you are an artist, musician, writer, or designer affected by AI, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai) and share your experience.
 :::
 
 ## References

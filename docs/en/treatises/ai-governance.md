@@ -94,7 +94,7 @@ I have observed a decade of global AI regulation as one observes the Warring Sta
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have participated in the EU AI Act, U.S. AI executive orders, China's generative AI rules, the Bletchley Summit, or other policy processes, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have participated in the EU AI Act, U.S. AI executive orders, China's generative AI rules, the Bletchley Summit, or other policy processes, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

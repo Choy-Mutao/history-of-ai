@@ -7,7 +7,7 @@
 **AI 史记（History of AI）** 是一本开源的人工智能历史书籍，仿司马迁《史记》五体结构（本纪 / 世家 / 列传 / 书 / 表），记录 AI 从 1943 年到 2026 年的关键事件、人物与机构。
 
 - 这是一个**纯内容型静态站点项目**：没有后端。代码量很少，主要工作是撰写和维护 Markdown 内容，以及少量 VitePress 主题代码。
-- 仓库：https://github.com/zsjunai/history-of-ai
+- 仓库：https://github.com/Choy-Mutao/history-of-ai
 - 在线地址：https://ai.puliot.com/
 - 许可证：CC-BY-SA 4.0（内容），见 `LICENSE`
 - 中英双语：中文为主站点（`docs/` 根），英文版在 `docs/en/`（已完整镜像中文版全部章节）

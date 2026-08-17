@@ -108,7 +108,7 @@ Meta 的 AI 之路最具张力：公司战略坚定押注开源和算力，首�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 FAIR、Meta GenAI 或 Superintelligence Labs 工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 FAIR、Meta GenAI 或 Superintelligence Labs 工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

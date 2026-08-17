@@ -92,7 +92,7 @@ MSR 的贡献方式与 2015 年之前相比已经不同——不再以"发表最
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在微软研究院或 MSRA 工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在微软研究院或 MSRA 工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

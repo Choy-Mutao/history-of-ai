@@ -117,7 +117,7 @@ ChatGPT 之后，文字创作首先被深度卷入 AI 浪潮——但也最早�
 ## 亲历者说
 
 ::: info 征集中
-如果你是被 AI 影响的艺术家、音乐人、作家、设计师，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)分享你的经历。
+如果你是被 AI 影响的艺术家、音乐人、作家、设计师，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)分享你的经历。
 :::
 
 ## 参考资料

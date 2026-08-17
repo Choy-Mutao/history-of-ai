@@ -61,7 +61,7 @@ Sora 究竟算不算世界模型？支持者说：它学到了三维一致性、
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过世界模型、视频生成、具身智能或相关研究，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过世界模型、视频生成、具身智能或相关研究，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -78,7 +78,7 @@ Toronto AI's story is the story of a person and a city completing each other. Hi
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked or studied at the University of Toronto's AI groups, the CIFAR NCAP program, or the Vector Institute, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked or studied at the University of Toronto's AI groups, the CIFAR NCAP program, or the Vector Institute, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

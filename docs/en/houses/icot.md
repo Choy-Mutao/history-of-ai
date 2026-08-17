@@ -113,7 +113,7 @@ ICOT is to AI what Xiang Yu was to the Chu-Han contention—mighty in strength, 
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at ICOT, ETL, or on Fifth Generation–related projects, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at ICOT, ETL, or on Fifth Generation–related projects, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

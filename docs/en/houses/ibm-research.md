@@ -111,7 +111,7 @@ IBM Research is to artificial intelligence what Xiao He was to the Han—not the
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at IBM Research, the Watson Group, or the MIT–IBM Watson AI Lab, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at IBM Research, the Watson Group, or the MIT–IBM Watson AI Lab, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

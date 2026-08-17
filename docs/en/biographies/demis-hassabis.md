@@ -96,7 +96,7 @@ Hassabis's life held four possibilities. He could have been a chess master — h
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you worked with Hassabis at Bullfrog, Lionhead, Elixir, the UCL Gatsby Unit, or DeepMind, or witnessed the AlphaGo or AlphaFold projects, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you worked with Hassabis at Bullfrog, Lionhead, Elixir, the UCL Gatsby Unit, or DeepMind, or witnessed the AlphaGo or AlphaFold projects, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

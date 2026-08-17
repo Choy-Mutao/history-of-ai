@@ -119,7 +119,7 @@ Baidu is to Chinese AI as the early-departing goose: it fanned the wind first, a
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at Baidu IDL, Baidu Research, PaddlePaddle, Apollo, ERNIE, or Apollo Go, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at Baidu IDL, Baidu Research, PaddlePaddle, Apollo, ERNIE, or Apollo Go, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

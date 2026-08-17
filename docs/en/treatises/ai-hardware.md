@@ -117,7 +117,7 @@ Surveying eighty years of AI compute, one perceives its movement as a great rive
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on AI chip design, data-center construction, or compute scheduling, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on AI chip design, data-center construction, or compute scheduling, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

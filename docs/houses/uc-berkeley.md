@@ -71,7 +71,7 @@ Abbeel 还有一长串伯克利出身的学生进入产业前沿：John Schulman
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 BAIR、RISELab、Sky Computing Lab 或伯克利 AI 相关组学习、工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 BAIR、RISELab、Sky Computing Lab 或伯克利 AI 相关组学习、工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

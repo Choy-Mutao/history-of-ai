@@ -103,7 +103,7 @@ Surveying seventy years of knowledge representation, one sees a tug-of-war betwe
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on expert systems, knowledge graphs, or neuro-symbolic research, or have witnessed the deployment of RAG in industry, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on expert systems, knowledge graphs, or neuro-symbolic research, or have witnessed the deployment of RAG in industry, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

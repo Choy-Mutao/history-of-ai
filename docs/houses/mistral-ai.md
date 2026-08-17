@@ -112,7 +112,7 @@ Mistral 之于欧洲 AI，犹商鞅之于秦国——以一隅之地、数年之
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在 Mistral AI 工作或参与其开源社区，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在 Mistral AI 工作或参与其开源社区，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

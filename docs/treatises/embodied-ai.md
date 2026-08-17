@@ -93,7 +93,7 @@ Apptronik 来自得州奥斯汀，与梅赛德斯-奔驰、GXO Logistics 合作�
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过 Boston Dynamics、Google Robotics、宇树、智元、Figure、1X、Physical Intelligence 等具身智能项目，或在仿真、强化学习、VLA 模型上有第一手经验，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过 Boston Dynamics、Google Robotics、宇树、智元、Figure、1X、Physical Intelligence 等具身智能项目，或在仿真、强化学习、VLA 模型上有第一手经验，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

@@ -77,7 +77,7 @@ McCarthy gave the new learning a name, built it a tool, and preached its mission
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew John McCarthy personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew John McCarthy personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

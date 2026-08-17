@@ -79,7 +79,7 @@ Vapnik 与<Person id="chervonenkis" />合作的 VC 维度（VC dimension）以�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在贝尔实验室、AT&T Labs、朗讯或诺基亚贝尔实验室工作或访问，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在贝尔实验室、AT&T Labs、朗讯或诺基亚贝尔实验室工作或访问，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

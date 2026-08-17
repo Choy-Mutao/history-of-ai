@@ -78,7 +78,7 @@ Simon's strangeness lay in this: he never let himself be locked into a single di
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you knew Herbert A. Simon personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you knew Herbert A. Simon personally or have firsthand sources or recollections, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

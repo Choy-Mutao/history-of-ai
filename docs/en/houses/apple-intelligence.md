@@ -111,7 +111,7 @@ Apple's relation to AI resembles the Han dynasty under Wen and Jing—not contes
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked on Apple machine learning, Siri, or Apple Intelligence, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked on Apple machine learning, Siri, or Apple Intelligence, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

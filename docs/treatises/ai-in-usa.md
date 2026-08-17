@@ -93,7 +93,7 @@ DARPA 真正的天才之处不在于它选对了哪个项目，而在于它能�
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在美国参与 AI 研究或产业实践，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在美国参与 AI 研究或产业实践，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

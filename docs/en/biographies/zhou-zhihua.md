@@ -76,7 +76,7 @@ To survey Zhou Zhihua's scholarly life is to see ambition aimed not at brillianc
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you studied or worked with Professor Zhou at the LAMDA Group or the School of Artificial Intelligence of Nanjing University, or were involved in the writing of *Machine Learning* (the Watermelon Book), please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you studied or worked with Professor Zhou at the LAMDA Group or the School of Artificial Intelligence of Nanjing University, or were involved in the writing of *Machine Learning* (the Watermelon Book), please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

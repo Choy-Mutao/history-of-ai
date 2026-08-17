@@ -79,7 +79,7 @@ Hinton 在多次访谈中明确指出，他的工作"建立在 Hopfield 的能�
 ## 亲历者说
 
 ::: info 征集中
-如果你了解霍普菲尔德的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你了解霍普菲尔德的第一手资料或相关回忆，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

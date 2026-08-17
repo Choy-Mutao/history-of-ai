@@ -120,7 +120,7 @@ AI 是达摩院最终走向公众的方向。
 ## 亲历者说
 
 ::: info 征集中
-如果你曾在阿里达摩院、平头哥或通义千问团队工作，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你曾在阿里达摩院、平头哥或通义千问团队工作，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料

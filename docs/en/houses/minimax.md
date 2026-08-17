@@ -112,7 +112,7 @@ Yan Junjie himself rarely appears in public and avoids verbal sparring with peer
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at MiniMax or contributed to Talkie / Hailuo's development or operations, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at MiniMax or contributed to Talkie / Hailuo's development or operations, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

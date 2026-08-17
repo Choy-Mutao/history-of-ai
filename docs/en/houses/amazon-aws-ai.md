@@ -69,7 +69,7 @@ AWS is the AI giant that least resembles an AI company. It did not write Transfo
 ## Eyewitness Accounts
 
 ::: info Call for contributions
-If you have worked at AWS AI, SageMaker, Bedrock, or Annapurna Labs, please [contribute on GitHub](https://github.com/zsjunai/history-of-ai).
+If you have worked at AWS AI, SageMaker, Bedrock, or Annapurna Labs, please [contribute on GitHub](https://github.com/Choy-Mutao/history-of-ai).
 :::
 
 ## References

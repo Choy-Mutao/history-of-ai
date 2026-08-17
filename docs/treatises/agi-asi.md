@@ -91,7 +91,7 @@ AGI 是否一定有意识？意识是智能的必要条件，还是只是哺乳�
 ## 亲历者说
 
 ::: info 征集中
-如果你参与过 AGI 路线讨论、安全研究或时间表评估，欢迎[提交贡献](https://github.com/zsjunai/history-of-ai)。
+如果你参与过 AGI 路线讨论、安全研究或时间表评估，欢迎[提交贡献](https://github.com/Choy-Mutao/history-of-ai)。
 :::
 
 ## 参考资料
