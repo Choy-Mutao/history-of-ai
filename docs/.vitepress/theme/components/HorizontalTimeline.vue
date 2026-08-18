@@ -55,6 +55,18 @@
           <span class="ht-tick-label">{{ t.year }}</span>
         </div>
 
+        <!-- 月份细刻度（高缩放时显示，配合日级定位） -->
+        <template v-if="pxPerMonth >= 32">
+          <div
+            v-for="t in monthTicks"
+            :key="`${t.year}-${t.month}`"
+            class="ht-tick ht-tick--minor"
+            :style="{ left: `${t.x}px` }"
+          >
+            <span v-if="pxPerMonth >= 48" class="ht-tick-label ht-tick-label--minor">{{ isEn ? MONTHS_EN[t.month - 1] : `${t.month}月` }}</span>
+          </div>
+        </template>
+
         <!-- 事件卡片 -->
         <component
           :is="ev.href ? 'a' : 'span'"
@@ -89,10 +101,12 @@ const { lang } = useData()
 const isEn = computed(() => lang.value === 'en-US')
 
 /* ===== 缩放：px/月 ===== */
-const ZOOMS = [1, 2, 4, 8, 16, 32]
+const ZOOMS = [1, 2, 4, 8, 16, 32, 64]
 const DEFAULT_ZOOM_IDX = 4 // 16px/月：2022–2026 约 960px，一屏可读
 const zoomIdx = ref(DEFAULT_ZOOM_IDX)
 const pxPerMonth = computed(() => ZOOMS[zoomIdx.value])
+
+const MONTHS_EN = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 /* ===== 数据展平 ===== */
 const HUES = [200, 180, 220, 30, 0, 260, 280, 145, 320, 15]
@@ -101,6 +115,8 @@ interface FlatEvent {
   key: string
   year: number
   month: number
+  /** 日（无确切日期时取 15，即月中占位） */
+  day: number
   text: string
   href?: string
   importance?: TimelineEvent['importance']
@@ -119,6 +135,7 @@ const flat = computed<FlatEvent[]>(() =>
       key: `${eraIdx}-${i}`,
       year: Number(ev.year),
       month: ev.month ?? 6,
+      day: ev.day ?? 15,
       text: isEn.value ? ev.event_en ?? ev.event : ev.event,
       href: ev.link ? withBase(localizeLink(ev.link)) : undefined,
       importance: ev.importance,
@@ -130,9 +147,14 @@ const flat = computed<FlatEvent[]>(() =>
 const minYear = computed(() => Math.min(...flat.value.map((e) => e.year)))
 const maxYear = computed(() => Math.max(...flat.value.map((e) => e.year)))
 
-/** 以 1 月为单位的线性时间 → x 坐标 */
-function xOf(year: number, month: number): number {
-  return ((year - minYear.value) * 12 + (month - 1)) * pxPerMonth.value + 40
+function daysInMonth(year: number, month: number): number {
+  return new Date(year, month, 0).getDate()
+}
+
+/** 以月为单位的线性时间（日按当月天数折算为小数）→ x 坐标 */
+function xOf(year: number, month: number, day = 1): number {
+  const frac = (Math.min(day, daysInMonth(year, month)) - 1) / daysInMonth(year, month)
+  return ((year - minYear.value) * 12 + (month - 1) + frac) * pxPerMonth.value + 40
 }
 
 const totalWidth = computed(() => xOf(maxYear.value + 1, 1) + 40)
@@ -149,13 +171,25 @@ const yearTicks = computed(() => {
   return ticks
 })
 
+/* ===== 月份细刻度（高缩放时显示；跳过 1 月，避免与年份刻度重叠）===== */
+const monthTicks = computed(() => {
+  if (pxPerMonth.value < 32) return []
+  const ticks: { year: number; month: number; x: number }[] = []
+  for (let y = minYear.value; y <= maxYear.value; y++) {
+    for (let m = 2; m <= 12; m++) {
+      ticks.push({ year: y, month: m, x: xOf(y, m) })
+    }
+  }
+  return ticks
+})
+
 /* ===== 时代标签（取各时代首个事件的位置）===== */
 const eraLabels = computed(() =>
   timeline.map((era, idx) => {
     const first = era.events[0]
     return {
       name: isEn.value ? era.name_en ?? era.name : era.name,
-      x: xOf(Number(first?.year ?? minYear.value), first?.month ?? 1),
+      x: xOf(Number(first?.year ?? minYear.value), first?.month ?? 1, first?.day ?? 1),
       idx,
     }
   }),
@@ -183,9 +217,9 @@ function estimateWidth(text: string): number {
 const laidOut = computed(() => {
   const lanes: number[] = []
   const items = [...flat.value]
-    .sort((a, b) => a.year - b.year || a.month - b.month)
+    .sort((a, b) => a.year - b.year || a.month - b.month || a.day - b.day)
     .map((ev) => {
-      const x = xOf(ev.year, ev.month)
+      const x = xOf(ev.year, ev.month, ev.day)
       const w = estimateWidth(ev.text)
       let row = lanes.findIndex((last) => last <= x - GAP)
       if (row === -1) {
@@ -385,6 +419,16 @@ onBeforeUnmount(() => {
   font-size: 11px;
   color: var(--vp-c-text-3);
   font-feature-settings: 'tnum';
+}
+
+/* 月份细刻度：更矮更淡，与年份刻度区分 */
+.ht-tick--minor {
+  top: 44px;
+  opacity: 0.25;
+}
+.ht-tick-label--minor {
+  font-size: 9px;
+  opacity: 0.8;
 }
 
 /* ===== 事件卡片 ===== */
