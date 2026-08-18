@@ -27,12 +27,6 @@
   --vp-c-tip-2: rgba(0, 0, 242, 0.12);
   --vp-c-tip-3: rgba(0, 0, 242, 0.08);
   --vp-c-tip-soft: rgba(0, 0, 242, 0.06);
-
-  /* Home hero — 纯色电蓝（去紫渐变） */
-  --vp-home-hero-name-color: #0000f2;
-  --vp-home-hero-name-background: none;
-  --vp-home-hero-image-background-image: none;
-  --vp-home-hero-image-filter: none;
 }
 
 .dark {
@@ -64,8 +58,4 @@
   --vp-c-tip-2: rgba(107, 107, 255, 0.12);
   --vp-c-tip-3: rgba(107, 107, 255, 0.08);
   --vp-c-tip-soft: rgba(107, 107, 255, 0.06);
-
-  /* Home hero */
-  --vp-home-hero-name-color: #8f8fff;
-  --vp-home-hero-name-background: none;
 }

@@ -250,6 +250,3 @@ export const timeline: TimelineEra[] = [
     ],
   },
 ]
-
-/** 所有事件的扁平列表 */
-export const allEvents: TimelineEvent[] = timeline.flatMap((era) => era.events)
