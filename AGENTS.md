@@ -81,7 +81,6 @@ src/                           # 国内信源采集子系统（与站点构建�
 | `HomeHero.vue` | 首页 hero（仿 ai-timeline.org：年份区间 + 衬线大标题 + 简介段落，中英双语） |
 | `ParticleNetwork.vue` | 首页 hero 粒子神经网络背景动画 |
 | `StatsBar.vue` | 首页统计数字栏（含篇数统计，篇数变化时需改） |
-| `HistoryLoader.vue` | 终端风格打字机加载动画 |
 | `HomeFooter.vue` | 首页底部 |
 | `TimelinePage.vue` | 大事年表页面（读取 `data/timeline.ts`，含列表/时间轴双视图切换） |
 | `HorizontalTimeline.vue` | 横向可缩放时间轴视图（泳道防重叠，默认定位 2022 年） |

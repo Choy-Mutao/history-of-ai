@@ -5,7 +5,6 @@
     </template>
     <template #home-hero-after>
       <StatsBar />
-      <HistoryLoader />
       <section class="home-timeline">
         <header class="home-timeline-header">
           <h2 class="home-timeline-title">{{ isEn ? 'The Timeline' : '大事年表' }}</h2>
@@ -28,7 +27,6 @@ import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import HomeHero from './HomeHero.vue'
 import StatsBar from './StatsBar.vue'
-import HistoryLoader from './HistoryLoader.vue'
 import TimelinePage from './TimelinePage.vue'
 import HomeFooter from './HomeFooter.vue'
 

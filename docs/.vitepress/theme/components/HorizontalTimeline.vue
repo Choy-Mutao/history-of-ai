@@ -15,10 +15,7 @@
       <span class="ht-hint">{{ isEn ? 'Drag or scroll to explore · click an event to open its chapter' : '拖拽或滚动探索 · 点击事件跳转对应章节' }}</span>
     </div>
 
-    <!-- 横向滚动轨道（水合定位 2022 前淡入，避免年代跳变） -->
-    <noscript>
-      <component :is="'style'">.ht-track { opacity: 1 !important; }</component>
-    </noscript>
+    <!-- 横向滚动轨道（水合定位 2022 前淡入，避免年代跳变；no-JS 兜底样式见 config.ts head） -->
     <div
       ref="track"
       class="ht-track"
@@ -390,17 +387,30 @@ onBeforeUnmount(() => {
   color: var(--vp-c-text-3);
 }
 
-/* ===== 轨道 ===== */
+/* ===== 轨道（ai-timeline.org 风格：透明底 + 两侧渐隐遮罩 + 纤细滚动条）===== */
 .ht-track {
   overflow-x: auto;
   overflow-y: hidden;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 4px;
-  background: var(--vp-c-bg-soft);
+  background: transparent;
   cursor: grab;
   user-select: none;
   opacity: 0;
   transition: opacity 0.35s ease;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--vp-c-text-3) 40%, transparent) transparent;
+}
+.ht-track::-webkit-scrollbar {
+  height: 6px;
+  background: transparent;
+}
+.ht-track::-webkit-scrollbar-track {
+  background: transparent;
+}
+.ht-track::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--vp-c-text-3) 40%, transparent);
+  border-radius: 3px;
 }
 .ht-track.is-ready {
   opacity: 1;
@@ -446,6 +456,10 @@ onBeforeUnmount(() => {
   font-weight: 700;
   color: var(--vp-c-brand-1);
   font-feature-settings: 'tnum';
+  /* ai-timeline.org 的年份辉光，映射到品牌色 */
+  text-shadow:
+    0 0 4px color-mix(in srgb, var(--vp-c-brand-1) 35%, transparent),
+    0 0 12px color-mix(in srgb, var(--vp-c-brand-1) 18%, transparent);
 }
 
 /* 月份细刻度：更矮更淡，与年份刻度区分 */
@@ -477,7 +491,7 @@ onBeforeUnmount(() => {
   opacity: 0.9;
 }
 
-/* ===== 事件卡片 ===== */
+/* ===== 事件卡片（玻璃拟态 + 悬浮发光，配色走主题变量）===== */
 .ht-event {
   position: absolute;
   display: flex;
@@ -486,18 +500,26 @@ onBeforeUnmount(() => {
   padding: 4px 8px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 4px;
-  background: var(--vp-c-bg);
+  background: linear-gradient(135deg, var(--vp-c-bg-soft), var(--vp-c-bg));
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 2px 8px rgba(0, 0, 0, 0.04);
   font-size: 12px;
   line-height: 1.4;
   color: var(--vp-c-text-2);
   text-decoration: none;
   white-space: nowrap;
   overflow: hidden;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, text-shadow 0.2s ease;
 }
 .ht-event:hover {
   border-color: hsl(var(--era-hue), 60%, 55%);
-  box-shadow: 0 2px 10px hsla(var(--era-hue), 60%, 50%, 0.2);
+  box-shadow:
+    0 0 16px hsla(var(--era-hue), 60%, 50%, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  text-shadow: 0 0 8px hsla(var(--era-hue), 80%, 60%, 0.45);
   color: var(--vp-c-text-1);
   z-index: 2;
 }

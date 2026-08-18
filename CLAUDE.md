@@ -35,7 +35,6 @@ AI 史记——一本开源的人工智能历史书籍，以司马迁《史记�
 | `CustomLayout.vue` | 自定义布局，注入首页各区域组件 |
 | `ParticleNetwork.vue` | 首页 hero 粒子神经网络背景动画 |
 | `StatsBar.vue` | 首页统计数字栏（数字滚入动画，可点击跳转） |
-| `HistoryLoader.vue` | 首页终端风格历史加载动画（打字机效果） |
 | `HomeFooter.vue` | 首页底部引言和链接 |
 | `TimelinePage.vue` | 大事年表页面（从 timeline.ts 读取数据） |
 | `PersonTooltip.vue` | 人物悬浮卡片组件，Markdown 中用 `<Person id="turing" />` 调用，数据源为 `data/people.ts` |
