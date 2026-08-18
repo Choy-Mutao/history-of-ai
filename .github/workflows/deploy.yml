@@ -35,7 +35,7 @@ jobs:
         run: npm run docs:build
         env:
           VITEPRESS_BASE: /history-of-ai/
-          VITEPRESS_HOSTNAME: https://ai.puliot.com/
+          VITEPRESS_HOSTNAME: https://choy-mutao.github.io/history-of-ai/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /public/images/
 
-Sitemap: https://ai.puliot.com/sitemap.xml
+Sitemap: https://choy-mutao.github.io/history-of-ai/sitemap.xml

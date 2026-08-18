@@ -6,7 +6,7 @@ English | [中文](README.md)
 
 ## Read Online
 
-🔗 **https://ai.puliot.com/**
+🔗 **https://choy-mutao.github.io/history-of-ai/**
 
 ## Project Scope
 
@@ -140,4 +140,4 @@ For any questions, suggestions, or collaboration inquiries, feel free to reach o
 
 ---
 
-**History of AI Open Source Community** · [Read Online](https://ai.puliot.com/) · [Contribute](CONTRIBUTING.md) · [Submit an Issue](https://github.com/Choy-Mutao/history-of-ai/issues)
+**History of AI Open Source Community** · [Read Online](https://choy-mutao.github.io/history-of-ai/) · [Contribute](CONTRIBUTING.md) · [Submit an Issue](https://github.com/Choy-Mutao/history-of-ai/issues)

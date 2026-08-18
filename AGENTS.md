@@ -8,7 +8,7 @@
 
 - 这是一个**纯内容型静态站点项目**：没有后端。代码量很少，主要工作是撰写和维护 Markdown 内容，以及少量 VitePress 主题代码。
 - 仓库：https://github.com/Choy-Mutao/history-of-ai
-- 在线地址：https://ai.puliot.com/
+- 在线地址：https://choy-mutao.github.io/history-of-ai/
 - 许可证：CC-BY-SA 4.0（内容），见 `LICENSE`
 - 中英双语：中文为主站点（`docs/` 根），英文版在 `docs/en/`（已完整镜像中文版全部章节）
 - 内容规模：本纪 10 篇 / 世家 31 篇 / 列传 23 篇 / 书 25 篇 / 表 1 篇（134 条事件），合计 90 篇
@@ -17,12 +17,12 @@
 
 - **VitePress ^1.6.4** + Vue 3 + TypeScript；`package.json` 为 `"type": "module"`
 - 全部依赖均为 `devDependencies`：`vitepress`（站点）、`tsx`（运行 TS 脚本与测试）、`fast-xml-parser`（解析 RSS）、`cheerio`（HTML 列表页提取）
-- Node 20（GitHub Pages 工作流）/ Node 22（ECS 与采集工作流）
+- Node 20（GitHub Pages 工作流）/ Node 22（采集工作流）
 - 站点源码全部在 `docs/` 目录下，构建产物输出到 `docs/.vitepress/dist/`（勿提交）
 - `base` 路径通过环境变量控制（`docs/.vitepress/config.ts:6`）：
-  - 本地开发 / ECS 部署（ai.puliot.com）：默认 `base = '/'`
+  - 本地开发：默认 `base = '/'`
   - GitHub Pages：工作流注入 `VITEPRESS_BASE=/history-of-ai/`
-  - sitemap hostname 通过 `VITEPRESS_HOSTNAME` 注入（默认 `https://ai.puliot.com/`）
+  - sitemap hostname 通过 `VITEPRESS_HOSTNAME` 注入（默认 `https://choy-mutao.github.io/history-of-ai/`）
 
 ## 常用命令
 
@@ -145,13 +145,12 @@ src/                           # 国内信源采集子系统（与站点构建�
 
 ## 部署
 
-三个 GitHub Actions 工作流：
+两个 GitHub Actions 工作流：
 
 - `.github/workflows/deploy.yml` — 推送 `main` 触发，部署到 GitHub Pages（Node 20，`VITEPRESS_BASE=/history-of-ai/`）
-- `.github/workflows/deploy-ecs.yml` — 推送 `main` 触发，部署到阿里云 ECS（ai.puliot.com，Node 22，`VITEPRESS_BASE=/`，rsync 上传 `dist/`）
 - `.github/workflows/collect.yml` — 每日 cron（UTC 01:17）运行信源采集，结果以自动 PR 形式回流（仅 `src/data` 与 `src/reports`，不触碰 `docs/`）
 
-注意：站内绝对链接需考虑 `base` 前缀差异（GitHub Pages 带 `/history-of-ai/` 子路径，ECS 不带）。`config.ts` 的 `srcExclude` 已排除 `**/README.md`、`**/CREDITS.md`、`**/_*.md`，这些文件不会被渲染为页面也不进 sitemap。
+注意：站内绝对链接需考虑 `base` 前缀（GitHub Pages 带 `/history-of-ai/` 子路径）——自定义组件内部链接用 `withBase()` 包装，public 图片由 `config.ts` 的 `transformHtml` 钩子统一补前缀。`config.ts` 的 `srcExclude` 已排除 `**/README.md`、`**/CREDITS.md`、`**/_*.md`，这些文件不会被渲染为页面也不进 sitemap。
 
 ## Git 与提交规范
 

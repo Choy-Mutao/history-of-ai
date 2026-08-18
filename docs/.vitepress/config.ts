@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 // 部署目标：
-//   默认（本地开发 / ECS ai.puliot.com）：base=/
+//   默认（本地开发）：base=/
 //   GitHub Pages：workflow 里指定 VITEPRESS_BASE=/history-of-ai/
 const base = process.env.VITEPRESS_BASE ?? '/'
-const siteHostname = process.env.VITEPRESS_HOSTNAME ?? 'https://ai.puliot.com/'
+const siteHostname = process.env.VITEPRESS_HOSTNAME ?? 'https://choy-mutao.github.io/history-of-ai/'
 
 export default defineConfig({
   title: 'AI 史记',
@@ -49,7 +49,7 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'AI 史记' }],
     ['meta', { property: 'og:title', content: 'AI 史记 — 人工智能的前世今生' }],
     ['meta', { property: 'og:description', content: '一本开源的 AI 历史书籍，以史记五体记录 AI 从 1943 年到 2026 年的关键事件、人物与机构——一场改变人类命运的智能革命。涵盖图灵、辛顿、OpenAI、深度学习、大语言模型等。' }],
-    ['meta', { property: 'og:url', content: 'https://ai.puliot.com/' }],
+    ['meta', { property: 'og:url', content: 'https://choy-mutao.github.io/history-of-ai/' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:locale:alternate', content: 'en_US' }],
 
@@ -64,7 +64,7 @@ export default defineConfig({
       '@type': 'WebSite',
       name: 'AI 史记',
       alternateName: 'History of AI',
-      url: 'https://ai.puliot.com/',
+      url: 'https://choy-mutao.github.io/history-of-ai/',
       description: '一本开源的 AI 历史书籍，以史记五体记录 AI 从 1943 年到 2026 年的关键事件、人物与机构——一场改变人类命运的智能革命。',
       inLanguage: ['zh-CN', 'en'],
       isAccessibleForFree: true,
@@ -76,7 +76,7 @@ export default defineConfig({
       },
       potentialAction: {
         '@type': 'SearchAction',
-        target: 'https://ai.puliot.com/?q={search_term_string}',
+        target: 'https://choy-mutao.github.io/history-of-ai/?q={search_term_string}',
         'query-input': 'required name=search_term_string',
       },
     })],
@@ -87,7 +87,7 @@ export default defineConfig({
       '@type': 'Book',
       name: 'AI 史记',
       alternateName: 'History of AI — Records of Artificial Intelligence',
-      url: 'https://ai.puliot.com/',
+      url: 'https://choy-mutao.github.io/history-of-ai/',
       inLanguage: ['zh-CN', 'en'],
       about: [
         { '@type': 'Thing', name: 'Artificial Intelligence' },

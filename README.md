@@ -10,7 +10,7 @@
 
 ## 在线阅读 Read Online
 
-🔗 **https://ai.puliot.com/**
+🔗 **https://choy-mutao.github.io/history-of-ai/**
 
 ## 项目规模
 
@@ -163,4 +163,4 @@ npm run docs:preview
 
 ---
 
-**AI 史记开源社区** · [在线阅读](https://ai.puliot.com/) · [参与贡献](CONTRIBUTING.md) · [提交 Issue](https://github.com/Choy-Mutao/history-of-ai/issues)
+**AI 史记开源社区** · [在线阅读](https://choy-mutao.github.io/history-of-ai/) · [参与贡献](CONTRIBUTING.md) · [提交 Issue](https://github.com/Choy-Mutao/history-of-ai/issues)
