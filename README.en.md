@@ -84,10 +84,9 @@ A chronological table of AI milestones from 1943 to 2026, with each entry linkin
 ## Tech Stack
 
 - [VitePress](https://vitepress.dev/) static site generation
-- Custom tech-inspired theme (cyan-blue + purple gradient)
-- Particle neural network background animation
-- Historical loading terminal animation (typewriter effect)
-- AI robot interactive animation
+- Custom hermes-style theme (electric blue + off-white dual themes, serif headings)
+- Particle neural network background animation + blueprint grid
+- Zoomable horizontal timeline (century / year / month / day granularity)
 - GitHub Actions auto-deployment to GitHub Pages
 - Shared timeline data source (`timeline.ts`)
 

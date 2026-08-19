@@ -39,6 +39,10 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+SC:wght@400;700&family=Courier+Prime:wght@400;700&display=swap', rel: 'stylesheet' }],
 
+    // no-JS 兜底：横向时间轴默认 opacity:0 等待水合定位，禁用 JS 时强制显示
+    // （放在 head 而非组件内——组件树中的 <noscript> 会导致 Vue 水合不匹配）
+    ['noscript', {}, '<style>.ht-track{opacity:1 !important}</style>'],
+
     // SEO Meta
     ['meta', { name: 'keywords', content: 'AI历史,人工智能历史,AI史记,History of AI,AI Timeline,人工智能发展史,深度学习,机器学习,图灵,神经网络,大语言模型,ChatGPT,Transformer,AGI,AI人物传记,Turing,Hinton,OpenAI,DeepMind' }],
     ['meta', { name: 'author', content: 'AI 史记开源社区' }],

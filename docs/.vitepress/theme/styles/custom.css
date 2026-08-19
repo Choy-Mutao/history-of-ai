@@ -26,8 +26,8 @@ body {
   background-size: 12.8rem 12.8rem;
 }
 
-/* 首页 hero 蓝图网格：1px 细线 + 径向渐隐，藏在内容下层 */
-.VPHero::before {
+/* 首页 hero 蓝图网格：1px 细线 + 径向渐隐，位于粒子画布（z-index:-1）之上、内容之下 */
+.home-hero::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -41,6 +41,11 @@ body {
   z-index: 0;
 }
 
+.home-hero .hero-inner {
+  position: relative;
+  z-index: 1;
+}
+
 .vp-doc {
   line-height: 1.85;
 }
@@ -48,9 +53,7 @@ body {
 /* 标题衬线化 */
 .vp-doc h1,
 .vp-doc h2,
-.vp-doc h3,
-.VPHero .name,
-.VPHero .text {
+.vp-doc h3 {
   font-family: var(--vp-font-family-serif);
 }
 
@@ -70,94 +73,6 @@ body {
   padding-left: 0.75em;
   border-left: 4px solid var(--vp-c-brand-1);
   margin-top: 2.5em;
-}
-
-/* ===== Hero ===== */
-
-.VPHero {
-  position: relative;
-  z-index: 1;
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.VPHero .name {
-  font-weight: 900 !important;
-  letter-spacing: 0.02em;
-  position: relative;
-  z-index: 2;
-}
-
-.VPHero .text,
-.VPHero .tagline,
-.VPHero .actions {
-  position: relative;
-  z-index: 2;
-}
-
-.VPHero .tagline {
-  letter-spacing: 0.01em;
-  max-width: 100% !important;
-}
-
-.VPHero .image-container,
-.VPHero .image-bg {
-  position: relative !important;
-  overflow: visible !important;
-  min-height: 280px;
-}
-
-/* ===== Feature Cards ===== */
-
-/* Entrance animation */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.VPFeatures .VPFeature {
-  animation: fadeInUp 0.6s ease-out both;
-}
-
-.VPFeatures .item:nth-child(1) .VPFeature { animation-delay: 0.1s; }
-.VPFeatures .item:nth-child(2) .VPFeature { animation-delay: 0.2s; }
-.VPFeatures .item:nth-child(3) .VPFeature { animation-delay: 0.3s; }
-.VPFeatures .item:nth-child(4) .VPFeature { animation-delay: 0.4s; }
-.VPFeatures .item:nth-child(5) .VPFeature { animation-delay: 0.5s; }
-.VPFeatures .item:nth-child(6) .VPFeature { animation-delay: 0.6s; }
-
-.VPFeature {
-  border: 1px solid var(--vp-c-divider) !important;
-  border-radius: 4px !important;
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  transform: translateY(0);
-}
-
-.VPFeature:hover {
-  border-color: var(--vp-c-brand-1) !important;
-  box-shadow: 0 8px 30px rgba(0, 0, 242, 0.12) !important;
-  transform: translateY(-4px) !important;
-}
-
-.dark .VPFeature:hover {
-  box-shadow: 0 8px 30px rgba(107, 107, 255, 0.1),
-              0 0 0 1px rgba(107, 107, 255, 0.15) !important;
-}
-
-/* Icon glow on hover */
-.VPFeature:hover .VPImage {
-  filter: drop-shadow(0 0 8px rgba(0, 0, 242, 0.4));
-  transition: filter 0.35s ease;
-}
-
-.dark .VPFeature:hover .VPImage {
-  filter: drop-shadow(0 0 10px rgba(107, 107, 255, 0.5));
 }
 
 /* ===== 太史公曰 Callout ===== */
@@ -262,6 +177,13 @@ body {
 
 .VPFooter {
   border-top: 1px solid var(--vp-c-divider) !important;
+}
+
+/* 首页正文容器：index.md 只有 frontmatter 没有正文，
+   VitePress 仍渲染空的 .vp-doc 容器（两层空 div），隐藏以免产生多余留白。
+   若日后 index.md 添加正文内容，需移除此规则。 */
+.VPHome > .vp-doc.container {
+  display: none;
 }
 
 /* ===== Images ===== */

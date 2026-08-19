@@ -52,7 +52,7 @@
           :class="['event-item', `imp-${item.importance || 'minor'}`]"
         >
           <span class="event-year">
-            {{ item.year }}<span v-if="item.month" class="event-month">·{{ monthSuffix(item.month) }}</span>
+            {{ item.year }}<span v-if="item.month" class="event-month">·{{ dateSuffix(item.month, item.day) }}</span>
           </span>
           <span
             class="event-dot"
@@ -122,12 +122,12 @@ function eraName(era: TimelineEra): string {
   return isEn.value ? era.name_en ?? era.name : era.name
 }
 
-function monthSuffix(m: number): string {
+function dateSuffix(m: number, d?: number): string {
   if (isEn.value) {
     const months = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    return months[m] ?? ''
+    return months[m] + (d ? ` ${d}` : '')
   }
-  return `${m}月`
+  return `${m}月` + (d ? `${d}日` : '')
 }
 
 // 10 个时代的色相（覆盖整个色环）
@@ -373,20 +373,35 @@ function withBaseUrl(link: string): string {
 }
 
 .event-text a {
+  position: relative;
   color: var(--vp-c-text-1);
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: color 0.2s ease, border-color 0.2s ease;
+  transition: color 0.2s ease, text-shadow 0.3s ease;
+}
+
+/* ai-timeline.org 风格：下划线从左展开 + 文字发光 */
+.event-text a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
 }
 
 .event-text a:hover {
   color: hsl(var(--era-hue), 60%, 50%);
-  border-bottom-color: hsl(var(--era-hue), 60%, 50%);
+  text-shadow: 0 0 8px hsla(var(--era-hue), 80%, 60%, 0.4);
+}
+
+.event-text a:hover::after {
+  width: 100%;
 }
 
 .dark .event-text a:hover {
   color: hsl(var(--era-hue), 70%, 68%);
-  border-bottom-color: hsl(var(--era-hue), 70%, 68%);
 }
 
 /* ========== 重要程度差异化 ========== */
