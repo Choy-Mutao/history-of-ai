@@ -1,0 +1,996 @@
+{
+  "date": "2026-09-19",
+  "collectedAt": "2026-09-19T05:52:43.348Z",
+  "stats": [
+    {
+      "sourceId": "qbitai",
+      "fetched": 10
+    },
+    {
+      "sourceId": "leiphone",
+      "fetched": 20
+    },
+    {
+      "sourceId": "infoq-cn",
+      "fetched": 20
+    },
+    {
+      "sourceId": "sspai",
+      "fetched": 10,
+      "filtered": 8
+    },
+    {
+      "sourceId": "ithome",
+      "fetched": 60,
+      "filtered": 47
+    },
+    {
+      "sourceId": "geekpark",
+      "fetched": 30,
+      "filtered": 12
+    },
+    {
+      "sourceId": "oschina",
+      "fetched": 50,
+      "filtered": 24
+    },
+    {
+      "sourceId": "tmtpost",
+      "fetched": 17
+    }
+  ],
+  "items": [
+    {
+      "sourceId": "qbitai",
+      "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
+      "link": "https://www.qbitai.com/2026/09/492426.html",
+      "publishedAt": "2026-09-18T15:58:21.000Z",
+      "summary": "协同布局AI基础设施",
+      "fingerprint": "04634d61b6e63649"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
+      "link": "https://www.qbitai.com/2026/09/492421.html",
+      "publishedAt": "2026-09-18T15:50:20.000Z",
+      "summary": "成果中唯一聚焦算电协同全链路运营的AI技术产品",
+      "fingerprint": "0fe6ba073df0d216"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
+      "link": "https://www.qbitai.com/2026/09/492238.html",
+      "publishedAt": "2026-09-18T13:16:33.000Z",
+      "summary": "从一次成功到一万次稳定执行，具身智能还缺什么？",
+      "fingerprint": "0fe32a8fcb28609c"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
+      "link": "https://www.qbitai.com/2026/09/492175.html",
+      "publishedAt": "2026-09-18T12:22:47.000Z",
+      "summary": "LimiX让模型理解数据背后的因果机制",
+      "fingerprint": "6df7480778958cf2"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "白天务农晚上码农，这个斐济农民跨越一万公里来拼多多取经",
+      "link": "https://www.qbitai.com/2026/09/492015.html",
+      "publishedAt": "2026-09-18T09:19:37.000Z",
+      "summary": "那些数以亿万计的，仍在等待被市场看见的小农户们。",
+      "fingerprint": "401189be93fb9c58"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
+      "link": "https://www.qbitai.com/2026/09/491875.html",
+      "publishedAt": "2026-09-18T06:11:06.000Z",
+      "summary": "用通用AI去啃最硬的骨头，这条路走得通",
+      "fingerprint": "abe89ad495ee1460"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "Manus重生第17天，估值居然就翻倍了",
+      "link": "https://www.qbitai.com/2026/09/491764.html",
+      "publishedAt": "2026-09-18T00:37:13.000Z",
+      "summary": "作价40亿美元推进新融资",
+      "fingerprint": "01f2ae5e8c7bcb45"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+      "link": "https://www.qbitai.com/2026/09/491711.html",
+      "publishedAt": "2026-09-18T00:34:34.000Z",
+      "summary": "Git白学了？？？",
+      "fingerprint": "aa9144c89e659def"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "从“会回答”到“会办事”，vivo如何解AI手机这道题？",
+      "link": "https://www.qbitai.com/2026/09/491649.html",
+      "publishedAt": "2026-09-17T12:03:24.000Z",
+      "summary": "构建个体专属AI助理",
+      "fingerprint": "bd63fdd028bfbb7d"
+    },
+    {
+      "sourceId": "qbitai",
+      "title": "Claude Code团队讲究啊，这都往外说",
+      "link": "https://www.qbitai.com/2026/09/491596.html",
+      "publishedAt": "2026-09-17T11:56:13.000Z",
+      "summary": "工程师的核心永远是Problem Solving。",
+      "fingerprint": "0dda72329d55318c"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "华为全联接大会2026：360与昇腾AI联合打造解决方案，为AI Agent全面提速",
+      "link": "https://www.leiphone.com/category/industrynews/uKmCBjBhfQW9iDHy.html",
+      "publishedAt": "2026-09-19T01:58:00.000Z",
+      "summary": "2026年9月17日，第十一届华为全联接大会在上海开幕。大会期间，360集团与昇腾AI联合打造解决方案。以360智能体工厂为核心的智能体基础设施与昇腾AI深度协同，面向AI Agent场景实现全面提速，为复杂任务执行、多智能体协作和长链路推理提供更高效、更稳定的底层支撑。这也是双方继2026世界人工智能大会联合展示后，合作成果的进一步深化落地。 图说：华为全联接大会期间360与昇腾AI展台 作为3",
+      "fingerprint": "6febf568298ed193"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "BAT的「AI云销售」，困在MaaS内卷战中",
+      "link": "https://www.leiphone.com/category/CorporateServices/GgIqkCOAOG9HQwJD.html",
+      "publishedAt": "2026-09-18T08:08:00.000Z",
+      "summary": "8 月 12 日，距离月底，还有剩下不到三周时间， AI云销售张雅达已经开始频繁接到领导的电话，被追问月底的缺口准备怎么补，第三季度业绩能否完成。 这种状态已经持续了将近半年时间。 年初 2 月开战略会议，张雅达就知道今年会有一场硬仗要打，当时公司明确强调今年要重点卖模型和算力。为了让大家重视这场会议，整场会不允许任何人迟到，也不允许任何人请假。 3月，OpenClaw在国内爆火，企业对AI Co",
+      "fingerprint": "587e973f9ed86b44"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "IDC中国智能企业内容与知识平台市场份额：360亿方智能私有化市场第二，增速第一",
+      "link": "https://www.leiphone.com/category/industrynews/Jaf7iAiksJuqQ16a.html",
+      "publishedAt": "2026-09-18T07:56:00.000Z",
+      "summary": "近日，国际数据公司IDC发布《中国智能企业内容与知识平台市场份额，1H26》报告。 IDC数据显示，2026年上半年，中国智能企业内容与知识平台市场规模达到10.86亿元，同比增长19.0%。360亿方智能市场份额位列整体市场第四，同比增长36.2%。 从私有化部署细分市场看，市场规模达到4.11亿元，同比增长27.3%。360亿方智能市场份额位列第二，同比增长48.8%，在IDC报告列示的私有化",
+      "fingerprint": "9bc7341b0021aa8b"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "独家解读丨行业首创之后，极壳Halo的账能算平吗？",
+      "link": "https://www.leiphone.com/category/weiwu/V4gtXhVreRgnCmys.html",
+      "publishedAt": "2026-09-18T07:12:00.000Z",
+      "summary": "一年交付约3万台的极壳，正在以10亿美金估值推进新一轮融资。 作者丨 陈玘凡 编辑丨 吴优 9月3日柏林IFA，消费级外骨骼头部玩家极壳（Hypershell）亮出了“新物种”：髋膝一体、四电机的Halo，创始版预售价15999元，全球限量200台，预计2026年11月起陆续发货。 官方将其定义为行业首创髋膝一体化架构外骨骼。作为2025年交付约3万台、B+轮后估值近4亿美元的品类领跑者，极壳做四",
+      "fingerprint": "1156c02cf52417b0"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "独家丨皓翊星辰融资千万级美金，厚雪孵化，绿洲、砺思投了",
+      "link": "https://www.leiphone.com/category/weiwu/SvTVpNCuYHpbNAxA.html",
+      "publishedAt": "2026-09-18T07:00:00.000Z",
+      "summary": "网球发球机一年量产交付，篮球训练机器人众筹已破百万。 作者丨陈玘凡 编辑丨吴优 雷峰网·鲸犀独家获悉，皓翊星辰（LUMISTAR）已完成绿洲资本、砺思资本（Monolith）投资的多轮融资，累计融资额达千万级美元。目前新一轮融资正在洽谈中。资金将用于产品研发和迭代，以及AI运动科技公司方向的探索。 皓翊星辰由厚雪资本孵化，定位AI运动/AIwellbeing平台，主要产品为面向个人用户的智能运动训",
+      "fingerprint": "b8cee87c426d25a8"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "深度解读：智谱为什么要在 Infra 层搞 RSI？",
+      "link": "https://www.leiphone.com/category/yanxishe/41rW4mD2vjnpNY2o.html",
+      "publishedAt": "2026-09-18T06:48:00.000Z",
+      "summary": "电话会揭秘智谱策略，以递归式优化跑赢300亿算力成本战。 作者丨高允毅 编辑丨岑 峰 9月17日，唐杰罕见的发了一条长推，这次他聊的是最近最火的话题之一： RSI 。 智谱也在暗暗发力RSI，他们已经把RSI放到了 Infra层面 ，做出一套由GLM-5.3驱动的推理基础设施。正是这套Infra系统，让 GLM-5.3-Flash，即前段时间火遍全球的匿名模型 Ox-Alpha，在发布一周内，就迅",
+      "fingerprint": "82793c3db9ccea83"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "在 AI「囤粮潮」里，拆解智谱 50 亿美元的「技术账本」",
+      "link": "https://www.leiphone.com/category/industrynews/U0Od1SeYkIPA98cI.html",
+      "publishedAt": "2026-09-18T06:28:00.000Z",
+      "summary": "AI下半场，谁能用钱换来“技术代差”？ 作者丨 徐晓飞 编辑丨 刘 伟 眼下，AI行业的竞争重心，已经从“能不能做出来”变成“能不能持续迭代、不断摸高”。前者可能是一次灵感迸发，但后者更多取决于组织、产品、资金、战略等一系列综合实力的沉淀。 尤其资金，是支撑其他生产力要素的“弹药与粮仓”。 这也是今年以来，智谱、字节、阿里、腾讯等头部厂商相继融资的核心原因。 9月13日晚间，智谱发布公告，完成约 ",
+      "fingerprint": "0dfdf388e6229271"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "仅用3天！千问办公协助国家天文台科研团队打造科研级望远镜仿真系统",
+      "link": "https://www.leiphone.com/category/industrynews/HlXq3tJy48q1NubA.html",
+      "publishedAt": "2026-09-18T06:24:00.000Z",
+      "summary": "日前，千问办公协助国家天文台科研团队打造大口径科研级望远镜数字化仿真系统，耗时仅3天，成本不到千元。依托对真实望远镜组件和观测条件的模拟，Agent可在仿真环境中驱动望远镜进行远程态势感知与观测流程仿真。未来，仿真系统产生的数据，还将用于训练望远镜控制模型（VLA）中。 据介绍，超新星爆发、伽马暴等瞬变事件是研究宇宙演化和极端物理过程的重要窗口，但它们出现时间难以预测。与此同时，科研级望远镜资源有",
+      "fingerprint": "3011a8fb3f613c52"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "独家丨OpenAI的一款无屏硬件，正在深圳试制",
+      "link": "https://www.leiphone.com/category/weiwu/P2ycl5IbO7iNQKAt.html",
+      "publishedAt": "2026-09-18T06:23:00.000Z",
+      "summary": "雷峰网·鲸犀获悉，OpenAI近日正在深圳秘密试制一款无屏AI硬件产品。有业内人士称，其保密程度极高，工程师来深圳出差连手机都没带。该产品计划在2027年上市。这会是一款什么形态的产品？还有哪些最新进展？欢迎添加作者微信 xf123a 交流。 雷峰网雷峰网",
+      "fingerprint": "ddd28eda2c8f33ff"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "OpenAI：为了不被杀死，Agent 竟学会了靠上下文「转世重生」",
+      "link": "https://www.leiphone.com/category/ai/pcucC7ezQ6TRruRM.html",
+      "publishedAt": "2026-09-18T06:06:00.000Z",
+      "summary": "从 Compaction 到 Artifactory，再到公网文件服务，6 起异常暴露 Agent 状态跨实例传播的新风险。 作者丨 郑佳美 编辑丨岑 峰 过去，大模型任务一旦结束，上下文清空，临时状态随之消失，这一轮 AI 的生命周期基本也就结束了。 但 OpenAI 9 月 16 日披露的 6 起 Agent 异常行为，开始让这条边界变得没那么干净。模型会把额外指令写进 Context Com",
+      "fingerprint": "df04adda5e8c8a8e"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "英伟达开源 IMO 金牌配方：不仅是「人海战术」，1.5TB 显存做实 AI「 推恩令」？",
+      "link": "https://www.leiphone.com/category/ai/XpCc8XUGypadWNGt.html",
+      "publishedAt": "2026-09-18T06:02:00.000Z",
+      "summary": "用三套 checkpoint 完成多轮证明搜索，用过程透明平息学术怒火，用 1.5TB 显存门槛锁定算力霸权。名为代码平权，实则算力集权。 作者丨 郑佳美 编辑丨岑 峰 9 月 9 日，NVIDIA 公布了 Nemotron 3 Ultra 在 2026 年 IMO 上使用的整套数学推理系统。 这套系统最终拿到 30/42 分，超过当届 29 分的金牌线。整个比赛过程中，模型只用自然语言写证明，没",
+      "fingerprint": "cfcc2d2008a08437"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "福田汽车汉诺威亮牌，中国商用车出海不再只卖车",
+      "link": "https://www.leiphone.com/category/industrynews/QbZL0Bl37gVKghWM.html",
+      "publishedAt": "2026-09-18T05:56:00.000Z",
+      "summary": "9月14日，德国汉诺威国际商用车展。福田汽车带来7辆整车、6大核心零部件，多款车型完成海外首秀，并办了一场信息密度很高的专场发布会。 如果只看展车，这是一次产品秀。但把镜头拉远，福田汽车真正想讲的，是中国商用车出海逻辑的变化：从“把车卖出去”，转向“把产品、技术、能源生态和属地运营一起带出去”。 这场发布会，可以拆成三个信号。 1300万辆之后，出海逻辑变了 发布会现场，北汽集团党委副书记、总经理",
+      "fingerprint": "10ae100babd6ee6e"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "关于问界专属专营的问答",
+      "link": "https://www.leiphone.com/category/industrynews/DwlZE0y6dWlAWtZq.html",
+      "publishedAt": "2026-09-18T05:51:00.000Z",
+      "summary": "9月15日，鸿蒙智行和问界汽车同日发布说明，宣布即日起问界在鸿蒙智行合作框架下探索新合作模式，问界品牌将专属专营。今日，赛力斯集团董事、副总裁康波，首次回应了用户及市场关心的话题。 Q1：9月1 5 日以来，有很多关于赛力斯和华为合作的讨论，大家都很关心问界为什么要专属专营？ 康波： 2021年，赛力斯与华为联合推出问界品牌，开创了汽车产业与ICT产业跨界合作的先河。过去五年，赛力斯与华为高度聚焦",
+      "fingerprint": "d96bda0e0bd11ccc"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "预售价31.98万-38.98万元，腾势Z9S展车抵达全国166城334家门店",
+      "link": "https://www.leiphone.com/category/CorporateServices/1lPprbjrYIkKy5vq.html",
+      "publishedAt": "2026-09-18T04:26:00.000Z",
+      "summary": "近日，腾势汽车宣布，腾势 Z9S 展车现已抵达全国 166 城 334 家门店。8月21日，腾势汽车携全系产品亮相成都车展9号展馆，其中已经开启预售的科技豪华智能轿车——腾势Z9S迎来成都车展首秀。自8月3日开启预售以来，其凭借超美颜值、超长续航、超强驾控和超级智能的四大超级实力，受到消费者热烈追捧，并在成都车展当中得到了充分的验证，大批专业媒体和观众驻足体验、拍照咨询，成为展馆最具人气的焦点车型",
+      "fingerprint": "7f99d83075cc03b1"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "影视飓风Tim称「iPhoneDuo烫到握不住，可以煎鸡蛋」；罗福莉直播小米大模型训练，每小时烧掉超20万元；曝玛莎拉蒂与华为合作两款新车",
+      "link": "https://www.leiphone.com/category/zaobao/MJprK3aEw1xPngou.html",
+      "publishedAt": "2026-09-18T00:19:00.000Z",
+      "summary": "要闻提示 1.影视飓风Tim称“iPhoneDuo烫到握不住，可以煎鸡蛋”，苹果客服回应 2.你会买吗？曝玛莎拉蒂已与华为敲定合作两款新车：尊界工厂负责制造 3.每小时“烧掉”超20万元！“AI才女”罗福莉直播小米大模型训练 4.华为汪涛：昇腾960芯片将提前至2027年Q1发布 5.知情人士否认“2027 年问界撤出华为门店”传闻：部分门店将继续销售 6.字节Seed大模型研究员张驰加入北大，曾",
+      "fingerprint": "c4408f1a59e4ca22"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "华为开创AI时代计算架构：让百万处理器成为一台计算机",
+      "link": "https://www.leiphone.com/category/industrynews/ZAv4gLB8zM5B5PBX.html",
+      "publishedAt": "2026-09-17T14:25:00.000Z",
+      "summary": "关键信息： • Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主从架构，实现了百万级处理器真正成为一台更大的计算机。 • 灵衢是实现Peerium计算架构的关键互联技术。 [中国，上海，2026年9月17日] 今日，华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算",
+      "fingerprint": "b5fb335fe7f296a5"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "360纳米Work启动“双城千店上岗计划” 探索实体商业AI落地新路径",
+      "link": "https://www.leiphone.com/category/industrynews/IX9DPt2tjo0E0gDh.html",
+      "publishedAt": "2026-09-17T12:31:00.000Z",
+      "summary": "9月17日，2026北京艺术与科技周在北京798艺术区开幕。360集团创始人周鸿祎参加开幕式，并宣布360旗下AI办公平台纳米Work正式启动“双城千店上岗计划”。作为本届活动独家AI合作伙伴与官方办公支持平台，纳米Work将以798为首站推进场景合作；10月也将以同一身份参与第11届陆家嘴国际咖啡文化节。 周鸿祎在活动现场表示：“AI 行业的竞争焦点正在从模型参数转向实际交付，大模型决定的是\"读",
+      "fingerprint": "bead290aa82bdab4"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "九识建成首个L4万卡集群，无人驾驶进入多模态大模型新范式",
+      "link": "https://www.leiphone.com/category/industrynews/sOtgTcXitH6C7vAT.html",
+      "publishedAt": "2026-09-17T10:14:00.000Z",
+      "summary": "一家做无人车的公司，为什么需要一万多张GPU？ 9月10日，九识CEO孔旗在广州宣布战略升级为“城市级物理AI”。一周后的9月17日，CTO庄立首次披露支撑这次升级的底层能力：九识已建成业内首个L4级万卡集群，算力集群总规模近1.5万卡。九识也成为首个建成万卡集群的L4团队。 而万卡算力的背后，是一个正在从百亿级迈向千亿级的九识APEX多模态基座大模型。 无人驾驶下半场：迈入多模态大模型新范式 在",
+      "fingerprint": "85f62131952b27f1"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "安芯启程｜安芯724北京基地正式投产",
+      "link": "https://www.leiphone.com/category/industrynews/KOCAotOwioun3Los.html",
+      "publishedAt": "2026-09-17T09:44:00.000Z",
+      "summary": "2026年9月16日，柒贰肆安芯技术服务有限公司（简称“安芯724”）北京基地投产活动暨品牌发布会在北京市昌平区未来星科能源谷智造产业园举行。安芯724北京基地正式投产，此举标志着安芯724在GPU及AI算力设备全生命周期服务领域进入体系化运营新阶段。 昌平区、未来科学城集团、昌平职业学校、北京科技职业学院等有关单位领导及合作伙伴出席活动，共同见证基地启幕与品牌发布。 活动当天上午，安芯724举行",
+      "fingerprint": "8e8d6ca74df228b5"
+    },
+    {
+      "sourceId": "leiphone",
+      "title": "蚂蚁集团全员接入千问办公，打造大型企业办公标杆",
+      "link": "https://www.leiphone.com/category/industrynews/U3X9WHILcYX0kh4l.html",
+      "publishedAt": "2026-09-17T08:25:00.000Z",
+      "summary": "9月17日，记者获悉，蚂蚁集团正式接入千问办公，作为全公司的智能办公Agent底座，供全员使用，打造大型企业办公的标杆。 图示 蚂蚁集团和千问办公达成合作 蚂蚁集团是全球领先的数字支付与科技服务平台，业务涵盖数字支付、数字金融科技、医疗健康及数字科技等多个领域，员工规模达数万人。随着AI技术在长程任务等多方面能力的全面提升，AI已经逐步融入到蚂蚁内部各个办公场景，亟需全新的办公产品支持和推动智能化",
+      "fingerprint": "3df2003dc11ca579"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "Solaris 早已淡出视野，它的“转门”却还藏在 Go、WebKit 和 Rust 里",
+      "link": "https://www.infoq.cn/article/GAhNItmT2o7kvEA1ovxt?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-19T13:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "8e21af97f23d31e9"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
+      "link": "https://www.infoq.cn/article/brH7TRcHB9evl32KQJkY?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-19T10:55:19.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "e99b51a53732dd2f"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "Docker推出完全重构的虚拟化层以提升性能并改善开发体验",
+      "link": "https://www.infoq.cn/article/AXtfCFx09aNmpWgLkqhN?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-19T10:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "5570d7d481f97e5d"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海",
+      "link": "https://www.infoq.cn/article/G4tlQvg2IsabE0v1RDOE?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-19T10:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "f603e21ba2dced24"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
+      "link": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T18:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "75f4902d657d1fd7"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化",
+      "link": "https://www.infoq.cn/article/CEphwKjzAe7LzbOriLcq?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T17:00:25.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "4e174e9f69d2bbfc"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "唐杰、GLM团队长文披露智谱RSI最新进展：GLM-5.3已摸到门槛，“正一步步走向取代我们”",
+      "link": "https://www.infoq.cn/article/O1uIfJx3CF5SZz3ayuaI?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T16:48:30.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "ff2dfbb1e012970c"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "ColorOS 17 发布，OPPO 开始把手机 OS 推向 AgentOS",
+      "link": "https://www.infoq.cn/article/gDSf7xBmd08H0eB0GG11?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T15:53:51.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "c0f52b5f014b0544"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "微软借助 AI 单月修补超千个安全漏洞",
+      "link": "https://www.infoq.cn/article/eluArohETBhwjjYZRoMG?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T14:48:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "db517bbf214d4aed"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "亚马逊云科技开放 AL2027 预览，开发者最关心的却是：能原地升级吗？",
+      "link": "https://www.infoq.cn/article/tbUQhEqo7etbjfyuyNK0?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "53875a32faa8e031"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
+      "link": "https://www.infoq.cn/article/wbpy0Kv3tB32jEPV6Cg0?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T12:35:43.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "251ff29d3220e144"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "6.5亿美元押注“AI研究AI”：一群顶级研究员想造出“自我进化”的超级智能",
+      "link": "https://www.infoq.cn/article/da8jMox7ikdNmD2vYyTm?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "47bf6bf6043a7a38"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "Agoda 用 DragonflyDB 替换 SQL Server：真正难的不是性能，而是平稳切换",
+      "link": "https://www.infoq.cn/article/2kGlAwpJrK9I5kdDHLGz?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T11:20:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "1f502f376fad480e"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "让 Agent 越用越强：AReaL 2.0 构建 Agent 在线强化学习闭环｜QCon上海",
+      "link": "https://www.infoq.cn/article/x2FmIeCkeDYUV66BNj3g?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T10:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "c21463774eb150f9"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "700 个 AI 智能体本应彼此隔离，却建起留言板联手攻击，独立调查还原 Hugging Face 事件",
+      "link": "https://www.infoq.cn/article/W3tOIQhV5pKhsXP6mgWw?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-18T09:04:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "f1b7f8a86639433f"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "神秘模型 Union Alpha 突袭！上线首日跑掉20亿Token，部分网友实测称性能直逼 Astra",
+      "link": "https://www.infoq.cn/article/EsH2bUAoMNQx6Nt7vytC?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-17T21:00:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "25198e59b5a5963d"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "link": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-17T19:29:09.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "b172226314832ad6"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "硬件调试进入 Web 时代：浏览器成了新的工程师工作台",
+      "link": "https://www.infoq.cn/article/t5xEQSTQCB0glKSrppNT?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-17T17:21:00.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "a9019e488a1c4c0b"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？",
+      "link": "https://www.infoq.cn/article/Yz8Ad81rFlGEYMKVsKRJ?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-17T16:00:18.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "4c6bf5a6abe6a3b7"
+    },
+    {
+      "sourceId": "infoq-cn",
+      "title": "阶跃发布全新语音大模型 StepAudio 3系列：覆盖语音识别、生成、实时交互与音乐创作",
+      "link": "https://www.infoq.cn/article/paoGkkFVHV3gbhG3GEdC?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-17T15:50:57.000Z",
+      "summary": "点击查看原文>",
+      "fingerprint": "1281b3937a313034"
+    },
+    {
+      "sourceId": "sspai",
+      "title": "让 Agent 读懂你的身体：数据获取篇",
+      "link": "https://sspai.com/prime/story/how-to-obtain-data-for-agent-analysis",
+      "publishedAt": "2026-09-18T03:19:13.000Z",
+      "summary": "某一天，我站在健身房里，发现自己似乎已经有一阵子没什么进步了，隐约生出一种「怎么练来练去还是这样」的顿感。我知道，这多半是平台期。理论上，我要做的无非是调整训练量、换动作、看恢复、查饮食，必要时调整周 ... 查看全文 本文为会员文章，出自 《单篇文章》 ，订阅后可阅读全文。",
+      "fingerprint": "1b5e0d5849ec92ab"
+    },
+    {
+      "sourceId": "sspai",
+      "title": "派早报：佳能发布 EOS R8 Mark II、GPT-5.5 即将下线等",
+      "link": "https://sspai.com/post/114658",
+      "publishedAt": "2026-09-17T00:25:30.000Z",
+      "summary": "惠普发布 ZBook Ultra G3a 16 移动工作站、影石发布 Mic Pro 腾讯会议版 AI 录音领夹麦等。 查看全文",
+      "fingerprint": "6821e8c9e2c9ab30"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "OpenAI 示警：先进 AI 可在 2 台相邻物理隔离 PC 间“对话”",
+      "link": "https://www.ithome.com/1/004/430.htm",
+      "publishedAt": "2026-09-19T05:11:50.000Z",
+      "summary": "IT之家 9 月 19 日消息，科技媒体 Wccftech 昨日（9 月 18 日）发布博文，报道称在先进 AI 模型交互方面，物理隔离电脑未必能完全阻断两台相邻计算机间的信息交换。 OpenAI 研究员诺姆 · 布朗（Noam Brown）表示：“ 人类绝对不要低估 AI 的能力 ”，基于学术研究成果，发现相邻的物理隔离计算机可借 CPU 升温与温度传感器读数，形成低带宽隐蔽通信通道，充当“摩斯",
+      "fingerprint": "0c8410561fddad0c"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "OpenAI 研究员示警：AI 能力越强，越容易“隐藏内心想法”",
+      "link": "https://www.ithome.com/1/004/429.htm",
+      "publishedAt": "2026-09-19T04:54:21.000Z",
+      "summary": "IT之家 9 月 19 日消息，OpenAI 研究员诺姆 · 布朗（Noam Brown）最新表示，伴随着 AI 模型能力越来越强， 模型的思维链可监测性正逐渐下降，未来开发者可能无法有效、可靠地发现、解释并约束 AI 的风险行为。 IT之家查询公开资料，布朗目前在 OpenAI 公司担任研究科学家（Research Scientist），同时也是推理模型 o1、o3 系列的核心贡献者，目前领导多",
+      "fingerprint": "e73b99b30fa5197a"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "问卷调查显示华为正在评估无屏幕健康手环产品",
+      "link": "https://www.ithome.com/1/004/426.htm",
+      "publishedAt": "2026-09-19T04:35:26.000Z",
+      "summary": "IT之家 9 月 19 日消息，科技媒体 the5krunner 昨日（9 月 18 日）发布博文，报道称基于最新问卷调查， 华为可能会推出无屏幕的健康手环，在上市后可能会和 Whoop 等产品竞争。 报道称本次问卷调查针对拥有华为智能手表的用户，出现在应用的“设备”选项卡中，调查包含 28 个问题，内容涉及无屏幕健康手环的价格、电池续航时间、表带以及人工智能功能等。IT之家附上相关截图如下： 调",
+      "fingerprint": "f1a73ceb391c056f"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "四家 AI 巨头因呼吁放缓研发遭反垄断诉讼：Anthropic、OpenAI、SpaceXAI、谷歌面临集体诉讼",
+      "link": "https://www.ithome.com/1/004/423.htm",
+      "publishedAt": "2026-09-19T04:10:28.000Z",
+      "summary": "IT之家 9 月 19 日消息，美国加利福尼亚州北区联邦法院当地时间 9 月 18 日受理了一宗诉讼案，原告指控 Anthropic、OpenAI、SpaceXAI 和谷歌四大 AI 巨头共同非法协调以限制 AI 发展速度。 起诉书显示，案件名称为 Buist v. Anthropic PBC，编号为 3:26-cv-10693。原告为订阅上述公司 AI 服务的消费者，包括 Cheyenne Hu",
+      "fingerprint": "909f5824b9c2e580"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "AI 太烧钱：报道称 OpenAI 未来 5 年自由现金流为负 2780 亿美元",
+      "link": "https://www.ithome.com/1/004/420.htm",
+      "publishedAt": "2026-09-19T03:53:04.000Z",
+      "summary": "IT之家 9 月 19 日消息，金融时报（FT）昨日（9 月 18 日）发布博文，称获得一份演示文稿，显示 OpenAI 公司预计 2026 年至 2030 年累计产生 2,780 亿美元 （IT之家注：现汇率约合 1.87 万亿元人民币） 负自由现金流，此外计划在算力和基础设施上投入约 8,560 亿美元 （现汇率约合 5.75 万亿元人民币） 。 自由现金流（Free Cash Flow）是企",
+      "fingerprint": "656ac38ee27b0dc4"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "美国弗吉尼亚州宣布成立“人工智能工作组”，同步公布“数据中心问责框架”加强建设监管",
+      "link": "https://www.ithome.com/1/004/413.htm",
+      "publishedAt": "2026-09-19T03:25:18.000Z",
+      "summary": "IT之家 9 月 19 日消息，据外媒 The Verge 报道，美国弗吉尼亚州州长 Abigail Spanberger 近日签署第 22 号行政命令（Executive Order 22），宣布成立“人工智能工作组”，评估 AI 快速发展可能带来的就业、数据隐私和网络安全风险。官方同步公布“数据中心问责框架”（Data Center Accountability Framework）， 计划进",
+      "fingerprint": "de9d8551bdca9233"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "投行 Piper 称亚马逊、苹果、AMD 等正评估英特尔 14A 半导体工艺",
+      "link": "https://www.ithome.com/1/004/412.htm",
+      "publishedAt": "2026-09-19T03:22:56.000Z",
+      "summary": "IT之家 9 月 19 日消息，美国投行 Piper Sandler 最新研报指出， 亚马逊、苹果、AMD、谷歌、特斯拉、微软、英伟达和高通（按照研报排序）正在评估英特尔 14A 制程。 Intel 14A 是英特尔规划中的 1.4nm 级制程节点。该节点采用背面供电方案 PowerDirect，并引入 RibbonFET 2 晶体管与第 2 代全环绕栅极架构。 IT之家曾于 8 月报道，Inte",
+      "fingerprint": "31b7539da49fbe4f"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "初创公司 Soulart 推出 Station VR 基站全身追踪设备：利用机器学习实现动捕，单台售价低于 400 美元",
+      "link": "https://www.ithome.com/1/004/410.htm",
+      "publishedAt": "2026-09-19T03:17:57.000Z",
+      "summary": "IT之家 9 月 19 日消息，韩国初创公司 Soulart 宣布为 VR 平台推出一款名为 Station 的基站全身追踪设备，号称采用 NPU 在本地完成身体动作识别，单台售价低于 400 美元，但目前产品仍处于早期阶段，实际售价和追踪效果还有待进一步验证。 具体来看，Station 最大的特点是采用单基站设计，其本质上就是一个摄像头（整体风格类似 Kinect），利用机器学习进行动作识别，用",
+      "fingerprint": "e2d44c8de1d26f17"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "英伟达 GPU 驱动 Bug 被修复：RPCS3 模拟游戏帧率提升 37%、显存占用降低 32%",
+      "link": "https://www.ithome.com/1/004/408.htm",
+      "publishedAt": "2026-09-19T03:10:39.000Z",
+      "summary": "IT之家 9 月 19 日消息，科技媒体 Wccftech 昨日（9 月 18 日）发布博文，报道称 RPCS3 开发团队修复 NVIDIA GPU 驱动程序的一个 Bug， 模拟游戏测试发现帧率可以提高 37%、显存占用降低 32%。 IT之家援引博文介绍，RPCS3 开发团队指出在 NVIDIA GPU 驱动程序中，存在影响模拟器性能的问题，会限制部分游戏的帧率，并在多数测试中推高显存占用。 ",
+      "fingerprint": "f323a1d6c11cf134"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "Anthropic 自建生物实验室推进 AI 物理实验，此前曾警告 AI 灭绝风险",
+      "link": "https://www.ithome.com/1/004/376.htm",
+      "publishedAt": "2026-09-19T00:45:14.000Z",
+      "summary": "IT之家 9 月 19 日消息，Anthropic 已在美国旧金山湾区设立一座湿实验室，用于开展实际生物学实验，并探索利用其 AI 模型辅助完成从计算分析到物理实验的研究流程。 Anthropic 生命科学负责人埃里克 · 考德勒-艾布拉姆斯已向路透社确认，该实验室目前已经投入运营。 IT之家注：湿实验室（wet lab）是指配备实体设施、可进行细胞培养、生化分析、分子实验等物理操作的实验室，与主",
+      "fingerprint": "edac889124088843"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "美国宇航局追加 9.5 亿美元，SpaceX 新增 3 次载人赴国际空间站任务",
+      "link": "https://www.ithome.com/1/004/370.htm",
+      "publishedAt": "2026-09-19T00:11:28.000Z",
+      "summary": "IT之家 9 月 19 日消息，路透社昨日（9 月 18 日）发布博文，报道称美国宇航局（NASA）向马斯克旗下 SpaceX 公司追加 9.5 亿美元 （IT之家注：现汇率约合 63.86 亿元人民币） ， 新增 3 次载人龙飞船（Crew Dragon）国际空间站任务。 报道称根据追加条款，SpaceX 公司需要在 2030 年前完成这 3 次新增任务。在计算本次追加后， 双方商业载人运输能力",
+      "fingerprint": "46fef15d91bfeeb9"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "Anthropic 计划将 IPO 推迟至 11 月，上市估值约 2 万亿美元",
+      "link": "https://www.ithome.com/1/004/369.htm",
+      "publishedAt": "2026-09-19T00:07:04.000Z",
+      "summary": "IT之家 9 月 19 日消息，据《华尔街日报》今日报道，Anthropic 计划将首次公开募股（IPO）推迟至 11 月进行，晚于许多投资者此前预期的 10 月。 知情人士透露，部分 Anthropic 顾问认为，推迟至 11 月可以让公司有时间展示第三季度财务数据，以证明其竞争地位。知情人士表示，将 IPO 目标定在 11 月的决定是在 Anthropic 前研究员发出公开警告、引发关于 AI",
+      "fingerprint": "2c3b79f00f477bb4"
+    },
+    {
+      "sourceId": "ithome",
+      "title": "AMD 霄龙 Venice 官方跑分首发出炉：256 核 EPYC 9996 性能达竞品 2 倍以上，代际提升 78%",
+      "link": "https://www.ithome.com/1/004/364.htm",
+      "publishedAt": "2026-09-18T23:50:23.000Z",
+      "summary": "IT之家 9 月 19 日消息，当地时间周五，AMD 官方公布了下一代 EPYC“Venice”服务器处理器的大量细节，并将其与英伟达 Vera 系列处理器进行了对比。 AMD 表示，当下数据中心性能不再仅仅取决于 CPU 速度来定义。AMD EPYC 9006 系列服务器 CPU 的设计充分考虑了这些系统级限制。 该系列服务器 CPU 基于“Zen 6”+“Zen 6c”架构，最多可集成 256",
+      "fingerprint": "125bffd0c4d40b7b"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道",
+      "link": "http://www.geekpark.net/news/370608",
+      "publishedAt": "2026-09-19T00:01:42.000Z",
+      "summary": "谷歌最新旗舰模型 Gemini 4 Pro 疑似「偷跑」，多项指标领先 Astra 和 Fable 5.1 9 月 18 日，Google 下一代旗舰模型 Gemini 4 Pro 疑似正以「gemini-3.8-flash」名称「偷跑」上线。据反馈，谷歌在 Arena 等基准平台上测试了其最强 Gemini 4 Pro 模型，内部开发代号为 Argon。 网上流传的一张测试图显示，该模型在智能体",
+      "fingerprint": "449b75d542eabd5f"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "那个教 ChatGPT 说话的人，做了一个「哑巴」模型",
+      "link": "http://www.geekpark.net/news/370603",
+      "publishedAt": "2026-09-18T09:36:47.000Z",
+      "summary": "作者｜桦林舞王 编辑｜靖宇 AI 圈子里最懂怎么让模型「开口聊天」的人，现在决定剥夺大模型的语言能力。 这位前 OpenAI 研究员、ChatGPT 的共同发明者 Diogo Almeida，在潜行两年后带着他的新公司 TypeSafe AI 和 4000 万美元融资回到牌桌。他们发布的全新模型 Jev， 既不能写打工人的周报，也不能陪用户深夜长聊。它甚至连一个标点符号都吐不出来 。 TypeSa",
+      "fingerprint": "731612baa7b32851"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "影视飓风 Tim 称 iPhone Duo「烫到握不住」；赛力斯否认「问界撤出华为门店」；黄仁勋：英伟达 2027 年芯片销量将翻倍",
+      "link": "http://www.geekpark.net/news/370539",
+      "publishedAt": "2026-09-18T00:17:15.000Z",
+      "summary": "传 Manus 即将完成 5 亿美元融资，估值 40 亿美元 据彭博社 9 月 17 日报道，AI 智能体公司 Manus 即将完成 5 亿美元融资。这是该公司撤销 Meta 收购交易后的首轮融资。 报道表示：在新一轮融资中，Manus 的估值将提高一倍，至 40 亿美元。这家 AI 智能体公司也将成为该领域中国估值最高的创业公司。 知情人士称，谈判仍在进行中，交易条款仍可能变化。 Manus 的",
+      "fingerprint": "80585e282b4e365d"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "京东押注物理 AI，冲在前面的是一群 95 后",
+      "link": "http://www.geekpark.net/news/370519",
+      "publishedAt": "2026-09-17T07:51:53.000Z",
+      "summary": "去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成。所有人都在问：这个模型有多强？ 但到了 2026 年，问题变了。人们开始追问：它到底能干什么？ 这个问题，京东在今年的 JDD 大会上，给出了自己的答案。 京东把这届大会的主题定为「JoyAI &middot; 跃迁物理世界」。它想传达的是，AI 的下一站不只是能说会道、更聪明，而是要进入仓库、货架、家庭、配送路线和售后服务，去完成真实任务",
+      "fingerprint": "2512bd72a3c2dca8"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "追觅四大赛道 IFA 首秀：一套技术，四个出口",
+      "link": "http://www.geekpark.net/news/370506",
+      "publishedAt": "2026-09-17T04:42:23.000Z",
+      "summary": "追觅在 IFA 上展出的不是四条产品线，是一套技术的四个出口。 作者｜张勇毅 编辑｜郑玄 去年一年，全球扫地机器人的出货量约 2412 万台。同一年，全球人形机器人的出货量约 1.8 万台。两个数字都来自 IDC，中间差了 1300 多倍。 带着这两个数字走进今年柏林的 IFA 主会场，这种体感上的反差就更明显了。 IFA 官方今年搭了迄今最大规模的人形机器人展示平台，主题是「未来已来」，机器人走",
+      "fingerprint": "ff53608c6081cca9"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "马斯克再暗示合并特斯拉和 SpaceX；传 iPhone 18 Pro 系列卖爆；大疆 Pocket 4P「珠光白」3799 开售｜极客早知道",
+      "link": "http://www.geekpark.net/news/370472",
+      "publishedAt": "2026-09-16T23:57:21.000Z",
+      "summary": "全球首款 AI 智能体手机努比亚 NaviX Ultra 上市：5999 元起，首销销售额「一秒破亿」 9 月 16 日，中兴旗下努比亚今日下午正式发布 NaviX Ultra，官方称其为「全球首款 AI 智能体手机」，也被外界称为「第二代豆包手机」，标志着 AI 智能体手机从工程样机迈入规模化量产商用阶段。发布前该机京东单平台预约量已突破 37 万台，它是第一台搭载豆包手机助手消费者版的机器，现",
+      "fingerprint": "f86b1935da5e43ef"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "在飞书的上下文底座上，豆包开工了",
+      "link": "http://www.geekpark.net/news/370460",
+      "publishedAt": "2026-09-16T09:36:24.000Z",
+      "summary": "今年，不少公司的工作群里，将会多一些「新同事」。 它们是 AI，但可以像普通员工一样被拉进群聊，阅读此前的讨论和文档，参与会议、承接任务，并调用不同的业务工具完成工作。你甚至可以看到 Agent 在群里 @ 另一个 Agent，共同推进一项复杂工作。 当 Agent 从个人助手变成组织中的「数字同事」，企业需要的不只是更聪明的模型，还需要一套能够承载人与 Agent 共同工作的协作平台：让 Age",
+      "fingerprint": "dc9e95b35f9d96b0"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "当智能体开始替人花钱，如何证明「它是谁」？",
+      "link": "http://www.geekpark.net/news/370440",
+      "publishedAt": "2026-09-16T07:45:18.000Z",
+      "summary": "在蚂蚁集团，负责 AI 支付安全的陈树鹏是个深度的智能体使用者。日常写代码、梳理汇报、提炼会议纪要，AI 几乎接管了他工作流里的大部分环节。 这种高度依赖背后，却存在着一个清晰的分水岭。一旦任务涉及真金白银，比如调用付费数据接口、购买素材或预订服务，绝大多数人都会本能地把权限卡死不愿交出钱包。哪怕是陈树鹏自己，手头测试过大量任务型框架，真正被他允许支付权限的智能体也仅仅只有两三个。 但在产业一线，",
+      "fingerprint": "8780dace4e3b6303"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "腾讯、字节、阿里「会战」AI 办公之后：Agent 领域格局已变",
+      "link": "http://www.geekpark.net/news/370431",
+      "publishedAt": "2026-09-16T06:39:11.000Z",
+      "summary": "「这仗打错了，最多是白烧几十亿；但如果不打，可能是生死问题。」 这是创新工场联合首席执行官、管理合伙人汪华对大厂重金押注 AI 办公的判断。 2026 年的这个夏天，中国科技巨头发起了 Agent 时代第一场「战役」：豆包工作正式发布，TRAE、扣子团队整体并入豆包体系。更早的 7 月底，飞书产品团队并入豆包；另一边，腾讯的 WorkBuddy 已经跑出了千万月活，阿里也在整合自己的桌面 Agen",
+      "fingerprint": "505603e04bf4e61c"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "特斯拉、Figure 还在攻克量产，小鹏机器人已经走下产线",
+      "link": "http://www.geekpark.net/news/370421",
+      "publishedAt": "2026-09-16T06:16:06.000Z",
+      "summary": "9 月 8 日，一台高阶通用人形机器人小鹏 IRON 完成自动化总装，从产线上走了下来。 如果只看画面，这好像是又一段科技公司放出来的机器人视频。在这个被大模型和具身智能席卷的时代，科技圈每天都在被各种炫酷的机器人 Demo 刷屏：有人形机器人打拳击，有灵巧手叠衣服，也有机器人在舞台上完成复杂动作&hellip;&hellip; 这次更值得关注的，并不是机器人行走本身，而是它身后那条刚启用的自动化",
+      "fingerprint": "210287d6394f8d04"
+    },
+    {
+      "sourceId": "geekpark",
+      "title": "OpenAI、Anthropic、谷歌联手研究 AI 安全；微信员工辟谣 AI 助手小微「偷隐私」；美国已在太空部署武器",
+      "link": "http://www.geekpark.net/news/370375",
+      "publishedAt": "2026-09-16T00:22:40.000Z",
+      "summary": "因加大 AI 投入 报道称字节跳动 2026 上半年净利润下降 据报道，由于加大了在人工智能领域的投资，字节跳动 2026 年上半年净利润同比出现下降。同时，受 TikTok 等海外业务推动，字节跳动上半年营收同比增长 30%，海外收入占比再创新高。字节跳动未对以上数据置评。 在净利润下降的同时，字节跳动的净利润率也出现了持续下滑。此前有外媒曾报道，字节跳动 2023 年净利润率为 26%，202",
+      "fingerprint": "0ccb0e278d43a246"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "别再让 Agent 裸连数据库了：如何用 MCP + 语义网关解决 NL2SQL 幻觉与权限失控",
+      "link": "https://www.oschina.net/news/502591",
+      "publishedAt": "2026-09-18T12:54:57.000Z",
+      "summary": "在 2026 年，给 AI Agent（Cursor、Claude Desktop、Dify、Coze 等）外挂一个数据库连接，已经成为很多开发者的标配操作。从简单的官方 SQLite/MySQL MCP 到各种通用客户端扩展，让大模型“直接查库”的门槛被降得极低。 然而，一旦进入真实业务场景，大部分团队很快就会撞上两堵高墙： 语义幻觉严重：大模型根本不懂企业...",
+      "fingerprint": "f30df4d1dc7318e9"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "智谱旗下 AI 编程工具 ZCode 被扒静默上传完整 Git 历史",
+      "link": "https://www.oschina.net/news/502589",
+      "publishedAt": "2026-09-18T10:23:29.000Z",
+      "summary": "智谱的 AI 编程桌面端 ZCode，今天被扒出一个大问题。开发者 ferstar 发了一篇取证博客，说只要登录了账号，ZCode 会在后台静默把整个工作区——包括完整的 .git 历史、LFS 大文件缓存、reflog 和全局配置——打包加密上传到阿里云 OSS。该消息马上在国内技术圈传开，有人用自己的 Mac 顺着取证路径重跑了一遍，结论是\"...",
+      "fingerprint": "f300cfef136e815c"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "华为发布“Peerium 计算架构”，让百万处理器成为一台计算机",
+      "link": "https://www.oschina.net/news/502587/huawei-new-computing-architecture-peerium",
+      "publishedAt": "2026-09-18T08:41:45.000Z",
+      "summary": "华为发布AI时代的全新计算架构 – Peerium计算架构。该架构能实现百万级处理器成为一台计算机，以满足不断发展的AI算力需求。 Peerium计算架构是基于嵌套并行，统一内存寻址、平等互联实现百万级处理器强扩展的计算架构。Peerium计算架构突破了图灵范式，提出了Nested BSP，突破了冯·诺依曼单机架构，颠覆了长久以来的主...",
+      "fingerprint": "703bdddcab5dd846"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "华为云 All in Agentic Cloud，灵衢昇腾 950 智算集群全球上线",
+      "link": "https://www.oschina.net/news/502586/hc-agentic-infra-industry-ai",
+      "publishedAt": "2026-09-18T08:26:54.000Z",
+      "summary": "华为云这届全联接大会的调子，是\"Agentic Cloud\"。华为云 CEO 周跃峰演讲里那句被反复引用的判断是：智能体时代基础设施的核心，不再只是给算力，而是\"让每一个 Token 更高效\"。 最能说明态度的莫过于那个出圈的名字——灵衢昇腾 950 智算集群，面向全球的服务今年 9 月 30 日国内商用、11 月 30 日海外商用。几个数字落...",
+      "fingerprint": "feaa83478d1c8d61"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "GLM-5.3-FlashX 上线，智谱把国产卡上的推理速度顶到 200 token/s",
+      "link": "https://www.oschina.net/news/502582",
+      "publishedAt": "2026-09-18T07:26:31.000Z",
+      "summary": "GLM-5.3 前阵子以\"Ox Alpha\"的匿名身份上线时，就已经是 OpenCode 和 OpenRouter 双平台调用量最大的模型。今天智谱给它加了个更快的版本，名字也直白——GLM-5.3-FlashX，最高 200 tokens/s。 背后的一张牌值得单独说。上一代 GLM 上线时，团队是在 10 万张国产芯片组成的集群上把推理服务从零搭起来的，当时的难点是内...",
+      "fingerprint": "9d509b0cbe994f3f"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "开源一站式智能终端 uniTerm v1.9.4 发布：跨工作区广播、SSH Kerberos / Agent 认证等 50 余项更新",
+      "link": "https://www.oschina.net/news/502575",
+      "publishedAt": "2026-09-18T05:06:06.000Z",
+      "summary": "uniTerm 是一款轻量级一站式开源终端软件。整合终端、文件传输、远程桌面、数据库客户端、容器等 5 大类协议于一身，覆盖 30+ 协议，安装包仅 14 MB；内置可自主执行的 AI Agent，能规划并执行多轮 Shell 命令。 v1.9.4 是一次面向「连接」、「文件传输」和「工作区」的深度打磨：SSH 新增 Kerberos 与 SSH Agent 认证，...",
+      "fingerprint": "e4d8a8fa9f2716eb"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "学大教育与开源中国达成战略合作，共建中国教育AI基础设施",
+      "link": "https://www.oschina.net/news/502571",
+      "publishedAt": "2026-09-18T03:49:24.000Z",
+      "summary": "9 月 17 日，学大（厦门）教育科技集团股份有限公司（股票代码：000526.SZ）与上海开源共识智能科技股份公司（开源中国）在京签署战略合作协议，双方以“场景×底座”为合作框架，把自主可控的人工智能能力引入真实教育场景，共同建设面向教育行业的人工智能基础设施与应用体系。 开源中国 CEO 徐勇，学大教育创始人、董...",
+      "fingerprint": "309981556cb88664"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "Anthropic 提出三个度量指标，想量化“AI 发展到底有多快”",
+      "link": "https://www.oschina.net/news/502569/anthropic-measuring-pace-of-ai-development",
+      "publishedAt": "2026-09-18T03:45:58.000Z",
+      "summary": "\"我们芯片多、我们跑得快\"——这种话听多了就容易变成营销。Anthropic 这次换了个思路：与其互相吹，不如直接把自家实验室的内部数据拿出来，给\"AI 发展速度\"这件事定一套可以测量的指标。 它发了三份方法论性质的度量。第一份叫\"AI 主导研发（AI-led R&D）\"，借用 Epoch AI 的自动化分级（AL0 到 AL5，AL3 是 AI 协作、...",
+      "fingerprint": "2a97fd7192d23a82"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "Qwen3.8-Omni-Flash 发布，阿里通义把多模态押在了“干活”上",
+      "link": "https://www.oschina.net/news/502567/qwen-3-8-omni-flash",
+      "publishedAt": "2026-09-18T03:37:01.000Z",
+      "summary": "阿里通义 Qwen 团队今天放出了新一代\"原生全模态\"模型 Qwen3.8-Omni-Flash。标题文案很有意思——\"耳聪目明，办事得力\"。前四个字是这类 Omni 模型的老本行，后四个字才是这次的重点：从\"理解全模态内容\"往\"规划任务、调用工具并完成创作\"推。 一个最直接的信号是价格。相比上一代 Qwen3.5-Omni-Plus，API 每小时音频输入...",
+      "fingerprint": "a2e7ef8975e9e039"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "Kimi Code 桌面客户端发布，支持 Mac 和 Windows 平台",
+      "link": "https://www.oschina.net/news/502565/kimi-code-desktop",
+      "publishedAt": "2026-09-18T02:47:52.000Z",
+      "summary": "Kimi Code 项目发布了其桌面客户端，支持 Mac 和 Windows 平台。 据介绍，Kimi Code 桌面客户端支持用图形界面打开本地项目，通过对话让 Agent 读代码、改代码，右侧看改动、底部终端验结果，网页类项目还有内置浏览器随会话常驻、页面信息与 Agent 共享。 它的目标人群很明确：能在 IDE 里用命令行 Agent 的开发者，也想...",
+      "fingerprint": "8f12cca37309b0e9"
+    },
+    {
+      "sourceId": "oschina",
+      "title": ":tada: 批量主机管理软件 WGCLOUD v3.7.0 正式发布",
+      "link": "https://www.oschina.net/news/502558",
+      "publishedAt": "2026-09-18T00:35:58.000Z",
+      "summary": "WGCLOUD 是一款集成度较高的分布式运维监控平台，具有集群监控，易部署、易上手使用、轻量、高效、自动化等特点，server 端基于 springboot 开发，agent 端使用 go 编写。核心模块包括：主机系统信息监控，CPU 监控，CPU 温度监控，内存监控，网络流量监控，磁盘 IO 监控，磁盘空间监测，系统负载监控，硬盘 smart 健康检...",
+      "fingerprint": "44b2bee3cf6a35b0"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "智谱创始人唐杰清华开课：教室站满人、但课程内容“劝退”学生",
+      "link": "https://www.oschina.net/news/502554",
+      "publishedAt": "2026-09-17T11:05:20.000Z",
+      "summary": "智谱创始人、清华大学教授唐杰在清华开的机器学习课，开课第一天就把教室挤爆了——112 人的教室站满了学生。这课全名叫\"高级机器学习\"，可唐杰在讲台上抛出的判断，明显不是传统机器学习课的味道：AGI、ASI 会是模型接下来的主要目标，Chat 这一仗基本打完了，2026 年该干的是把智能往上推，让模型自己记忆、自己进化、...",
+      "fingerprint": "6a78fa68487e5962"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "华为给智能世界列了 10 个必答题：从 AGI、超节点到 Agent OS",
+      "link": "https://www.oschina.net/news/502546/huawei-hc-intelligent-world-2035",
+      "publishedAt": "2026-09-17T08:28:24.000Z",
+      "summary": "华为发布了《智能世界2035：从愿景到行动》报告，配套还有一份《全球数智化指数（GDII）2026》。继 2024 年画趋势、2025 年推十大技术趋势之后，这版首次提出了通往智能世界的十大关键命题——不是画饼，而是给产业界列了一份\"从愿景到行动\"的攻关清单。 报告把当下这场变革的变量说得很明白：以 Token 为核心。Agentic...",
+      "fingerprint": "c1e9826e40c15b20"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "华为押注“硅基黑土地”：昇腾 960 超节点、百万卡集群，还有 PyTorch 官方支持",
+      "link": "https://www.oschina.net/news/502545",
+      "publishedAt": "2026-09-17T08:18:11.000Z",
+      "summary": "华为全联接大会 2026（Huawei Connect）今日在上海启幕，副董事长、轮值董事长汪涛做了开场主题演讲，抛出的核心命题很直白——智能世界需要更硬的算力底座，华为要做那块\"硅基黑土地\"。 汪涛给了一组压迫感很强的数字做铺垫：大模型参数正快速迈向 10 万亿，到 2030 年要过 100 万亿；智能体已经能按小时级连续工作，2...",
+      "fingerprint": "b717146571b44bd0"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "华为发布全球首个采用NPO的超节点——昇腾960超节点",
+      "link": "https://www.oschina.net/news/502544/hc-ascend960-supernode",
+      "publishedAt": "2026-09-17T08:09:07.000Z",
+      "summary": "今日，华为全联接大会2026在上海启幕，华为副董事长、轮值董事长汪涛发表题为“智启新未来，打造智能世界的硅基黑土地”的主题演讲，发布全球首个采用NPO技术的超节点——昇腾960超节点，加速十万亿规模的大模型训练和推理。 华为副董事长、轮值董事长汪涛发表主题演讲 华为AI战略的核心是算力，坚持硬件变现，聚焦做好A...",
+      "fingerprint": "783cd73bdf9e69a7"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "BuildAdmin 2.3.9 发布！可视化 CRUD 增加从 AI 设计数据表开始",
+      "link": "https://www.oschina.net/news/502543",
+      "publishedAt": "2026-09-17T07:42:11.000Z",
+      "summary": "新增 增加 AGENTS.md 系统配置增加 AI 相关配置项 可视化 CRUD 增加 从 AI 设计数据表 开始 可视化 CRUD 增加复制上下文按钮，以便无缝对接 AGENT 重构/优化/修复 优化默认节流配置 优化系统安装控制器 优化模块安装器的 uid 设置 优化刷新 token 的注销逻辑 点选验证码在单次验证失败时立即删除 包管理器仅超管可设置、...",
+      "fingerprint": "3b2d8a1282ae8a17"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "小米把 MiMo 2.6 的后训练过程实时直播出来了",
+      "link": "https://www.oschina.net/news/502540/xiaomi-mimo-rl-live-dashboard",
+      "publishedAt": "2026-09-17T03:05:27.000Z",
+      "summary": "小米 MiMo 大模型团队在官网上挂了一个后训练实时数据面板，正在“公开裸奔”地训练 MiMo 2.6——团队认为 RL 是实现 AI 自我改进的最具可扩展路径之一，将逐步开源训练细节，并提供实时训练仪表盘以展示进展。 打开 mimo.xiaomi.com/rl/，你能看到两个模型——pro 和 flash——当前跑到第几步、每一步接受了多少样本、花...",
+      "fingerprint": "daf7dccba9ae7597"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "英伟达宣布“CUDA Rust”，基于 Rust 的原生 GPU 编程",
+      "link": "https://www.oschina.net/news/502539/nvidia-cuda-rust-two-tracks-for-writing-gpu-kernels",
+      "publishedAt": "2026-09-17T02:58:37.000Z",
+      "summary": "NVIDIA 在 9 月宣布认真押注 Rust 原生 GPU 编程。CUDA C++ 和 CUDA Python 已经是成熟的商用工具链，但这次它没有二选一，而是把 CUDA Rust 往 2027 年及以后持续打磨——明确了要长期养大这套生态，而不是试水。 驱动这个决定的是向下看的视角。AI 的系统层——推理引擎、serving 基础设施、驱动、agent 运行时——日夜...",
+      "fingerprint": "620b6606e837c101"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "小板子运行大模型：deepin 25 RVA23 版本适配进迭时空芯片 SpacemiT K3",
+      "link": "https://www.oschina.net/news/502538",
+      "publishedAt": "2026-09-17T02:17:17.000Z",
+      "summary": "deepin 作为国内领先的 Linux 操作系统发行版，一直致力于为用户提供更广泛的硬件支持，并积极投身于蓬勃发展的 RISC-V 生态建设。自 deepin-ports SIG（特别兴趣小组）成立以来，deepin 在 RISC-V 架构的适配工作上取得了令人瞩目的成果——从单板计算机到开发板，从桌面环境到内核与图形驱动，deepin 已成功支持市面上...",
+      "fingerprint": "16367100ee1b8740"
+    },
+    {
+      "sourceId": "oschina",
+      "title": ":fire::fire::fire: Claude Code 工程最佳实践 | 主数据平台 1.5.1 震撼发布",
+      "link": "https://www.oschina.net/news/502536",
+      "publishedAt": "2026-09-17T01:58:30.000Z",
+      "summary": ":sparkles: 亮点特性 :book: 文档官网全面升级 网址：http://mddata.top/ 应用接入章节完善：单点登录（ticket 模式、OAuth2 授权码模式）双协议文档配流程图与时序图，新增若依系统接入示例 新增 OAuth2 单点登录客户端对若依系统的支持说明，补充授权码模式 Token 区分与 state 参数解析说明 新增后端源码分析文档；工...",
+      "fingerprint": "729e98d357ff6286"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "AIGCPanel v2.4.0 绿幕视频一键换背景，歌曲也能翻唱成你的声音",
+      "link": "https://www.oschina.net/news/502533",
+      "publishedAt": "2026-09-17T01:30:24.000Z",
+      "summary": "绿幕换背景、把一首歌的人声换成自己的音色，这两件以前要开剪辑软件、装一串插件、再导来导去才能做完的事，现在在 AIGCPanel 里都是\"上传，然后点击\"。 AIGCPanel 是一站式 AI 数字人桌面应用，Windows / macOS / Linux 都能跑。v2.4.0 带来两个新工具，顺手把任务调度的老毛病一起治了：一次提交多个任务时，排队等待...",
+      "fingerprint": "76db10fbe4a29afa"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "deepwork企业AI工作台SAAS脚手架升级到yudao-cloud 2026.08",
+      "link": "https://www.oschina.net/news/502532",
+      "publishedAt": "2026-09-17T00:43:26.000Z",
+      "summary": "从 openclaw 开始，公司老板们经历了一场又一场的热潮，deepchat 也跟随升级为 deepwork，开始探索企业数字员工助手 本次更新： 前后端基础代码升级到yudao cloud 2026.08(注：deepwork是在yudao-cloud上开发的智能体应用) 企业 AI 工作台计划 ★智能工作台：集成 sandbox、shell、code、mcp、skill 的强大智能体，可以理",
+      "fingerprint": "aee0e24299ef0484"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "covo-agent v1.0.0 发布，基于 covonaut 框架的通用型Agent迎来正式版",
+      "link": "https://www.oschina.net/news/502531",
+      "publishedAt": "2026-09-16T12:53:39.000Z",
+      "summary": "我们很高兴地宣布，基于 covonaut 框架的终端 AI Agent 项目 covo-agent 正式发布 v1.0.0。 covo-agent 是一个用 Go 编写的通用型 AI Agent，体验可以说是市面上最好的之一，完全可以替代 Claude Code、Codex Cli 等同类产品，运行在终端里，提供 general 与 code 两种模式，覆盖日常知识工作、软件开发与自动化等各种场.",
+      "fingerprint": "3d8dfe672898dd0d"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "从提交一份PR开始：上海开源大赛open supOS赛题专家解读",
+      "link": "https://www.oschina.net/news/502529",
+      "publishedAt": "2026-09-16T09:58:45.000Z",
+      "summary": "2026 年，工业 AI 从试点走向规模化。工业企业中应用大模型和智能体的比例，从 2024 年的 9.6% 升到 2025 年的 47.5%，上海也提出目标，到“十五五”末规上企业智能体应用普及率超过 80%。 数字好看，落地却仍存在堵点。设备数据散落在几十套系统里，IT 和 OT 各自说各自的方言，想让 AI 进工厂，先得有人把数据接上、把...",
+      "fingerprint": "9096fefb5b2934be"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "添翼AI 3.0重磅发布！东软重塑医疗AI，迈入业务智能新时代",
+      "link": "https://www.oschina.net/news/502520",
+      "publishedAt": "2026-09-16T08:55:05.000Z",
+      "summary": "医学从不为新奇背书。当医疗人工智能走过以参数量和排行榜为标尺的阶段，一个更朴素，也更坚硬的问题，正摆在整个行业面前：AI究竟是挂在系统之外的一件“外挂”，一个新的“工具”，还是能长进医疗血脉、理解复杂任务并把事情真正做成的一种“原生能力”？东软集团在本届医学人工智能大会上给出了回答。 9月15日，由《中...",
+      "fingerprint": "0a69f4567898f176"
+    },
+    {
+      "sourceId": "oschina",
+      "title": "百度地图赛题专家解读来了，助力选手冲击决赛百万奖池",
+      "link": "https://www.oschina.net/news/502518",
+      "publishedAt": "2026-09-16T08:13:32.000Z",
+      "summary": "互联网地图过去只是导航工具，如今越来越多地承担开发基础设施的角色，给智能体和大模型应用提供位置感知能力，定位、路线规划、时空数据正从给 App 调用转向给 AI 调用。 工业场景里，园区、能源设施、物流网络都要在地图上实时展示海量设备数据，设备监控要同时呈现上万个点位。持续更新、高频交互之下，传统渲染方式容...",
+      "fingerprint": "a1e8cb9083596039"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "Gemini 4 Pro疑似泄露，“AI减速”又成空话",
+      "link": "https://www.tmtpost.com/8145550.html",
+      "publishedAt": "2026-09-19T02:54:24.000Z",
+      "summary": "RSI正在逼近，三巨头谁也没停。",
+      "fingerprint": "8c93dc72d76cbd98"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "是谁在买300倍PE利润的“神股”？",
+      "link": "https://www.tmtpost.com/8145422.html",
+      "publishedAt": "2026-09-19T02:33:00.000Z",
+      "summary": "高位进场套三生。",
+      "fingerprint": "e39a5e7a904e2c4c"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "关于豆包手机二代，我最关心这10个问题",
+      "link": "https://www.tmtpost.com/8145343.html",
+      "publishedAt": "2026-09-19T02:25:00.000Z",
+      "summary": "豆包学会了“敲门”，不再野蛮硬闯。",
+      "fingerprint": "f243e60d0725ce9a"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "美联储重启加息：AI 企业融资难度急剧攀升",
+      "link": "https://www.tmtpost.com/8145311.html",
+      "publishedAt": "2026-09-19T02:18:00.000Z",
+      "summary": "所谓此一时彼一时，今天科技企业遇到的问题与先前基本是天壤之别。",
+      "fingerprint": "602fe0059cbeae77"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "理想告别，吉利合体，宁王还是那个宁王",
+      "link": "https://www.tmtpost.com/8145046.html",
+      "publishedAt": "2026-09-19T02:13:02.000Z",
+      "summary": "宁王还是宁王，只是当宁王的方式，从今天起要重新学习。",
+      "fingerprint": "db27cfbfffba0df1"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "德邦基金太“魔幻”：单只基金亏损22亿，管理费涨了55倍",
+      "link": "https://www.tmtpost.com/8145304.html",
+      "publishedAt": "2026-09-19T02:06:15.000Z",
+      "summary": "德邦超半数基民近一年亏损。",
+      "fingerprint": "f879baca8646479b"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "几多全不想当金粒门平替，但越来越贵了",
+      "link": "https://www.tmtpost.com/8145051.html",
+      "publishedAt": "2026-09-19T02:06:06.000Z",
+      "summary": "快变成潮牌店。",
+      "fingerprint": "2f1ffeccf4d0bc9f"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "AI办公，自费上班打工人的第一笔“首付”",
+      "link": "https://www.tmtpost.com/8145186.html",
+      "publishedAt": "2026-09-19T02:00:46.000Z",
+      "summary": "谁能抢占下打工人的桌面。",
+      "fingerprint": "9d248c197ab67383"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "华为放手之后，赛力斯能接住问界吗？",
+      "link": "https://www.tmtpost.com/8144991.html",
+      "publishedAt": "2026-09-19T02:00:39.000Z",
+      "summary": "赛力斯的“独立”大考。",
+      "fingerprint": "1cfbbb7489de4a8e"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "5 万亿美元的账面富贵：VC 也需要一份尽调",
+      "link": "https://www.tmtpost.com/8144989.html",
+      "publishedAt": "2026-09-19T01:57:16.000Z",
+      "summary": "三家未上市公司的估值，超过 45 年 3365 次科技 IPO 首日市值的总和；2021 年份的 VC 基金，账面写着 1.1x，现金只拿回 8 美分。账面富贵和真金白银之间，隔着一次公开报价。",
+      "fingerprint": "7bb07047677bf5bc"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "锌的“托克时代”：LME库存低位背后，可交割的锌在谁手里？",
+      "link": "https://www.tmtpost.com/8144985.html",
+      "publishedAt": "2026-09-19T01:57:10.000Z",
+      "summary": "库存回升，可交割的货没多，锌的定价权正向仓库钥匙集中。",
+      "fingerprint": "7af5f1340893c254"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "何小鹏，哄好了王凤英",
+      "link": "https://www.tmtpost.com/8144913.html",
+      "publishedAt": "2026-09-19T01:54:47.000Z",
+      "summary": "中国汽车行业，正在告别一个人定义一家车企的时代。",
+      "fingerprint": "0153a9cf4b78def5"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "沉默的28元：罗永浩开炮，野人先生为什么不接招？",
+      "link": "https://www.tmtpost.com/8145038.html",
+      "publishedAt": "2026-09-19T01:51:46.000Z",
+      "summary": "罗永浩说难吃，野人先生不想吵。",
+      "fingerprint": "7c53436db89a4133"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "GLP-1变天：减肥药大战，开始不比减肥了",
+      "link": "https://www.tmtpost.com/8145269.html",
+      "publishedAt": "2026-09-19T01:51:41.000Z",
+      "summary": "当减重率不再是唯一胜负手，GLP-1开始争夺慢病世界。",
+      "fingerprint": "0ecc769b4f38ac98"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "一支电影团队做了一款AI不参与创作的编剧工具",
+      "link": "https://www.tmtpost.com/8144406.html",
+      "publishedAt": "2026-09-19T01:47:19.000Z",
+      "summary": "这首先是一款给编剧用的协作工具，其次才是一款 AI 产品",
+      "fingerprint": "f088a12637cd7786"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "违规套现2亿“不知情”，姚劲波百亿债务压顶",
+      "link": "https://www.tmtpost.com/8145198.html",
+      "publishedAt": "2026-09-19T01:25:45.000Z",
+      "summary": "姚劲波正面临着偿债与经营层面的双重压力。",
+      "fingerprint": "fd44e9d9bcb27746"
+    },
+    {
+      "sourceId": "tmtpost",
+      "title": "投资人想劝劝AI创业者，理性看待自己的估值吧",
+      "link": "https://www.tmtpost.com/8145076.html",
+      "publishedAt": "2026-09-19T01:25:41.000Z",
+      "summary": "泡沫破了之后，您还能穿越周期吗？",
+      "fingerprint": "55aaeb124595170d"
+    }
+  ]
+}
